@@ -150,7 +150,8 @@ body { background: #111111; }
 #ghl-waitlist .mobcta {display:none}
 @media (max-width:640px) {#ghl-waitlist .mobcta {display:inline-block;width:100%;padding:16px 20px}}
 /* countdown (hero) */
-#ghl-waitlist .countdown {display:flex;flex-direction:column;align-items:center;gap:8px}
+#ghl-waitlist .countdown {display:flex;flex-direction:column;align-items:flex-start;gap:8px;margin-top:6px}
+@media (max-width:1000px) {#ghl-waitlist .countdown {align-items:center}}
 #ghl-waitlist .cd-boxes {display:flex;gap:12px}
 #ghl-waitlist .cd {width:84px;box-sizing:border-box;background:#1B1B1B;border:1px solid rgba(240,78,152,.45);border-radius:10px;padding:8px 6px 6px;display:flex;flex-direction:column;align-items:center;gap:4px}
 #ghl-waitlist .cd b {font-family:'Cormorant Garamond',Georgia,serif;font-size:36px;font-weight:700;line-height:1;color:#F04E98;font-variant-numeric:tabular-nums}
@@ -228,14 +229,6 @@ body { background: #111111; }
 <span class="pill">$5,000 or 2 × $2,600</span>
 </div>
 <p style="font-size: 15px; color: #BFC3C7; border-left: 3px solid #F04E98; padding-left: 14px"><strong style="color: #F7F6F3">Already in the AI Consultant program?</strong> This waitlist isn't for you. You'll get your own upgrade offer.</p>
-</div>
-<div class="formcol">
-<div id="register" style="background: #F7F6F3; color: #111111; border-radius: 10px; padding: 24px 28px; box-sizing: border-box; display: flex; flex-direction: column; gap: 8px">
-<h3 style="font-size: 26px; color: #111111; margin-bottom: 4px">Join the waitlist</h3>
-<div id="ghl-form-slot"><!-- GHL form embed is inserted here by the page script (CONFIG.FORM_ID) --></div>
-<p style="font-size: 13px; color: #5A5F63; text-align: center; margin-top: 6px">Joining is free and doesn't commit you to buy. On November 18 you'll get the link to enroll, or to book a call with the team.</p>
-<p style="font-size: 11px; color: #5A5F63; text-align: center; line-height: 1.5">By joining, you agree to receive emails about this offer from AI InnoVision, and to our <a href="https://aiinnovision.com/privacy" style="color: #5A5F63">Privacy Policy</a> and <a href="https://aiinnovision.com/terms" style="color: #5A5F63">Terms</a>. Unsubscribe any time.</p>
-</div>
 <div class="countdown" id="countdown" aria-live="polite">
 <p class="eyebrow" style="color: #BFC3C7">Doors open in</p>
 <div class="cd-boxes">
@@ -244,6 +237,14 @@ body { background: #111111; }
 <div class="cd"><b data-cd="m">--</b><span>Minutes</span></div>
 <div class="cd"><b data-cd="s">--</b><span>Seconds</span></div>
 </div>
+</div>
+</div>
+<div class="formcol">
+<div id="register" style="background: #F7F6F3; color: #111111; border-radius: 10px; padding: 24px 28px; box-sizing: border-box; display: flex; flex-direction: column; gap: 8px">
+<h3 style="font-size: 26px; color: #111111; margin-bottom: 4px">Join the waitlist</h3>
+<div id="ghl-form-slot"><!-- GHL form embed is inserted here by the page script (CONFIG.FORM_ID) --></div>
+<p style="font-size: 13px; color: #5A5F63; text-align: center; margin-top: 6px">Joining is free and doesn't commit you to buy. On November 18 you'll get the link to enroll, or to book a call with the team.</p>
+<p style="font-size: 11px; color: #5A5F63; text-align: center; line-height: 1.5">By joining, you agree to receive emails about this offer from AI InnoVision, and to our <a href="https://aiinnovision.com/privacy" style="color: #5A5F63">Privacy Policy</a> and <a href="https://aiinnovision.com/terms" style="color: #5A5F63">Terms</a>. Unsubscribe any time.</p>
 </div>
 </div>
 </div>
