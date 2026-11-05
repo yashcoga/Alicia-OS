@@ -43,7 +43,7 @@ One 16:9 image of the whole bundle (like last year's mockup), for the hero box `
 
 ## Countdown
 
-Countdown sits in the **left column under the mockup, chips and consultant line** (desktop); on phones it comes after the form, counting to **Wed Nov 18, 2026, 1:00 PM ET** (`COUNTDOWN_CONFIG.OPENS_AT` = `2026-11-18T13:00:00-05:00` in the page code). After that time it shows "The Mega Bundle is open. Check your email for your link." Change both values in the CONFIG block if the opening time changes.
+Countdown sits at the **top of the left column, above the mockup**, level with the form (desktop); on phones it comes after the form, counting to **Wed Nov 18, 2026, 1:00 PM ET** (`COUNTDOWN_CONFIG.OPENS_AT` = `2026-11-18T13:00:00-05:00` in the page code). After that time it shows "The Mega Bundle is open. Check your email for your link." Change both values in the CONFIG block if the opening time changes.
 
 ## Mobile (checked 2026-11-05)
 
