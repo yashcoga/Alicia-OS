@@ -31,7 +31,7 @@ Design: background `#111111`, pink `#F04E98` (hover `#FF6BAB`/`#FF7AB8`), off-wh
 - **VIP Bonus Downloads page:** `design/bonus-downloads.html` (date → Nov 18–19), GHL code `ghl/bonus-downloads.ghl.html` (scope `ghl-bonus`). Its 3 images are reused from registration/vip; the 2 PDFs from the kit are in `assets/bonus-downloads/` (`UPLOAD-LIST.md`). The "Open the PDF" buttons get the PDF links on the `--assets` re-run (`starter-pack.pdf`, `holiday-planner.pdf`). Journal button keeps the Claude link (per the kit). Preview: `preview/5-bonus-downloads.html`.
 - The HTML Summit Notes checkbox and the fake card field were removed: the bump and the card field come from the GHL order form.
 - "More from the chat →" now points to `/ailife-wall` (⛔ confirm the step name for the testimonial wall).
-- Filled from the team brief: time **1:00 PM ET**; registration close moved to **Tuesday, November 17 at 11:59 PM ET** (the night before Day 1, same as her original) ⛔ confirm.
+- Filled from the team brief: time **1:00 PM ET**. Dates Nov 18-19 confirmed by Michael (2026-11-05); registration-close line removed at his request.
 - Left as supplied: "Thanksgiving is nine days after the summit" (now 7–8 days) ⛔ Alicia to reword; the Refund Policy link (points to /terms).
 
 ## 1. Date changes: her files say Mon–Tue Nov 16–17; the user confirmed Wed–Thu Nov 18–19
@@ -45,7 +45,7 @@ Design: background `#111111`, pink `#F04E98` (hover `#FF6BAB`/`#FF7AB8`), off-wh
 | Results section | After November 17, you won't either. | After November 19 |
 | "Why this isn't another webinar" | nothing in your life changes by Wednesday | by Friday ⛔ (confirm wording) |
 | Agenda | Monday, November 16 / Tuesday, November 17 | Wednesday, November 18 / Thursday, November 19 |
-| Register-now section | Register by Sunday, November 15 at 11:59 PM [TIME ZONE] | ⛔ new registration close |
+| Register-now section | Register by Sunday, November 15 at 11:59 PM [TIME ZONE] | **Removed** (Michael, 2026-11-05: no registration-closing messaging). Now: "The summit is free. Register and your seat is saved for both days." |
 | Final section heading | Your 2027 Starts November 16 | November 18 |
 | Final section | Picture Tuesday night. | Thursday night |
 | FAQ (business owners) | They'll do AI by Tuesday. | by Thursday |

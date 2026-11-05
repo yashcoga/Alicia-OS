@@ -28,4 +28,4 @@ Plus 2 side pages: Testimonial wall and VIP Bonus Downloads.
 
 ## Still waiting on
 
-Final summit dates, Zoom link, Summit Notes price and the refund policy link. Build around them.
+Zoom link, Summit Notes price and the refund policy link. Build around them.
