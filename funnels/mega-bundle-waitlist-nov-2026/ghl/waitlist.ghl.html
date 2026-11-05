@@ -1,0 +1,501 @@
+<!-- ========================================================================
+     The Black Friday Mega Bundle: Waitlist
+     Generated for GoHighLevel by html-to-ghl.
+
+     HOW TO INSTALL
+       1. GHL builder -> Add Element -> Custom JS/HTML
+       2. Paste this entire file in, save, preview.
+       3. Set the containing row/column padding to 0 for a clean edge.
+       4. Page Settings -> turn OFF 'Optimise JavaScript'. It can delay
+          the hydration event this page waits for before booting.
+       5. Page Settings -> SEO: paste the values below.
+
+     SEO title:       The Black Friday Mega Bundle: Waitlist
+
+     Self contained: no external files. Edit the CONFIG block inside the
+     <script> at the bottom; nothing else should need touching.
+     ======================================================================== -->
+
+<!-- Fonts. Faster still: move these links to Page Settings -> Custom Code -> Head. -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Montserrat:wght@400;500;600;700&display=swap">
+
+<style>
+/* Reveal the page now that its styles exist (see the wrapper's inline style). */
+#ghl-waitlist { visibility: visible !important; }
+
+/* --- page level: the only rules allowed outside the scope --------------
+   overflow-x contains the full-bleed escape below; the background stops
+   GHL's default light chrome showing through at the edges.            --- */
+html { overflow-x: hidden; }
+body { background: #111111; }
+
+/* --- inheritance firewall ----------------------------------------------
+   Scoping stops our rules escaping, but not GHL's leaking in, and two
+   routes do real damage:
+     * inherited properties — a host `body { line-height: 1.5 }` flows
+       straight into this wrapper and silently retimes every block of text;
+     * direct element rules — a host `h1 { font-family: Georgia }` beats
+       inheritance outright, because any direct rule does.
+   So pin the inherited text properties on the wrapper, and re-point the
+   usual elements back at it. :where() contributes zero specificity, so
+   the page's own scoped rules below still win every tie.
+   This block sits BEFORE those rules for the same reason.          --- */
+#ghl-waitlist { line-height: normal; letter-spacing: normal; word-spacing: normal;
+            font-style: normal; font-variant: normal; text-transform: none;
+            text-align: start; text-indent: 0; }
+#ghl-waitlist :where(h1,h2,h3,h4,h5,h6,p,ul,ol,li,dl,dt,dd,a,span,div,section,article,
+        button,input,select,textarea,summary,details,label,fieldset,legend,
+        blockquote,figure,figcaption,table,thead,tbody,tr,th,td,strong,em,small) {
+  font-family: inherit; line-height: inherit; letter-spacing: inherit;
+}
+/* Media: a host `img { border / padding / box-shadow }` would frame every
+   picture. Pages rarely set these themselves, so nothing else stops them. */
+#ghl-waitlist :where(img,svg,video,picture) { border: 0; padding: 0; box-shadow: none; }
+
+/* --- scoped: GHL's stylesheet cannot reach in, ours cannot reach out --- */
+#ghl-waitlist {margin:0;background:#111111}
+#ghl-waitlist a {color:#F04E98}#ghl-waitlist a:hover {color:#FF7AB8}
+#ghl-waitlist .page {font-family:Montserrat,Arial,sans-serif;color:#F7F6F3;background:#111111;line-height:1.6;font-size:17px}
+#ghl-waitlist .page h1, #ghl-waitlist .page h2, #ghl-waitlist .page h3 {font-family:'Cormorant Garamond',Georgia,serif;font-weight:600;line-height:1.08;margin:0}
+#ghl-waitlist .page p {margin:0}
+#ghl-waitlist .wrap {max-width:1120px;margin:0 auto;padding:0 24px;box-sizing:border-box}
+#ghl-waitlist .btn {display:inline-block;background:#F04E98;color:#111111;font-family:Montserrat,Arial,sans-serif;font-weight:700;font-size:15px;letter-spacing:.06em;text-transform:uppercase;padding:18px 32px;border:0;border-radius:6px;text-decoration:none;min-height:44px;box-sizing:border-box;text-align:center;cursor:pointer}
+#ghl-waitlist .btn:hover {background:#FF6BAB;color:#111111}
+#ghl-waitlist .eyebrow {font-size:13px;letter-spacing:.2em;text-transform:uppercase;font-weight:600;color:#BFC3C7}
+#ghl-waitlist .light .eyebrow {color:#5A5F63}
+#ghl-waitlist .ph {border:1px dashed #BFC3C7;border-radius:8px;padding:20px;color:#BFC3C7;font-size:14px;font-style:italic;line-height:1.5}
+#ghl-waitlist .light .ph {border-color:#8A8F93;color:#5A5F63}
+#ghl-waitlist .light {background:#F7F6F3;color:#111111}
+#ghl-waitlist .light .body {color:#292929}
+#ghl-waitlist .dark .body {color:#E5E5E5}
+#ghl-waitlist .field {font-family:Montserrat,Arial,sans-serif;font-size:16px;padding:14px 16px;border:1px solid #BFC3C7;border-radius:6px;background:#FFFFFF;color:#111111;min-height:44px;box-sizing:border-box;width:100%}
+#ghl-waitlist .lbl {font-size:13px;font-weight:600;letter-spacing:.04em;color:#292929}
+#ghl-waitlist .tcard.hidden {display:none}
+#ghl-waitlist .chat {background:#FFFFFF;border:1px solid #E5E5E5;border-radius:10px;padding:12px 16px;display:inline-block;max-width:100%;box-sizing:border-box;box-shadow:0 14px 30px -20px rgba(0,0,0,.6)}
+
+#ghl-waitlist .wicon {width:48px;height:48px;border-radius:12px;background:rgba(240,78,152,.10);display:grid;place-items:center;margin-bottom:2px}
+#ghl-waitlist .gicon {width:56px;height:56px;border-radius:14px;background:#111111;border:1px solid rgba(240,78,152,.45);display:grid;place-items:center}
+
+#ghl-waitlist .graphite {background:#292929;color:#F7F6F3;border-top:1px solid rgba(191,195,199,.18);border-bottom:1px solid rgba(191,195,199,.18)}
+#ghl-waitlist .graphite .body {color:#E5E5E5}
+#ghl-waitlist .graphite .eyebrow {color:#BFC3C7}
+#ghl-waitlist .silver {background:#E5E5E5;color:#111111}
+#ghl-waitlist .silver .body {color:#292929}
+#ghl-waitlist .silver .eyebrow {color:#5A5F63}
+#ghl-waitlist .receipt {list-style:none;margin:0;padding:0;display:flex;flex-direction:column}
+#ghl-waitlist .receipt li {display:flex;gap:16px;align-items:flex-start;padding:16px 0;border-bottom:1px solid rgba(191,195,199,.22);font-size:18px;line-height:1.45;color:#F7F6F3}
+#ghl-waitlist .receipt li:last-child {border-bottom:0}
+#ghl-waitlist .receipt .tick {flex:0 0 28px;width:28px;height:28px;border-radius:50%;background:#F04E98;display:grid;place-items:center;margin-top:1px}
+#ghl-waitlist .receipt .tick svg {width:15px;height:15px}
+#ghl-waitlist .receipt li em {font-style:normal;color:#BFC3C7;font-size:15px;display:block;margin-top:2px}
+#ghl-waitlist .wins {display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:22px}
+#ghl-waitlist .win {background:#FFFFFF;border:1px solid #BFC3C7;border-left:6px solid #F04E98;border-radius:10px;padding:28px 28px 24px;display:flex;flex-direction:column;gap:12px;box-sizing:border-box}
+#ghl-waitlist .win .result {font-family:'Cormorant Garamond',Georgia,serif;font-size:30px;font-weight:700;line-height:1.1;color:#111111}
+#ghl-waitlist .win .who {font-size:12px;letter-spacing:.16em;text-transform:uppercase;font-weight:700;color:#F04E98}
+#ghl-waitlist .win .body {font-size:16.5px}
+#ghl-waitlist .win .tag {margin-top:auto;padding-top:12px;border-top:1px dashed #BFC3C7;font-size:13.5px;color:#5A5F63}
+#ghl-waitlist .win .tag b {color:#111111}
+@media (max-width:640px) {#ghl-waitlist .receipt li {font-size:16px}#ghl-waitlist .win .result {font-size:26px}}
+#ghl-waitlist details summary {cursor:pointer;list-style:none}
+#ghl-waitlist details summary::-webkit-details-marker {display:none}
+
+@media (max-width: 640px) {
+  #ghl-waitlist .page h1 {font-size:36px !important}
+  #ghl-waitlist .page h2 {font-size:32px !important}
+  #ghl-waitlist .page h3 {font-size:24px !important}
+  #ghl-waitlist .page {font-size:16px}
+}
+
+/* Mega Bundle waitlist additions (same palette and fonts as the AI Life Summit pages) */
+#ghl-waitlist .pill {display:inline-block;border:1px solid rgba(240,78,152,.6);color:#F7F6F3;border-radius:999px;padding:8px 14px;font-size:13px;font-weight:600;letter-spacing:.04em}
+#ghl-waitlist .items {display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:22px}
+#ghl-waitlist .item {background:#FFFFFF;border:1px solid #BFC3C7;border-left:6px solid #F04E98;border-radius:10px;padding:26px 26px 24px;display:flex;flex-direction:column;gap:12px;box-sizing:border-box}
+#ghl-waitlist .item.bonus {border-left-color:#111111}
+#ghl-waitlist .item h3 {font-size:28px;color:#111111}
+#ghl-waitlist .item .body {font-size:16px}
+#ghl-waitlist .item .ph {font-size:13px;padding:12px 14px}
+#ghl-waitlist .itop {display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}
+#ghl-waitlist .tag {font-size:12px;letter-spacing:.16em;text-transform:uppercase;font-weight:700;color:#F04E98}
+#ghl-waitlist .item.bonus .tag {color:#5A5F63}
+#ghl-waitlist .price {background:#111111;color:#F7F6F3;font-weight:700;font-size:14px;letter-spacing:.03em;padding:7px 12px;border-radius:6px}
+#ghl-waitlist .vid {aspect-ratio:16/9;background:#292929;border:1px dashed #8A8F93;border-radius:8px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;color:#BFC3C7;font-size:12px;font-style:italic;text-align:center;padding:12px}
+#ghl-waitlist .play {width:48px;height:48px;border-radius:50%;background:#F04E98;display:grid;place-items:center}
+#ghl-waitlist .receipt b {font-weight:700;color:#F7F6F3;white-space:nowrap}
+#ghl-waitlist .pricebox {border:1px solid #F04E98;border-radius:10px;padding:32px;text-align:center;display:flex;flex-direction:column;gap:10px;align-items:center;background:rgba(240,78,152,.06)}
+#ghl-waitlist .pricebox .big {font-family:'Cormorant Garamond',Georgia,serif;font-size:84px;font-weight:700;line-height:1;color:#F7F6F3}
+#ghl-waitlist .steps {display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+#ghl-waitlist .step {background:#111111;border:1px solid #3A3F43;border-radius:10px;padding:26px;display:flex;flex-direction:column;gap:10px}
+#ghl-waitlist .step .n {width:40px;height:40px;border-radius:50%;border:2px solid #F04E98;display:grid;place-items:center;font-family:'Cormorant Garamond',Georgia,serif;font-size:22px;font-weight:700;color:#F04E98}
+#ghl-waitlist .step .body {font-size:16px}
+#ghl-waitlist .fit {flex:1 1 420px;min-width:0;background:#FFFFFF;border:1px solid #E5E5E5;border-radius:10px;padding:32px;display:flex;flex-direction:column;gap:14px;box-sizing:border-box}
+#ghl-waitlist .fit.yes {border-top:5px solid #F04E98}
+#ghl-waitlist .fit.no {border-top:5px solid #111111}
+#ghl-waitlist .fit .body {font-size:17px;padding-left:28px;position:relative}
+#ghl-waitlist .fit.yes .body:before {content:"\2713";position:absolute;left:0;color:#F04E98;font-weight:700}
+#ghl-waitlist .fit.no .body:before {content:"\2715";position:absolute;left:0;color:#5A5F63;font-weight:700}
+@media (max-width:640px) {
+  #ghl-waitlist .pricebox {padding:24px 18px}
+  #ghl-waitlist .pricebox .big {font-size:64px}
+  #ghl-waitlist .receipt li {font-size:15px}
+  #ghl-waitlist #legal a {display:inline-flex;align-items:center;min-height:44px}
+  #ghl-waitlist p[style*="font-size: 11px"] {font-size:12px !important}
+}
+
+/* --- structural overrides -----------------------------------------------
+   These come LAST on purpose. The original page styled `body`, which the
+   scoping above folds into the wrapper — so a source rule like
+   `body { margin: 0 }` would otherwise cancel the full-bleed margin here. */
+#ghl-waitlist { position: relative; }
+/* Break out of GHL's section/row/column padding to true edge-to-edge.
+   Geometric rather than class-name based, so it survives builder updates.
+   Delete these if your row is already full width. */
+/* 100vw includes a desktop scrollbar (~15px), which pushes the page off
+   centre and under the scrollbar. The script measures the real width into
+   --ghl-vw; 100vw is only the fallback before it runs. */
+#ghl-waitlist { width: var(--ghl-vw, 100vw); margin-left: calc(50% - var(--ghl-vw, 100vw) / 2); }
+/* Re-assert the box model the original was authored against, so a reset
+   from GHL cannot shift any geometry. Inline box-sizing still wins, and a
+   more specific source rule still wins over the universal selector. */
+#ghl-waitlist, #ghl-waitlist :where(*), #ghl-waitlist :where(*)::before, #ghl-waitlist :where(*)::after { box-sizing: content-box; }
+</style>
+
+<!-- Hidden until the stylesheet above has applied (it flips this to visible),
+     so no half-styled frame can ever be painted. -->
+<div id="ghl-waitlist" style="visibility:hidden">
+<div class="page" style="width: 100%; box-sizing: border-box; display: flex; flex-direction: column">
+
+<!-- NAV -->
+<div class="dark" style="border-bottom: 1px solid #292929">
+<div class="wrap" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 16px; padding-top: 18px; padding-bottom: 18px">
+<div style="display: flex; align-items: center; gap: 14px">
+<div style="width: 44px; height: 44px; border: 1.5px solid #BFC3C7; border-radius: 6px; display: flex; align-items: center; justify-content: center; font-family: 'Cormorant Garamond', Georgia, serif; font-size: 22px; font-weight: 700; color: #BFC3C7; letter-spacing: .02em">AL</div>
+<div style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: 24px; font-weight: 600; letter-spacing: .02em; color: #F7F6F3">The Black Friday Mega Bundle</div>
+</div>
+<div style="display: flex; align-items: center; gap: 20px; flex-wrap: wrap">
+<span class="eyebrow">Waitlist · Opens Nov 18</span>
+<a href="#register" class="btn" style="padding: 12px 20px; font-size: 13px">Join the waitlist</a>
+</div>
+</div>
+</div>
+
+<!-- HERO -->
+<div class="dark" style="padding: 64px 0; background: radial-gradient(ellipse at top, rgba(240,78,152,.14), transparent 60%), #111111">
+<div class="wrap" style="display: flex; flex-wrap: wrap; gap: 48px; align-items: center">
+<div style="flex: 1 1 520px; min-width: 0; display: flex; flex-direction: column; gap: 20px">
+<p class="eyebrow" style="color: #F04E98">Waitlist · Opens Wednesday, November 18</p>
+<h1 style="font-size: 60px; color: #F7F6F3">The Black Friday Mega Bundle <em style="display: block; font-style: italic; font-weight: 500; color: #BFC3C7; font-size: .62em; margin-top: 12px">Everything you need to become an AI consultant, in one bundle.</em></h1>
+<p class="body" style="font-size: 19px">This is Alicia's biggest offer of the year: the AI Consultant Certification plus her AI programs and private bonuses, together for <strong style="color: #F7F6F3">$5,000</strong>. Everything inside and the price are below, so you can decide now. The waitlist hears first when it opens on November 18.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 12px">
+<span class="pill">3 programs + 5 bonuses</span>
+<span class="pill">$20,000+ value</span>
+<span class="pill">$5,000 or 2 × $2,600</span>
+</div>
+<p style="font-size: 15px; color: #BFC3C7; border-left: 3px solid #F04E98; padding-left: 14px"><strong style="color: #F7F6F3">Already in the AI Consultant program?</strong> This waitlist isn't for you. You'll get your own upgrade offer.</p>
+</div>
+<div id="register" style="flex: 0 1 420px; min-width: 300px; background: #F7F6F3; color: #111111; border-radius: 10px; padding: 32px; box-sizing: border-box; display: flex; flex-direction: column; gap: 10px">
+<h3 style="font-size: 30px; color: #111111">Join the waitlist</h3>
+<p style="font-size: 14px; color: #292929; margin-bottom: 8px">Be first to hear when the Mega Bundle opens on November 18.</p>
+<div id="ghl-form-slot"><!-- GHL form embed is inserted here by the page script (CONFIG.FORM_ID) --></div>
+<p style="font-size: 13px; color: #5A5F63; text-align: center; margin-top: 6px">Joining is free and doesn't commit you to buy.</p>
+<p style="font-size: 11px; color: #5A5F63; text-align: center; line-height: 1.5">By joining, you agree to receive emails about this offer from AI InnoVision, and to our <a href="https://aiinnovision.com/privacy" style="color: #5A5F63">Privacy Policy</a> and <a href="https://aiinnovision.com/terms" style="color: #5A5F63">Terms</a>. Unsubscribe any time.</p>
+</div>
+</div>
+</div>
+
+<!-- WHAT'S INSIDE -->
+<div class="light" style="padding: 72px 0">
+<div class="wrap" style="display: flex; flex-direction: column; gap: 36px">
+<div style="max-width: 820px; display: flex; flex-direction: column; gap: 14px">
+<p class="eyebrow">What's inside</p>
+<h2 style="font-size: 46px; color: #111111">3 Programs and 5 Private Bonuses</h2>
+<p class="body" style="font-size: 19px">Each one is sold on its own today. Here's what it is, what it normally costs and why it's in the bundle.</p>
+</div>
+
+<div class="items">
+<div class="item prog">
+<div class="itop"><span class="tag">Program 1</span><span class="price">Normally $5,997</span></div>
+<h3>AI Consultant Certification Program</h3>
+<p class="body">The full certification: self-paced training, live sessions, the consultant tools and lifetime access. From "I know AI" to "I advise on AI."</p>
+<p class="ph">[2-3 LINES: WHY YOU NEED IT, from Alicia's team]</p>
+</div>
+<div class="item prog">
+<div class="itop"><span class="tag">Program 2</span><span class="price">Normally $1,997</span></div>
+<h3>AI Agents Course</h3>
+<p class="body">Learn, build and deploy AI agents, even if you're not technical. Step-by-step training, live sessions and office hours, ready-made agents and a CPD Certified AI Agent Builder certification.</p>
+<p class="ph">[2-3 LINES: WHY YOU NEED IT]</p>
+</div>
+<div class="item prog">
+<div class="itop"><span class="tag">Program 3</span><span class="price">Normally $1,997</span></div>
+<h3>AI Avatar Academy</h3>
+<p class="ph">[WHAT IT IS + WHY YOU NEED IT: 2-3 lines]</p>
+</div>
+</div>
+
+<div class="items">
+<div class="item bonus">
+<div class="itop"><span class="tag">Bonus 1</span><span class="price">Value $10,000</span></div>
+<h3>Private One-Day Mastermind With Alicia</h3>
+<p class="ph">[WHAT HAPPENS ON THE DAY, WHERE, WHEN: 2-3 lines]</p>
+</div>
+<div class="item bonus">
+<div class="itop"><span class="tag">Bonus 2</span><span class="price">Value $2,994</span></div>
+<h3>Two AI Agents Live Tickets</h3>
+<p class="body">A full day of live AI agent builds and networking, in person in Atlanta, GA. Two tickets, so you can bring someone. Next event: Monday, January 25 or Tuesday, January 26, 2027 (pick one day).</p>
+</div>
+<div class="item bonus">
+<div class="itop"><span class="tag">Bonus 3</span><span class="price">Value $297</span></div>
+<h3>Private Micro Drama Workshop</h3>
+<p class="ph">[WHAT IT IS + WHY: 2 lines]</p>
+</div>
+<div class="item bonus">
+<div class="itop"><span class="tag">Bonus 4</span><span class="price">Value $47</span></div>
+<h3>All AI Business Summit Replays</h3>
+<p class="ph">[WHICH SUMMITS / HOW MANY SESSIONS: 1-2 lines]</p>
+</div>
+<div class="item bonus">
+<div class="itop"><span class="tag">Bonus 5</span><span class="price">Included</span></div>
+<h3>TikTok Live Selling Training</h3>
+<p class="ph">Taught by a new instructor: [INSTRUCTOR NAME + CREDENTIALS: 1-2 lines]</p>
+<div class="vid"><div class="play"><svg width="22" height="22" viewBox="0 0 24 24" fill="#111111" aria-hidden="true"><path d="M8 5v14l11-7z"></path></svg></div><span>[60-SECOND INSTRUCTOR INTRO VIDEO]</span></div>
+</div>
+</div>
+</div>
+</div>
+
+<!-- INVESTMENT -->
+<div class="dark" style="padding: 72px 0">
+<div class="wrap" style="max-width: 860px; display: flex; flex-direction: column; gap: 28px">
+<div style="text-align: center; display: flex; flex-direction: column; gap: 12px; align-items: center">
+<p class="eyebrow" style="color: #F04E98">The investment</p>
+<h2 style="font-size: 46px; color: #F7F6F3">Everything Above, One Price</h2>
+</div>
+<ul class="receipt">
+<li><span class="tick"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#111111" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"></path></svg></span><span style="flex: 1">AI Consultant Certification Program</span><b>$5,997</b></li>
+<li><span class="tick"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#111111" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"></path></svg></span><span style="flex: 1">AI Agents Course</span><b>$1,997</b></li>
+<li><span class="tick"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#111111" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"></path></svg></span><span style="flex: 1">AI Avatar Academy</span><b>$1,997</b></li>
+<li><span class="tick"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#111111" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"></path></svg></span><span style="flex: 1">Bonus: Private One-Day Mastermind With Alicia</span><b>$10,000</b></li>
+<li><span class="tick"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#111111" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"></path></svg></span><span style="flex: 1">Bonus: Two AI Agents Live Tickets</span><b>$2,994</b></li>
+<li><span class="tick"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#111111" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"></path></svg></span><span style="flex: 1">Bonus: Private Micro Drama Workshop</span><b>$297</b></li>
+<li><span class="tick"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#111111" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"></path></svg></span><span style="flex: 1">Bonus: All AI Business Summit Replays</span><b>$47</b></li>
+<li><span class="tick"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#111111" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"></path></svg></span><span style="flex: 1">Bonus: TikTok Live Selling Training</span><b>Included</b></li>
+</ul>
+<div class="pricebox">
+<p class="eyebrow">Total if bought separately: <span style="color: #F7F6F3">$20,000+</span></p>
+<p class="big">$5,000</p>
+<p class="body" style="font-size: 18px">paid in full, or <strong style="color: #F7F6F3">2 payments of $2,600</strong></p>
+<p class="eyebrow" style="color: #F7F6F3">Opens Wednesday, November 18 &nbsp;·&nbsp; Closes November 30 at 11:59 p.m. PT</p>
+<div style="margin-top: 8px"><a href="#register" class="btn">Yes! Put me on the waitlist</a></div>
+</div>
+</div>
+</div>
+
+<!-- NEXT -->
+<div class="graphite" style="padding: 72px 0">
+<div class="wrap" style="display: flex; flex-direction: column; gap: 32px">
+<h2 style="font-size: 46px; color: #F7F6F3">What Happens Next</h2>
+<div class="steps">
+<div class="step"><span class="n">1</span><p class="eyebrow" style="color: #F04E98">Today</p><p class="body">Join the waitlist. It's free.</p></div>
+<div class="step"><span class="n">2</span><p class="eyebrow" style="color: #F04E98">Wednesday, November 18</p><p class="body">The Mega Bundle opens. Waitlist members hear first.</p></div>
+<div class="step"><span class="n">3</span><p class="eyebrow" style="color: #F04E98">The same day</p><p class="body">You get the link to the Mega Bundle page. Enroll there directly, or book a call with the team if you have questions.</p></div>
+<div class="step"><span class="n">4</span><p class="eyebrow" style="color: #F04E98">November 30, 11:59 p.m. PT</p><p class="body">The bundle closes.</p></div>
+</div>
+</div>
+</div>
+
+<!-- FOR YOU -->
+<div class="light" style="padding: 72px 0">
+<div class="wrap" style="display: flex; flex-wrap: wrap; gap: 24px">
+<div class="fit yes">
+<h2 style="font-size: 38px; color: #111111">This Is for You If…</h2>
+<p class="body">You've been to Alicia's events and you're ready for the full path, not one more workshop.</p>
+<p class="body">You want the certification, the agents and the avatars together, with Alicia in the room.</p>
+<p class="body">You'd rather pay once than buy each program separately later.</p>
+</div>
+<div class="fit no">
+<h2 style="font-size: 38px; color: #111111">This May Not Be for You If…</h2>
+<p class="body">You're looking for guaranteed income. No program can promise that, and this one doesn't.</p>
+<p class="body">You're already in the AI Consultant program. You'll get a separate upgrade offer.</p>
+<p class="body">You aren't ready to put in the practice. The bundle gives you the training; the work is yours.</p>
+</div>
+</div>
+</div>
+
+<!-- HOST -->
+<div class="dark" style="padding: 72px 0">
+<div class="wrap" style="display: flex; flex-wrap: wrap; gap: 48px; align-items: center">
+<img src="../assets/alicia-headshot.jpg" alt="Alicia Lyttle, The Queen of AI" style="flex: 0 1 380px; min-width: 260px; width: 380px; max-width: 100%; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 10px; display: block">
+<div style="flex: 1 1 480px; min-width: 0; display: flex; flex-direction: column; gap: 18px">
+<p class="eyebrow">Meet your teacher</p>
+<h2 style="font-size: 46px; color: #F7F6F3">Alicia Lyttle, The Queen of AI</h2>
+<p class="body" style="font-size: 17px">Alicia Lyttle is the CEO and Co-Founder of AI InnoVision, an AI education and training company, and the founder of the International Association of Artificial Intelligence Consultants. She has taught tens of thousands of people to use AI through her live summits, and she's a TEDx speaker.</p>
+<p class="body" style="font-size: 17px">She has been an entrepreneur for more than 25 years. She was named one of JPMorgan Chase's 100 Women to KNOW in America and received a Presidential Lifetime Achievement Award.</p>
+</div>
+</div>
+</div>
+
+<!-- FAQ -->
+<div class="light" style="padding: 72px 0">
+<div class="wrap" style="max-width: 820px; display: flex; flex-direction: column; gap: 12px">
+<h2 style="font-size: 46px; color: #111111; margin-bottom: 16px">Quick Questions</h2>
+<details style="border-bottom: 1px solid #E5E5E5; padding: 16px 0"><summary style="font-weight: 600; font-size: 18px; color: #111111; min-height: 44px; display: flex; align-items: center">Does joining the waitlist commit me to buy?</summary><p class="body" style="font-size: 16px; padding-top: 10px">No. It's free. You'll just hear first when the bundle opens.</p></details>
+<details style="border-bottom: 1px solid #E5E5E5; padding: 16px 0"><summary style="font-weight: 600; font-size: 18px; color: #111111; min-height: 44px; display: flex; align-items: center">How will I know when it opens?</summary><p class="body" style="font-size: 16px; padding-top: 10px">We'll email you on Wednesday, November 18, the moment it opens, and text you too if you ticked the box.</p></details>
+<details style="border-bottom: 1px solid #E5E5E5; padding: 16px 0"><summary style="font-weight: 600; font-size: 18px; color: #111111; min-height: 44px; display: flex; align-items: center">Is there a payment plan?</summary><p class="body" style="font-size: 16px; padding-top: 10px">Yes: 2 payments of $2,600.</p></details>
+</div>
+</div>
+
+<!-- CLOSE -->
+<div class="dark" style="padding: 80px 0; background: radial-gradient(ellipse at bottom, rgba(240,78,152,.14), transparent 60%), #111111">
+<div class="wrap" style="max-width: 820px; display: flex; flex-direction: column; gap: 20px; text-align: center; align-items: center">
+<h2 style="font-size: 52px; color: #F7F6F3">Be First When It Opens</h2>
+<p class="body" style="font-size: 19px">The Black Friday Mega Bundle opens Wednesday, November 18. Join the waitlist and you'll hear first.</p>
+<div><a href="#register" class="btn">Yes! Put me on the waitlist</a></div>
+</div>
+</div>
+
+<!-- FOOTER -->
+<div class="dark" style="padding: 40px 0; border-top: 1px solid #292929">
+<div class="wrap" style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 16px; font-size: 14px; color: #BFC3C7">
+<div style="display: flex; align-items: center; gap: 12px">
+<div style="width: 36px; height: 36px; border: 1.5px solid #BFC3C7; border-radius: 5px; display: flex; align-items: center; justify-content: center; font-family: 'Cormorant Garamond', Georgia, serif; font-size: 18px; font-weight: 700; color: #BFC3C7">AL</div>
+<span>© 2026 Alicia Lyttle · AI InnoVision</span>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center">
+<span style="color: #F04E98; font-weight: 600">@alicialyttle</span>
+<span style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: 18px; font-style: italic; color: #F7F6F3">Intelligence Creates Freedom</span>
+</div>
+</div>
+<div id="legal" class="wrap" style="display: flex; flex-direction: column; gap: 14px; margin-top: 28px; padding-top: 24px; border-top: 1px solid #292929; font-size: 13px; line-height: 1.6; color: #BFC3C7">
+<div style="display: flex; flex-wrap: wrap; gap: 8px 24px; font-weight: 600; letter-spacing: .04em; text-transform: uppercase; font-size: 12px">
+<a href="https://aiinnovision.com/privacy" style="color: #F7F6F3; text-decoration: none">Privacy Policy</a>
+<a href="https://aiinnovision.com/terms" style="color: #F7F6F3; text-decoration: none">Terms &amp; Conditions</a>
+<a href="#legal" style="color: #F7F6F3; text-decoration: none">Earnings &amp; Results Disclaimer</a>
+<a href="https://aiinnovision.com/contact" style="color: #F7F6F3; text-decoration: none">Contact</a>
+</div>
+<p><strong style="color: #F7F6F3">Results vary.</strong> The programs and bonuses in this bundle are education and training. Nothing on this page is a promise of clients, income or any specific result. Your results depend on your own effort, your experience and your market.</p>
+<p><strong style="color: #F7F6F3">Not professional advice.</strong> Nothing in these programs is financial, legal, tax or business advice, and enrolling does not create a professional relationship. Check anything that matters with a qualified professional before you act on it.</p>
+<p><strong style="color: #F7F6F3">Values.</strong> Values shown are the prices each program and bonus is normally sold for, or its stated value when sold separately. Bonus details, dates and locations may change.</p>
+<p><strong style="color: #F7F6F3">Email and text consent.</strong> By joining the waitlist, you agree to receive emails from AI InnoVision about this offer. Texts are sent only if you tick the box. You can unsubscribe at any time.</p>
+<p>This site is not a part of the Facebook website or Meta Platforms, Inc., and is not endorsed by Facebook in any way. FACEBOOK is a trademark of Meta Platforms, Inc. This site is not part of, or endorsed by, Google LLC. TikTok, ChatGPT and other names are trademarks of their respective owners.</p>
+<p>© 2026 AI InnoVision. All rights reserved. · 1150 Malabar Rd SE Ste 111, #205, Palm Bay, Florida 32907 · hello@aiinnovision.com</p>
+</div>
+</div>
+
+</div>
+</div>
+
+<script>
+/* ---------------------------------------------------------------------------
+   GoHighLevel boot shim.
+
+   GHL hydrates its pages client side, so custom code often runs before the
+   builder has put anything on the page. GHL signals completion with a
+   `hydrationDone` event, but relying on that alone is fragile: it may have
+   fired before this listener attached, and outside GHL it never fires at all.
+   So initialisation is guarded, checks our own markup is actually present, and
+   is triggered from several directions. Whichever arrives first wins; the rest
+   are no-ops.
+   --------------------------------------------------------------------------- */
+(function () {
+  'use strict';
+  var started = false, tries = 0;
+
+  function ready() { return !!document.getElementById('ghl-waitlist'); }
+
+  function boot() {
+    if (started) return true;
+    if (!ready()) return false;          /* markup not injected yet */
+    started = true;
+    try { main(); } catch (e) { if (window.console) console.error('[ghl-waitlist]', e); }
+    return true;
+  }
+
+  function retry() {
+    if (boot() || ++tries > 40) return;  /* ~5s of 125ms polls, then give up */
+    setTimeout(retry, 125);
+  }
+
+  /* Full-bleed width without the scrollbar: clientWidth excludes it, 100vw does not. */
+  function setVw() { document.documentElement.style.setProperty('--ghl-vw', document.documentElement.clientWidth + 'px'); }
+  setVw();
+  window.addEventListener('resize', setVw);
+  document.addEventListener('DOMContentLoaded', setVw);
+
+  document.addEventListener('hydrationDone', function () { setVw(); boot(); });
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', retry);
+  retry();
+
+  function main() {
+    /* ===== CONFIG: edit these two values in GHL ===================================
+       FORM_ID   : the ID of the GHL form "Mega Bundle Waitlist"
+                   (Sites -> Forms -> your form -> Integrate -> Embed: copy the part after /widget/form/)
+       EMBED_JS  : the form_embed.js URL shown in that same embed code
+       Until FORM_ID is filled, a dashed placeholder shows where the form will sit.
+       Fields (name, email, optional phone, unchecked SMS checkbox), the pink button
+       "Yes! Put me on the waitlist" and the redirect to the confirmation page are set
+       in the GHL form builder, not here.                                            */
+    var WAITLIST_CONFIG = {
+      FORM_ID: '',
+      EMBED_JS: 'https://link.msgsbuilder.com/js/form_embed.js'
+    };
+    /* ========================================================================== */
+    (function(){
+      var slot = document.getElementById('ghl-form-slot');
+      if (!slot || slot.getAttribute('data-done')) return;
+      slot.setAttribute('data-done', '1');
+      var id = (WAITLIST_CONFIG.FORM_ID || '').trim();
+      if (!id) {
+        slot.innerHTML = '<div style="border:1px dashed #8A8F93;border-radius:6px;padding:28px 16px;text-align:center;font-size:14px;color:#5A5F63;font-style:italic">[GHL waitlist form goes here: set FORM_ID in the page code]</div>';
+        return;
+      }
+      var f = document.createElement('iframe');
+      f.src = 'https://api.leadconnectorhq.com/widget/form/' + id;
+      f.id = 'inline-' + id;
+      f.title = 'Mega Bundle Waitlist';
+      f.style.cssText = 'width:100%;min-height:460px;border:none;border-radius:6px;background:transparent';
+      f.setAttribute('data-layout', "{'id':'INLINE'}");
+      f.setAttribute('data-trigger-type', 'alwaysShow');
+      f.setAttribute('data-activation-type', 'alwaysActivated');
+      f.setAttribute('data-deactivation-type', 'neverDeactivate');
+      f.setAttribute('data-form-name', 'Mega Bundle Waitlist');
+      f.setAttribute('data-layout-iframe-id', 'inline-' + id);
+      f.setAttribute('data-form-id', id);
+      slot.appendChild(f);
+      var s = document.createElement('script'); s.src = WAITLIST_CONFIG.EMBED_JS; s.async = true;
+      document.body.appendChild(s);
+    })();
+
+    /* Smooth scroll for in-page buttons (e.g. "Save my free seat" -> #register, "Upgrade" -> #upgrade).
+       Also runs when the page opens with a #hash (e.g. /ailife#register from the testimonial wall),
+       because GHL builds the page after load and the browser's own jump misses it. */
+    (function(){
+      if (window.__alSmoothScroll) return; window.__alSmoothScroll = true;
+      var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      var FLASH = { register: 1, upgrade: 1 };
+      function go(id, smooth){
+        var t = document.getElementById(id); if (!t) return false;
+        var y = t.getBoundingClientRect().top + window.pageYOffset - 24;
+        window.scrollTo({ top: y, behavior: (smooth && !reduce) ? 'smooth' : 'auto' });
+        if (FLASH[id] && t.animate && !reduce) {
+          t.animate([
+            { boxShadow: '0 0 0 0 rgba(240,78,152,0)' },
+            { boxShadow: '0 0 0 6px rgba(240,78,152,.55)', offset: .35 },
+            { boxShadow: '0 0 0 0 rgba(240,78,152,0)' }
+          ], { duration: 1400, delay: 500, easing: 'ease-out' });
+        }
+        return true;
+      }
+      document.addEventListener('click', function(e){
+        var a = e.target.closest && e.target.closest('a[href^="#"]'); if (!a) return;
+        var id = a.getAttribute('href').slice(1); if (!id) return;
+        if (go(id, true)) { e.preventDefault(); if (history.replaceState) history.replaceState(null, '', '#' + id); }
+      });
+      if (location.hash.length > 1) {
+        var id = decodeURIComponent(location.hash.slice(1));
+        window.addEventListener('load', function(){ setTimeout(function(){ go(id, true); }, 400); });
+      }
+    })();
+  }
+})();
+</script>

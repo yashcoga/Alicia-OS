@@ -1,0 +1,237 @@
+<!-- ========================================================================
+     The Black Friday Mega Bundle: You're on the Waitlist
+     Generated for GoHighLevel by html-to-ghl.
+
+     HOW TO INSTALL
+       1. GHL builder -> Add Element -> Custom JS/HTML
+       2. Paste this entire file in, save, preview.
+       3. Set the containing row/column padding to 0 for a clean edge.
+       4. Page Settings -> turn OFF 'Optimise JavaScript'. It can delay
+          the hydration event this page waits for before booting.
+       5. Page Settings -> SEO: paste the values below.
+
+     SEO title:       The Black Friday Mega Bundle: You're on the Waitlist
+
+     Self contained: no external files. Edit the CONFIG block inside the
+     <script> at the bottom; nothing else should need touching.
+     ======================================================================== -->
+
+<!-- Fonts. Faster still: move these links to Page Settings -> Custom Code -> Head. -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Montserrat:wght@400;500;600;700&display=swap">
+
+<style>
+/* Reveal the page now that its styles exist (see the wrapper's inline style). */
+#ghl-waitlist-confirmed { visibility: visible !important; }
+
+/* --- page level: the only rules allowed outside the scope --------------
+   overflow-x contains the full-bleed escape below; the background stops
+   GHL's default light chrome showing through at the edges.            --- */
+html { overflow-x: hidden; }
+body { background: #111111; }
+
+/* --- inheritance firewall ----------------------------------------------
+   Scoping stops our rules escaping, but not GHL's leaking in, and two
+   routes do real damage:
+     * inherited properties — a host `body { line-height: 1.5 }` flows
+       straight into this wrapper and silently retimes every block of text;
+     * direct element rules — a host `h1 { font-family: Georgia }` beats
+       inheritance outright, because any direct rule does.
+   So pin the inherited text properties on the wrapper, and re-point the
+   usual elements back at it. :where() contributes zero specificity, so
+   the page's own scoped rules below still win every tie.
+   This block sits BEFORE those rules for the same reason.          --- */
+#ghl-waitlist-confirmed { line-height: normal; letter-spacing: normal; word-spacing: normal;
+            font-style: normal; font-variant: normal; text-transform: none;
+            text-align: start; text-indent: 0; }
+#ghl-waitlist-confirmed :where(h1,h2,h3,h4,h5,h6,p,ul,ol,li,dl,dt,dd,a,span,div,section,article,
+        button,input,select,textarea,summary,details,label,fieldset,legend,
+        blockquote,figure,figcaption,table,thead,tbody,tr,th,td,strong,em,small) {
+  font-family: inherit; line-height: inherit; letter-spacing: inherit;
+}
+/* Media: a host `img { border / padding / box-shadow }` would frame every
+   picture. Pages rarely set these themselves, so nothing else stops them. */
+#ghl-waitlist-confirmed :where(img,svg,video,picture) { border: 0; padding: 0; box-shadow: none; }
+
+/* --- scoped: GHL's stylesheet cannot reach in, ours cannot reach out --- */
+#ghl-waitlist-confirmed {margin:0;background:#111111}
+#ghl-waitlist-confirmed a {color:#F04E98}#ghl-waitlist-confirmed a:hover {color:#FF7AB8}
+#ghl-waitlist-confirmed .page {font-family:Montserrat,Arial,sans-serif;color:#F7F6F3;background:#111111;line-height:1.6;font-size:17px}
+#ghl-waitlist-confirmed .page h1, #ghl-waitlist-confirmed .page h2, #ghl-waitlist-confirmed .page h3 {font-family:'Cormorant Garamond',Georgia,serif;font-weight:600;line-height:1.08;margin:0}
+#ghl-waitlist-confirmed .page p {margin:0}
+#ghl-waitlist-confirmed .wrap {max-width:1120px;margin:0 auto;padding:0 24px;box-sizing:border-box}
+#ghl-waitlist-confirmed .btn {display:inline-block;background:#F04E98;color:#111111;font-family:Montserrat,Arial,sans-serif;font-weight:700;font-size:15px;letter-spacing:.06em;text-transform:uppercase;padding:18px 32px;border:0;border-radius:6px;text-decoration:none;min-height:44px;box-sizing:border-box;text-align:center;cursor:pointer}
+#ghl-waitlist-confirmed .btn:hover {background:#FF6BAB;color:#111111}
+#ghl-waitlist-confirmed .eyebrow {font-size:13px;letter-spacing:.2em;text-transform:uppercase;font-weight:600;color:#BFC3C7}
+#ghl-waitlist-confirmed .light .eyebrow {color:#5A5F63}
+#ghl-waitlist-confirmed .ph {border:1px dashed #BFC3C7;border-radius:8px;padding:20px;color:#BFC3C7;font-size:14px;font-style:italic;line-height:1.5}
+#ghl-waitlist-confirmed .light .ph {border-color:#8A8F93;color:#5A5F63}
+#ghl-waitlist-confirmed .light {background:#F7F6F3;color:#111111}
+#ghl-waitlist-confirmed .light .body {color:#292929}
+#ghl-waitlist-confirmed .dark .body {color:#E5E5E5}
+#ghl-waitlist-confirmed .field {font-family:Montserrat,Arial,sans-serif;font-size:16px;padding:14px 16px;border:1px solid #BFC3C7;border-radius:6px;background:#FFFFFF;color:#111111;min-height:44px;box-sizing:border-box;width:100%}
+#ghl-waitlist-confirmed .lbl {font-size:13px;font-weight:600;letter-spacing:.04em;color:#292929}
+#ghl-waitlist-confirmed .tcard.hidden {display:none}
+#ghl-waitlist-confirmed .chat {background:#FFFFFF;border:1px solid #E5E5E5;border-radius:10px;padding:12px 16px;display:inline-block;max-width:100%;box-sizing:border-box;box-shadow:0 14px 30px -20px rgba(0,0,0,.6)}
+
+#ghl-waitlist-confirmed .wicon {width:48px;height:48px;border-radius:12px;background:rgba(240,78,152,.10);display:grid;place-items:center;margin-bottom:2px}
+#ghl-waitlist-confirmed .gicon {width:56px;height:56px;border-radius:14px;background:#111111;border:1px solid rgba(240,78,152,.45);display:grid;place-items:center}
+
+#ghl-waitlist-confirmed .graphite {background:#292929;color:#F7F6F3;border-top:1px solid rgba(191,195,199,.18);border-bottom:1px solid rgba(191,195,199,.18)}
+#ghl-waitlist-confirmed .graphite .body {color:#E5E5E5}
+#ghl-waitlist-confirmed .graphite .eyebrow {color:#BFC3C7}
+#ghl-waitlist-confirmed .silver {background:#E5E5E5;color:#111111}
+#ghl-waitlist-confirmed .silver .body {color:#292929}
+#ghl-waitlist-confirmed .silver .eyebrow {color:#5A5F63}
+#ghl-waitlist-confirmed .receipt {list-style:none;margin:0;padding:0;display:flex;flex-direction:column}
+#ghl-waitlist-confirmed .receipt li {display:flex;gap:16px;align-items:flex-start;padding:16px 0;border-bottom:1px solid rgba(191,195,199,.22);font-size:18px;line-height:1.45;color:#F7F6F3}
+#ghl-waitlist-confirmed .receipt li:last-child {border-bottom:0}
+#ghl-waitlist-confirmed .receipt .tick {flex:0 0 28px;width:28px;height:28px;border-radius:50%;background:#F04E98;display:grid;place-items:center;margin-top:1px}
+#ghl-waitlist-confirmed .receipt .tick svg {width:15px;height:15px}
+#ghl-waitlist-confirmed .receipt li em {font-style:normal;color:#BFC3C7;font-size:15px;display:block;margin-top:2px}
+#ghl-waitlist-confirmed .wins {display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:22px}
+#ghl-waitlist-confirmed .win {background:#FFFFFF;border:1px solid #BFC3C7;border-left:6px solid #F04E98;border-radius:10px;padding:28px 28px 24px;display:flex;flex-direction:column;gap:12px;box-sizing:border-box}
+#ghl-waitlist-confirmed .win .result {font-family:'Cormorant Garamond',Georgia,serif;font-size:30px;font-weight:700;line-height:1.1;color:#111111}
+#ghl-waitlist-confirmed .win .who {font-size:12px;letter-spacing:.16em;text-transform:uppercase;font-weight:700;color:#F04E98}
+#ghl-waitlist-confirmed .win .body {font-size:16.5px}
+#ghl-waitlist-confirmed .win .tag {margin-top:auto;padding-top:12px;border-top:1px dashed #BFC3C7;font-size:13.5px;color:#5A5F63}
+#ghl-waitlist-confirmed .win .tag b {color:#111111}
+@media (max-width:640px) {#ghl-waitlist-confirmed .receipt li {font-size:16px}#ghl-waitlist-confirmed .win .result {font-size:26px}}
+#ghl-waitlist-confirmed details summary {cursor:pointer;list-style:none}
+#ghl-waitlist-confirmed details summary::-webkit-details-marker {display:none}
+
+@media (max-width: 640px) {
+  #ghl-waitlist-confirmed .page h1 {font-size:36px !important}
+  #ghl-waitlist-confirmed .page h2 {font-size:32px !important}
+  #ghl-waitlist-confirmed .page h3 {font-size:24px !important}
+  #ghl-waitlist-confirmed .page {font-size:16px}
+}
+
+/* Mega Bundle waitlist additions (same palette and fonts as the AI Life Summit pages) */
+#ghl-waitlist-confirmed .pill {display:inline-block;border:1px solid rgba(240,78,152,.6);color:#F7F6F3;border-radius:999px;padding:8px 14px;font-size:13px;font-weight:600;letter-spacing:.04em}
+#ghl-waitlist-confirmed .items {display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:22px}
+#ghl-waitlist-confirmed .item {background:#FFFFFF;border:1px solid #BFC3C7;border-left:6px solid #F04E98;border-radius:10px;padding:26px 26px 24px;display:flex;flex-direction:column;gap:12px;box-sizing:border-box}
+#ghl-waitlist-confirmed .item.bonus {border-left-color:#111111}
+#ghl-waitlist-confirmed .item h3 {font-size:28px;color:#111111}
+#ghl-waitlist-confirmed .item .body {font-size:16px}
+#ghl-waitlist-confirmed .item .ph {font-size:13px;padding:12px 14px}
+#ghl-waitlist-confirmed .itop {display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}
+#ghl-waitlist-confirmed .tag {font-size:12px;letter-spacing:.16em;text-transform:uppercase;font-weight:700;color:#F04E98}
+#ghl-waitlist-confirmed .item.bonus .tag {color:#5A5F63}
+#ghl-waitlist-confirmed .price {background:#111111;color:#F7F6F3;font-weight:700;font-size:14px;letter-spacing:.03em;padding:7px 12px;border-radius:6px}
+#ghl-waitlist-confirmed .vid {aspect-ratio:16/9;background:#292929;border:1px dashed #8A8F93;border-radius:8px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;color:#BFC3C7;font-size:12px;font-style:italic;text-align:center;padding:12px}
+#ghl-waitlist-confirmed .play {width:48px;height:48px;border-radius:50%;background:#F04E98;display:grid;place-items:center}
+#ghl-waitlist-confirmed .receipt b {font-weight:700;color:#F7F6F3;white-space:nowrap}
+#ghl-waitlist-confirmed .pricebox {border:1px solid #F04E98;border-radius:10px;padding:32px;text-align:center;display:flex;flex-direction:column;gap:10px;align-items:center;background:rgba(240,78,152,.06)}
+#ghl-waitlist-confirmed .pricebox .big {font-family:'Cormorant Garamond',Georgia,serif;font-size:84px;font-weight:700;line-height:1;color:#F7F6F3}
+#ghl-waitlist-confirmed .steps {display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+#ghl-waitlist-confirmed .step {background:#111111;border:1px solid #3A3F43;border-radius:10px;padding:26px;display:flex;flex-direction:column;gap:10px}
+#ghl-waitlist-confirmed .step .n {width:40px;height:40px;border-radius:50%;border:2px solid #F04E98;display:grid;place-items:center;font-family:'Cormorant Garamond',Georgia,serif;font-size:22px;font-weight:700;color:#F04E98}
+#ghl-waitlist-confirmed .step .body {font-size:16px}
+#ghl-waitlist-confirmed .fit {flex:1 1 420px;min-width:0;background:#FFFFFF;border:1px solid #E5E5E5;border-radius:10px;padding:32px;display:flex;flex-direction:column;gap:14px;box-sizing:border-box}
+#ghl-waitlist-confirmed .fit.yes {border-top:5px solid #F04E98}
+#ghl-waitlist-confirmed .fit.no {border-top:5px solid #111111}
+#ghl-waitlist-confirmed .fit .body {font-size:17px;padding-left:28px;position:relative}
+#ghl-waitlist-confirmed .fit.yes .body:before {content:"\2713";position:absolute;left:0;color:#F04E98;font-weight:700}
+#ghl-waitlist-confirmed .fit.no .body:before {content:"\2715";position:absolute;left:0;color:#5A5F63;font-weight:700}
+@media (max-width:640px) {
+  #ghl-waitlist-confirmed .pricebox {padding:24px 18px}
+  #ghl-waitlist-confirmed .pricebox .big {font-size:64px}
+  #ghl-waitlist-confirmed .receipt li {font-size:15px}
+  #ghl-waitlist-confirmed #legal a {display:inline-flex;align-items:center;min-height:44px}
+  #ghl-waitlist-confirmed p[style*="font-size: 11px"] {font-size:12px !important}
+}
+#ghl-waitlist-confirmed .cnext {display:flex;gap:16px;align-items:baseline;padding:12px 0;border-bottom:1px solid #292929;flex-wrap:wrap}
+#ghl-waitlist-confirmed .cnext:last-child {border-bottom:0}
+#ghl-waitlist-confirmed .cnext b {font-family:'Cormorant Garamond',Georgia,serif;font-size:22px;font-weight:600;color:#F7F6F3;min-width:270px}
+#ghl-waitlist-confirmed .cnext span {font-size:16px;color:#E5E5E5;flex:1;min-width:200px}
+@media (max-width:640px) {#ghl-waitlist-confirmed .cnext {flex-direction:column;gap:2px}#ghl-waitlist-confirmed .cnext b {min-width:0}}
+
+/* --- structural overrides -----------------------------------------------
+   These come LAST on purpose. The original page styled `body`, which the
+   scoping above folds into the wrapper — so a source rule like
+   `body { margin: 0 }` would otherwise cancel the full-bleed margin here. */
+#ghl-waitlist-confirmed { position: relative; }
+/* Break out of GHL's section/row/column padding to true edge-to-edge.
+   Geometric rather than class-name based, so it survives builder updates.
+   Delete these if your row is already full width. */
+/* 100vw includes a desktop scrollbar (~15px), which pushes the page off
+   centre and under the scrollbar. The script measures the real width into
+   --ghl-vw; 100vw is only the fallback before it runs. */
+#ghl-waitlist-confirmed { width: var(--ghl-vw, 100vw); margin-left: calc(50% - var(--ghl-vw, 100vw) / 2); }
+/* Re-assert the box model the original was authored against, so a reset
+   from GHL cannot shift any geometry. Inline box-sizing still wins, and a
+   more specific source rule still wins over the universal selector. */
+#ghl-waitlist-confirmed, #ghl-waitlist-confirmed :where(*), #ghl-waitlist-confirmed :where(*)::before, #ghl-waitlist-confirmed :where(*)::after { box-sizing: content-box; }
+</style>
+
+<!-- Hidden until the stylesheet above has applied (it flips this to visible),
+     so no half-styled frame can ever be painted. -->
+<div id="ghl-waitlist-confirmed" style="visibility:hidden">
+<div class="page" style="width: 100%; box-sizing: border-box; display: flex; flex-direction: column">
+
+<!-- NAV -->
+<div class="dark" style="border-bottom: 1px solid #292929">
+<div class="wrap" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 16px; padding-top: 18px; padding-bottom: 18px">
+<div style="display: flex; align-items: center; gap: 14px">
+<div style="width: 44px; height: 44px; border: 1.5px solid #BFC3C7; border-radius: 6px; display: flex; align-items: center; justify-content: center; font-family: 'Cormorant Garamond', Georgia, serif; font-size: 22px; font-weight: 700; color: #BFC3C7; letter-spacing: .02em">AL</div>
+<div style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: 24px; font-weight: 600; letter-spacing: .02em; color: #F7F6F3">The Black Friday Mega Bundle</div>
+</div>
+<div style="display: flex; align-items: center; gap: 20px; flex-wrap: wrap">
+<span class="eyebrow">Waitlist · Opens Nov 18</span>
+
+</div>
+</div>
+</div>
+
+<!-- CONFIRMED -->
+<div class="dark" style="padding: 80px 0 88px 0; background: radial-gradient(ellipse at top, rgba(240,78,152,.14), transparent 60%), #111111">
+<div class="wrap" style="max-width: 760px; display: flex; flex-direction: column; align-items: center; text-align: center; gap: 22px">
+<div style="display: flex; align-items: center; gap: 10px"><span style="width: 22px; height: 22px; border-radius: 50%; background: #F04E98; display: grid; place-items: center"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#111111" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"></path></svg></span><span class="eyebrow" style="color: #F7F6F3">You're on the waitlist</span></div>
+<h1 style="font-size: 56px; color: #F7F6F3">You're In. You'll Hear First on November 18.</h1>
+<p class="body" style="font-size: 19px">The Black Friday Mega Bundle opens Wednesday, November 18. We'll email you the moment it opens.</p>
+<div style="width: 100%; background: #1B1B1B; border: 1px solid #292929; border-radius: 10px; padding: 28px; box-sizing: border-box; display: flex; flex-direction: column; gap: 6px; text-align: left">
+<p class="eyebrow" style="color: #F04E98; margin-bottom: 6px">What happens next</p>
+<div class="cnext"><b>November 18</b><span>The bundle opens. Waitlist members hear first.</span></div>
+<div class="cnext"><b>The same day</b><span>You get the link to enroll, or to book a call with the team.</span></div>
+<div class="cnext"><b>November 30, 11:59 p.m. PT</b><span>The bundle closes.</span></div>
+</div>
+<p class="body" style="font-size: 16px">Check your email for your confirmation. If you don't see it, check spam or promotions.</p>
+</div>
+</div>
+
+<!-- FOOTER -->
+<div class="dark" style="padding: 40px 0; border-top: 1px solid #292929">
+<div class="wrap" style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 16px; font-size: 14px; color: #BFC3C7">
+<div style="display: flex; align-items: center; gap: 12px">
+<div style="width: 36px; height: 36px; border: 1.5px solid #BFC3C7; border-radius: 5px; display: flex; align-items: center; justify-content: center; font-family: 'Cormorant Garamond', Georgia, serif; font-size: 18px; font-weight: 700; color: #BFC3C7">AL</div>
+<span>© 2026 Alicia Lyttle · AI InnoVision</span>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center">
+<span style="color: #F04E98; font-weight: 600">@alicialyttle</span>
+<span style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: 18px; font-style: italic; color: #F7F6F3">Intelligence Creates Freedom</span>
+</div>
+</div>
+<div id="legal" class="wrap" style="display: flex; flex-direction: column; gap: 14px; margin-top: 28px; padding-top: 24px; border-top: 1px solid #292929; font-size: 13px; line-height: 1.6; color: #BFC3C7">
+<div style="display: flex; flex-wrap: wrap; gap: 8px 24px; font-weight: 600; letter-spacing: .04em; text-transform: uppercase; font-size: 12px">
+<a href="https://aiinnovision.com/privacy" style="color: #F7F6F3; text-decoration: none">Privacy Policy</a>
+<a href="https://aiinnovision.com/terms" style="color: #F7F6F3; text-decoration: none">Terms &amp; Conditions</a>
+<a href="#legal" style="color: #F7F6F3; text-decoration: none">Earnings &amp; Results Disclaimer</a>
+<a href="https://aiinnovision.com/contact" style="color: #F7F6F3; text-decoration: none">Contact</a>
+</div>
+<p><strong style="color: #F7F6F3">Results vary.</strong> The programs and bonuses in this bundle are education and training. Nothing on this page is a promise of clients, income or any specific result. Your results depend on your own effort, your experience and your market.</p>
+<p><strong style="color: #F7F6F3">Not professional advice.</strong> Nothing in these programs is financial, legal, tax or business advice, and enrolling does not create a professional relationship. Check anything that matters with a qualified professional before you act on it.</p>
+<p><strong style="color: #F7F6F3">Values.</strong> Values shown are the prices each program and bonus is normally sold for, or its stated value when sold separately. Bonus details, dates and locations may change.</p>
+<p><strong style="color: #F7F6F3">Email and text consent.</strong> By joining the waitlist, you agree to receive emails from AI InnoVision about this offer. Texts are sent only if you tick the box. You can unsubscribe at any time.</p>
+<p>This site is not a part of the Facebook website or Meta Platforms, Inc., and is not endorsed by Facebook in any way. FACEBOOK is a trademark of Meta Platforms, Inc. This site is not part of, or endorsed by, Google LLC. TikTok, ChatGPT and other names are trademarks of their respective owners.</p>
+<p>© 2026 AI InnoVision. All rights reserved. · 1150 Malabar Rd SE Ste 111, #205, Palm Bay, Florida 32907 · hello@aiinnovision.com</p>
+</div>
+</div>
+
+</div>
+
+
+</div>
+</div>
+
