@@ -6,6 +6,7 @@ Shared by the user 2026-11-05 as last year's Black Friday waitlist funnel. Captu
 |---|---|---|
 | 1 | https://aliciaswaitlist.com/black-friday-waitlist | Waitlist page: one screen |
 | 2 | https://aliciaswaitlist.com/confirmed | Confirmation page: one screen |
+| 3 | https://aliciaswaitlist.com/confirmed-1 | Same confirmation page (identical copy and design), second URL |
 
 Built in GHL (footer "Ai Marketing Summit - All Rights Reserved @ 2026"; legal links on aimarketingsummit2025.com, including a real **refund policy** page: /refund-policy-6772). Fonts: Bebas Neue / Anton headlines, Poppins body. Colors: purple background, yellow #FDC830 headline and button.
 
