@@ -1,20 +1,16 @@
-# Mega Bundle Waitlist: confirmation page copy draft v1
+# Mega Bundle Waitlist: confirmation page copy (v2, 2026-11-05)
 
-Status: DRAFT for review (2026-11-05). Same design as the AI Life Summit thank-you pages.
+Status: approved by the user. Built in `design/confirmed.html`. Modelled on last year's confirmation (`reference/model-funnels/black-friday-waitlist-2025/`).
 
 ---
 
-Eyebrow (with pink tick): **YOU'RE ON THE WAITLIST**
-
-Headline: **You're In. You'll Hear First on November 18.**
-
-Line: The Black Friday Mega Bundle opens Wednesday, November 18. We'll email you the moment it opens.
-
-Box: **What happens next**
-- **November 18:** the bundle opens. Waitlist members hear first.
-- **The same day:** you get the link to enroll, or to book a call with the team.
-- **November 30 at 11:59 p.m. PT:** the bundle closes.
-
-Line: Check your email for your confirmation. If you don't see it, check spam or promotions.
-
-Footer: same as the AI Life Summit pages.
+[Logo]
+Eyebrow (with pink tick): **YOU'RE IN**
+Headline: **You're on the *VIP Early Access List***
+Line: You'll get your private early access link on **Wednesday, November 18 at 1:00 PM ET**.
+Countdown: Doors open in [days/hours/minutes/seconds] (same as the waitlist page)
+[Bundle mockup image: same as the waitlist page]
+**$20,000+ value · yours for $5,000**
+Close: **Watch your inbox. *When the email comes, move fast.***
+Small: Your confirmation email is on its way. If you don't see it, check spam or promotions.
+Footer: same as the waitlist page.

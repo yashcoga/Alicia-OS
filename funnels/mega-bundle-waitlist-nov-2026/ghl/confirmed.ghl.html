@@ -1,5 +1,5 @@
 <!-- ========================================================================
-     The Black Friday Mega Bundle: You're on the Waitlist
+     The Black Friday Mega Bundle: You're on the List
      Generated for GoHighLevel by html-to-ghl.
 
      HOW TO INSTALL
@@ -10,7 +10,7 @@
           the hydration event this page waits for before booting.
        5. Page Settings -> SEO: paste the values below.
 
-     SEO title:       The Black Friday Mega Bundle: You're on the Waitlist
+     SEO title:       The Black Friday Mega Bundle: You're on the List
 
      Self contained: no external files. Edit the CONFIG block inside the
      <script> at the bottom; nothing else should need touching.
@@ -135,20 +135,53 @@ body { background: #111111; }
 #ghl-waitlist-confirmed .fit .body {font-size:17px;padding-left:28px;position:relative}
 #ghl-waitlist-confirmed .fit.yes .body:before {content:"\2713";position:absolute;left:0;color:#F04E98;font-weight:700}
 #ghl-waitlist-confirmed .fit.no .body:before {content:"\2715";position:absolute;left:0;color:#5A5F63;font-weight:700}
+/* logo slot (replaces the nav bar, like last year's waitlist) */
+#ghl-waitlist-confirmed .logo {width:220px;max-width:60%;aspect-ratio:3/1;border:1px dashed #BFC3C7;border-radius:10px;display:flex;align-items:center;justify-content:center;text-align:center;padding:12px;box-sizing:border-box;color:#BFC3C7;font-size:13px;font-style:italic;letter-spacing:.04em}
+#ghl-waitlist-confirmed .logo img {width:100%;height:100%;object-fit:contain;display:block}
+/* hero top: kept tight so the CTA sits above the fold */
+#ghl-waitlist-confirmed .herotop {display:flex;flex-direction:column;gap:14px;align-items:center;text-align:center}
+#ghl-waitlist-confirmed .herotop .hl {font-size:52px;color:#F7F6F3;max-width:1000px}
+#ghl-waitlist-confirmed .herotop .sub {font-size:18px;max-width:1040px}
+#ghl-waitlist-confirmed .herocta {margin-top:4px}
+@media (max-width:640px) {#ghl-waitlist-confirmed .herotop {gap:14px}#ghl-waitlist-confirmed .herotop .hl {font-size:34px !important}#ghl-waitlist-confirmed .herotop .sub {font-size:16px}}
+/* right column: form card, countdown under it */
+#ghl-waitlist-confirmed .formcol {flex:0 1 420px;min-width:300px;display:flex;flex-direction:column;gap:18px}
+/* phone-only CTA under the subheadline (the form can't fit above the fold on a phone) */
+#ghl-waitlist-confirmed .mobcta {display:none}
+@media (max-width:640px) {#ghl-waitlist-confirmed .mobcta {display:inline-block;width:100%;padding:16px 20px}}
+/* countdown (hero) */
+#ghl-waitlist-confirmed .countdown {display:flex;flex-direction:column;align-items:flex-start;gap:8px}
+@media (max-width:1000px) {#ghl-waitlist-confirmed .countdown {align-items:center}}
+#ghl-waitlist-confirmed .cd-boxes {display:flex;gap:12px}
+#ghl-waitlist-confirmed .cd {width:84px;box-sizing:border-box;background:#1B1B1B;border:1px solid rgba(240,78,152,.45);border-radius:10px;padding:8px 6px 6px;display:flex;flex-direction:column;align-items:center;gap:4px}
+#ghl-waitlist-confirmed .cd b {font-family:'Cormorant Garamond',Georgia,serif;font-size:36px;font-weight:700;line-height:1;color:#F04E98;font-variant-numeric:tabular-nums}
+#ghl-waitlist-confirmed .cd span {font-size:11px;letter-spacing:.16em;text-transform:uppercase;font-weight:600;color:#BFC3C7}
+#ghl-waitlist-confirmed .cd-when {font-size:14px;color:#BFC3C7}
+#ghl-waitlist-confirmed .countdown.open .cd-boxes {display:none}
+@media (max-width:640px) {#ghl-waitlist-confirmed .cd-boxes {gap:8px}#ghl-waitlist-confirmed .cd {width:68px;padding:6px 2px 6px}#ghl-waitlist-confirmed .cd b {font-size:30px}#ghl-waitlist-confirmed .cd span {font-size:12px;letter-spacing:.04em}}
+/* phones/tablets: when the hero stacks, show the form before the mockup */
+@media (max-width:1000px) {#ghl-waitlist-confirmed .formcol {order:-1;flex:1 1 100%}}
+/* bundle mockup slot (hero) */
+#ghl-waitlist-confirmed .mockup {width:100%;aspect-ratio:16/9;border:1px dashed #BFC3C7;border-radius:10px;background:#1B1B1B;display:flex;align-items:center;justify-content:center;text-align:center;padding:20px;box-sizing:border-box;color:#BFC3C7;font-size:14px;font-style:italic}
+#ghl-waitlist-confirmed .mockup img {width:100%;height:100%;object-fit:contain;display:block}
+/* compact list (short version) */
+#ghl-waitlist-confirmed .list {background:#FFFFFF;border:1px solid #E5E5E5;border-radius:10px;padding:8px 28px 14px;display:flex;flex-direction:column}
+#ghl-waitlist-confirmed .list .grp {font-size:12px;letter-spacing:.16em;text-transform:uppercase;font-weight:700;color:#F04E98;padding:18px 0 6px}
+#ghl-waitlist-confirmed .list .row {display:flex;justify-content:space-between;align-items:baseline;gap:16px;padding:12px 0;border-bottom:1px solid #E5E5E5;font-size:17px;color:#111111}
+#ghl-waitlist-confirmed .list .row:last-child {border-bottom:0}
+#ghl-waitlist-confirmed .list .row em {display:block;font-style:normal;font-size:13px;color:#5A5F63;margin-top:2px}
+#ghl-waitlist-confirmed .list .row b {white-space:nowrap;font-weight:700}
+#ghl-waitlist-confirmed .light .pricebox {background:#111111;border-color:#111111}
+#ghl-waitlist-confirmed .light .pricebox .body {color:#E5E5E5}
 @media (max-width:640px) {
+  #ghl-waitlist-confirmed .list {padding:4px 18px 10px}
+  #ghl-waitlist-confirmed .list .row {font-size:15px}
   #ghl-waitlist-confirmed .pricebox {padding:24px 18px}
   #ghl-waitlist-confirmed .pricebox .big {font-size:64px}
   #ghl-waitlist-confirmed .receipt li {font-size:15px}
   #ghl-waitlist-confirmed #legal a {display:inline-flex;align-items:center;min-height:44px}
   #ghl-waitlist-confirmed p[style*="font-size: 11px"] {font-size:12px !important}
 }
-#ghl-waitlist-confirmed .logo {width:340px;max-width:80%;aspect-ratio:3/1;border:1px dashed #BFC3C7;border-radius:10px;display:flex;align-items:center;justify-content:center;text-align:center;padding:12px;box-sizing:border-box;color:#BFC3C7;font-size:13px;font-style:italic;letter-spacing:.04em;margin-bottom:12px}
-#ghl-waitlist-confirmed .logo img {width:100%;height:100%;object-fit:contain;display:block}
-#ghl-waitlist-confirmed .cnext {display:flex;gap:16px;align-items:baseline;padding:12px 0;border-bottom:1px solid #292929;flex-wrap:wrap}
-#ghl-waitlist-confirmed .cnext:last-child {border-bottom:0}
-#ghl-waitlist-confirmed .cnext b {font-family:'Cormorant Garamond',Georgia,serif;font-size:22px;font-weight:600;color:#F7F6F3;min-width:270px}
-#ghl-waitlist-confirmed .cnext span {font-size:16px;color:#E5E5E5;flex:1;min-width:200px}
-@media (max-width:640px) {#ghl-waitlist-confirmed .cnext {flex-direction:column;gap:2px}#ghl-waitlist-confirmed .cnext b {min-width:0}}
 
 /* --- structural overrides -----------------------------------------------
    These come LAST on purpose. The original page styled `body`, which the
@@ -174,22 +207,29 @@ body { background: #111111; }
 <div class="page" style="width: 100%; box-sizing: border-box; display: flex; flex-direction: column">
 
 <!-- CONFIRMED -->
-<div class="dark" style="padding: 40px 0 88px 0; background: radial-gradient(ellipse at top, rgba(240,78,152,.14), transparent 60%), #111111">
-<div class="wrap" style="max-width: 760px; display: flex; flex-direction: column; align-items: center; text-align: center; gap: 22px">
+<div class="dark" style="padding: 28px 0 80px 0; background: radial-gradient(ellipse at top, rgba(240,78,152,.16), transparent 60%), #111111">
+<div class="wrap" style="max-width: 820px; display: flex; flex-direction: column; align-items: center; text-align: center; gap: 22px">
 <div class="logo" id="bundle-logo"><!-- Replace with the logo image: <img src="LOGO-URL" alt="Alicia Lyttle: The Black Friday Mega Bundle"> -->
 <span>[BLACK FRIDAY MEGA BUNDLE LOGO]</span>
 </div>
-<div style="display: flex; align-items: center; gap: 10px"><span style="width: 22px; height: 22px; border-radius: 50%; background: #F04E98; display: grid; place-items: center"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#111111" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"></path></svg></span><span class="eyebrow" style="color: #F7F6F3">You're on the waitlist</span></div>
-<h1 style="font-size: 56px; color: #F7F6F3">You're In. You'll Hear First on November 18.</h1>
-<p class="body" style="font-size: 19px">The Black Friday Mega Bundle opens Wednesday, November 18. We'll email you the moment it opens.</p>
-<div style="width: 100%; background: #1B1B1B; border: 1px solid #292929; border-radius: 10px; padding: 28px; box-sizing: border-box; display: flex; flex-direction: column; gap: 6px; text-align: left">
-<p class="eyebrow" style="color: #F04E98; margin-bottom: 6px">What happens next</p>
-<div class="cnext"><b>November 18</b><span>The bundle opens. Waitlist members hear first.</span></div>
-<div class="cnext"><b>The same day</b><span>You get the link to enroll, or to book a call with the team.</span></div>
-<div class="cnext"><b>November 30, 11:59 p.m. PT</b><span>The bundle closes.</span></div>
+<div style="display: flex; align-items: center; gap: 10px"><span style="width: 22px; height: 22px; border-radius: 50%; background: #F04E98; display: grid; place-items: center"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#111111" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"></path></svg></span><span class="eyebrow" style="color: #F7F6F3">You're in</span></div>
+<h1 style="font-size: 52px; color: #F7F6F3">You're on the <em style="font-style: italic; color: #F04E98">VIP Early Access List</em></h1>
+<p class="body" style="font-size: 19px; max-width: 800px">You'll get your private early access link on <strong style="color: #F7F6F3">Wednesday, November 18 at 1:00 PM ET</strong>.</p>
+<div class="countdown" id="countdown" aria-live="polite" style="align-items: center">
+<p class="eyebrow" style="color: #BFC3C7">Doors open in</p>
+<div class="cd-boxes">
+<div class="cd"><b data-cd="d">--</b><span>Days</span></div>
+<div class="cd"><b data-cd="h">--</b><span>Hours</span></div>
+<div class="cd"><b data-cd="m">--</b><span>Minutes</span></div>
+<div class="cd"><b data-cd="s">--</b><span>Seconds</span></div>
 </div>
-<p class="body" style="font-size: 19px; color: #F7F6F3; font-weight: 600">Watch your inbox on November 18.</p>
-<p class="body" style="font-size: 16px">Your confirmation email is on its way. If you don't see it, check spam or promotions.</p>
+</div>
+<div class="mockup" id="bundle-mockup" style="margin-top: 8px"><!-- Replace this box with the bundle mockup image: <img src="MOCKUP-URL" alt="The Black Friday Mega Bundle: everything inside"> -->
+<span>[BUNDLE MOCKUP IMAGE: same image as the waitlist page]</span>
+</div>
+<p class="eyebrow" style="color: #F7F6F3">$20,000+ value &nbsp;·&nbsp; yours for $5,000</p>
+<p style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: 32px; font-weight: 600; line-height: 1.2; color: #F7F6F3; margin-top: 8px">Watch your inbox. <em style="color: #F04E98">When the email comes, move fast.</em></p>
+<p class="body" style="font-size: 15px; color: #BFC3C7">Your confirmation email is on its way. If you don't see it, check spam or promotions.</p>
 </div>
 </div>
 
@@ -222,8 +262,78 @@ body { background: #111111; }
 </div>
 
 </div>
-
-
-</div>
 </div>
 
+<script>
+/* ---------------------------------------------------------------------------
+   GoHighLevel boot shim.
+
+   GHL hydrates its pages client side, so custom code often runs before the
+   builder has put anything on the page. GHL signals completion with a
+   `hydrationDone` event, but relying on that alone is fragile: it may have
+   fired before this listener attached, and outside GHL it never fires at all.
+   So initialisation is guarded, checks our own markup is actually present, and
+   is triggered from several directions. Whichever arrives first wins; the rest
+   are no-ops.
+   --------------------------------------------------------------------------- */
+(function () {
+  'use strict';
+  var started = false, tries = 0;
+
+  function ready() { return !!document.getElementById('ghl-waitlist-confirmed'); }
+
+  function boot() {
+    if (started) return true;
+    if (!ready()) return false;          /* markup not injected yet */
+    started = true;
+    try { main(); } catch (e) { if (window.console) console.error('[ghl-waitlist-confirmed]', e); }
+    return true;
+  }
+
+  function retry() {
+    if (boot() || ++tries > 40) return;  /* ~5s of 125ms polls, then give up */
+    setTimeout(retry, 125);
+  }
+
+  /* Full-bleed width without the scrollbar: clientWidth excludes it, 100vw does not. */
+  function setVw() { document.documentElement.style.setProperty('--ghl-vw', document.documentElement.clientWidth + 'px'); }
+  setVw();
+  window.addEventListener('resize', setVw);
+  document.addEventListener('DOMContentLoaded', setVw);
+
+  document.addEventListener('hydrationDone', function () { setVw(); boot(); });
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', retry);
+  retry();
+
+  function main() {
+    /* ===== COUNTDOWN CONFIG ======================================================
+       OPENS_AT : when the Mega Bundle opens. ISO time WITH the UTC offset.
+                  Wed Nov 18, 2026, 1:00 PM ET = 2026-11-18T13:00:00-05:00 (EST).
+       OPEN_TEXT: what the countdown line says once that time has passed.          */
+    var COUNTDOWN_CONFIG = {
+      OPENS_AT: '2026-11-18T13:00:00-05:00',
+      OPEN_TEXT: 'The Mega Bundle is open. Check your email for your link.'
+    };
+    /* ========================================================================== */
+    (function(){
+      var box = document.getElementById('countdown');
+      if (!box || box.getAttribute('data-done')) return;
+      box.setAttribute('data-done', '1');
+      var end = new Date(COUNTDOWN_CONFIG.OPENS_AT).getTime();
+      var el = {}; ['d','h','m','s'].forEach(function(k){ el[k] = box.querySelector('[data-cd="' + k + '"]'); });
+      var label = box.querySelector('.eyebrow');
+      function pad(n){ return (n < 10 ? '0' : '') + n; }
+      function tick(){
+        var left = Math.floor((end - Date.now()) / 1000);
+        if (isNaN(end)) return;
+        if (left <= 0) { box.classList.add('open'); if (label) label.textContent = COUNTDOWN_CONFIG.OPEN_TEXT; clearInterval(t); return; }
+        el.d.textContent = Math.floor(left / 86400);
+        el.h.textContent = pad(Math.floor(left % 86400 / 3600));
+        el.m.textContent = pad(Math.floor(left % 3600 / 60));
+        el.s.textContent = pad(left % 60);
+      }
+      var t = setInterval(tick, 1000); tick();
+    })();
+  }
+})();
+</script>
