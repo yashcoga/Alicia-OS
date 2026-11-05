@@ -79,7 +79,7 @@ Button: **Yes! Put me on the waitlist**
 Headline: **What Happens Next**
 
 1. **Today:** join the waitlist. It's free.
-2. **Wednesday, November 18:** the Mega Bundle opens during The AI Life Summit (1:00 PM ET). Waitlist members hear first.
+2. **Wednesday, November 18:** the Mega Bundle opens. Waitlist members hear first.
 3. **The same day:** you get the link to the Mega Bundle page. Enroll there directly, or book a call with the team if you have questions.
 4. **November 30 at 11:59 p.m. PT:** the bundle closes.
 
@@ -104,7 +104,7 @@ Reuse the host section from the AI Life Summit registration page (photo + "Alici
 
 **Does joining the waitlist commit me to buy?** No. It's free. You'll just hear first when the bundle opens.
 
-**Do I need to attend The AI Life Summit to buy?** No. You can buy as soon as it opens on November 18, whether or not you attend.
+**How will I know when it opens?** We'll email you on Wednesday, November 18, the moment it opens, and text you too if you ticked the box.
 
 **Is there a payment plan?** Yes: 2 payments of $2,600.
 
