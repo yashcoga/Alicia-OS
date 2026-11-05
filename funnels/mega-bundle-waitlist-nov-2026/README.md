@@ -40,3 +40,11 @@ Logo: a "Black Friday Mega Bundle" logo (like last year's), wide format about 3:
 Mockup:
 
 One 16:9 image of the whole bundle (like last year's mockup), for the hero box `#bundle-mockup`: AI Consultant Certification Program, AI Agents Course, AI Avatar Academy, One-Day Mastermind With Alicia, Two AI Agents Live Tickets, Micro Drama Workshop, AI Business Summit Replays, TikTok Live Selling Training. AI Life Summit colours (black #111111, pink #F04E98), title "The Black Friday Mega Bundle". Dark or transparent background.
+
+## Countdown
+
+Hero countdown to **Wed Nov 18, 2026, 1:00 PM ET** (`COUNTDOWN_CONFIG.OPENS_AT` = `2026-11-18T13:00:00-05:00` in the page code). After that time it shows "The Mega Bundle is open. Check your email for your link." Change both values in the CONFIG block if the opening time changes.
+
+## Mobile (checked 2026-11-05)
+
+360, 390, 768 and 1440 px: no sideways scroll, no text under 12 px, tap targets 44 px+. On phones and tablets the form moves above the bundle mockup (right after the countdown).
