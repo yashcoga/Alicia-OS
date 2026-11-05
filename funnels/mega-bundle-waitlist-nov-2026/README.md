@@ -43,8 +43,12 @@ One 16:9 image of the whole bundle (like last year's mockup), for the hero box `
 
 ## Countdown
 
-Hero countdown to **Wed Nov 18, 2026, 1:00 PM ET** (`COUNTDOWN_CONFIG.OPENS_AT` = `2026-11-18T13:00:00-05:00` in the page code). After that time it shows "The Mega Bundle is open. Check your email for your link." Change both values in the CONFIG block if the opening time changes.
+Countdown sits **under the form** (right column on desktop; after the form on phones), counting to **Wed Nov 18, 2026, 1:00 PM ET** (`COUNTDOWN_CONFIG.OPENS_AT` = `2026-11-18T13:00:00-05:00` in the page code). After that time it shows "The Mega Bundle is open. Check your email for your link." Change both values in the CONFIG block if the opening time changes.
 
 ## Mobile (checked 2026-11-05)
 
 360, 390, 768 and 1440 px: no sideways scroll, no text under 12 px, tap targets 44 px+. On phones and tablets the form moves above the bundle mockup (right after the countdown).
+
+## Above the fold (checked 2026-11-05)
+
+The form button is above the fold at 1440 × 900, 1366 × 768 and 768 × 1024. On phones (390 × 844, 360 × 740) a pink "Join the VIP Early Access List" button under the subheadline (phones only) jumps to the form. At 1280 × 720 the form button is about 12 px below the fold. Keep the GHL form compact (4 fields + checkbox) so this still holds once the real form is in.

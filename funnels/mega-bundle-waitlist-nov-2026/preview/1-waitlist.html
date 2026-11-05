@@ -87,19 +87,30 @@ details summary::-webkit-details-marker{display:none}
 .fit.yes .body:before{content:"\2713";position:absolute;left:0;color:#F04E98;font-weight:700}
 .fit.no .body:before{content:"\2715";position:absolute;left:0;color:#5A5F63;font-weight:700}
 /* logo slot (replaces the nav bar, like last year's waitlist) */
-.logo{width:340px;max-width:80%;aspect-ratio:3/1;border:1px dashed #BFC3C7;border-radius:10px;display:flex;align-items:center;justify-content:center;text-align:center;padding:12px;box-sizing:border-box;color:#BFC3C7;font-size:13px;font-style:italic;letter-spacing:.04em}
+.logo{width:220px;max-width:60%;aspect-ratio:3/1;border:1px dashed #BFC3C7;border-radius:10px;display:flex;align-items:center;justify-content:center;text-align:center;padding:12px;box-sizing:border-box;color:#BFC3C7;font-size:13px;font-style:italic;letter-spacing:.04em}
 .logo img{width:100%;height:100%;object-fit:contain;display:block}
+/* hero top: kept tight so the CTA sits above the fold */
+.herotop{display:flex;flex-direction:column;gap:14px;align-items:center;text-align:center}
+.herotop .hl{font-size:52px;color:#F7F6F3;max-width:1000px}
+.herotop .sub{font-size:18px;max-width:1040px}
+.herocta{margin-top:4px}
+@media (max-width:640px){.herotop{gap:14px}.herotop .hl{font-size:34px !important}.herotop .sub{font-size:16px}}
+/* right column: form card, countdown under it */
+.formcol{flex:0 1 420px;min-width:300px;display:flex;flex-direction:column;gap:18px}
+/* phone-only CTA under the subheadline (the form can't fit above the fold on a phone) */
+.mobcta{display:none}
+@media (max-width:640px){.mobcta{display:inline-block;width:100%;padding:16px 20px}}
 /* countdown (hero) */
-.countdown{display:flex;flex-direction:column;align-items:center;gap:12px;margin-top:4px}
+.countdown{display:flex;flex-direction:column;align-items:center;gap:8px}
 .cd-boxes{display:flex;gap:12px}
-.cd{width:92px;box-sizing:border-box;background:#1B1B1B;border:1px solid rgba(240,78,152,.45);border-radius:10px;padding:14px 6px 10px;display:flex;flex-direction:column;align-items:center;gap:4px}
-.cd b{font-family:'Cormorant Garamond',Georgia,serif;font-size:44px;font-weight:700;line-height:1;color:#F04E98;font-variant-numeric:tabular-nums}
+.cd{width:84px;box-sizing:border-box;background:#1B1B1B;border:1px solid rgba(240,78,152,.45);border-radius:10px;padding:8px 6px 6px;display:flex;flex-direction:column;align-items:center;gap:4px}
+.cd b{font-family:'Cormorant Garamond',Georgia,serif;font-size:36px;font-weight:700;line-height:1;color:#F04E98;font-variant-numeric:tabular-nums}
 .cd span{font-size:11px;letter-spacing:.16em;text-transform:uppercase;font-weight:600;color:#BFC3C7}
 .cd-when{font-size:14px;color:#BFC3C7}
-.countdown.open .cd-boxes,.countdown.open .cd-when{display:none}
-@media (max-width:640px){.cd-boxes{gap:8px}.cd{width:68px;padding:10px 2px 8px}.cd b{font-size:34px}.cd span{font-size:12px;letter-spacing:.04em}}
+.countdown.open .cd-boxes{display:none}
+@media (max-width:640px){.cd-boxes{gap:8px}.cd{width:68px;padding:6px 2px 6px}.cd b{font-size:30px}.cd span{font-size:12px;letter-spacing:.04em}}
 /* phones/tablets: when the hero stacks, show the form before the mockup */
-@media (max-width:1000px){#register{order:-1;flex:1 1 100%}}
+@media (max-width:1000px){.formcol{order:-1;flex:1 1 100%}}
 /* bundle mockup slot (hero) */
 .mockup{width:100%;aspect-ratio:16/9;border:1px dashed #BFC3C7;border-radius:10px;background:#1B1B1B;display:flex;align-items:center;justify-content:center;text-align:center;padding:20px;box-sizing:border-box;color:#BFC3C7;font-size:14px;font-style:italic}
 .mockup img{width:100%;height:100%;object-fit:contain;display:block}
@@ -127,27 +138,18 @@ details summary::-webkit-details-marker{display:none}
 <div class="page" style="width: 100%; box-sizing: border-box; display: flex; flex-direction: column">
 
 <!-- HERO -->
-<div class="dark" style="padding: 40px 0 72px 0; background: radial-gradient(ellipse at top, rgba(240,78,152,.16), transparent 60%), #111111">
-<div class="wrap" style="display: flex; flex-direction: column; gap: 40px">
-<div style="display: flex; flex-direction: column; gap: 22px; align-items: center; text-align: center">
+<div class="dark" style="padding: 28px 0 64px 0; background: radial-gradient(ellipse at top, rgba(240,78,152,.16), transparent 60%), #111111">
+<div class="wrap" style="display: flex; flex-direction: column; gap: 28px">
+<div class="herotop">
 <div class="logo" id="bundle-logo"><!-- Replace with the logo image: <img src="LOGO-URL" alt="Alicia Lyttle: The Black Friday Mega Bundle"> -->
 <span>[BLACK FRIDAY MEGA BUNDLE LOGO]</span>
 </div>
 <p class="eyebrow" style="color: #F04E98">The VIP Early Access List Is Now Open</p>
-<h1 style="font-size: 56px; color: #F7F6F3; max-width: 980px">Get First Access to Alicia's <em style="font-style: italic; color: #F04E98">Mega Bundle</em> Black Friday Deal</h1>
-<p class="body" style="font-size: 20px; max-width: 820px">Be the first to unlock Alicia's biggest bundle yet: the AI Consultant Certification, her AI Agents and AI Avatar programs, a private one-day mastermind with Alicia and 4 more bonuses. Valued at <strong style="color: #F7F6F3">$20,000+</strong>, yours for <strong style="color: #F7F6F3">$5,000</strong>. Join the waitlist and you'll hear first when the doors open on <strong style="color: #F7F6F3">Wednesday, November 18</strong>.</p>
-<div class="countdown" id="countdown" aria-live="polite">
-<p class="eyebrow" style="color: #BFC3C7">Doors open in</p>
-<div class="cd-boxes">
-<div class="cd"><b data-cd="d">--</b><span>Days</span></div>
-<div class="cd"><b data-cd="h">--</b><span>Hours</span></div>
-<div class="cd"><b data-cd="m">--</b><span>Minutes</span></div>
-<div class="cd"><b data-cd="s">--</b><span>Seconds</span></div>
+<h1 class="hl">Get First Access to Alicia's <em style="font-style: italic; color: #F04E98">Mega Bundle</em><br>Black Friday Deal</h1>
+<p class="body sub">Be the first to unlock Alicia's biggest bundle yet: the AI Consultant Certification, her AI Agents and AI Avatar programs, a private one-day mastermind with Alicia and 4 more bonuses. Valued at <strong style="color: #F7F6F3">$20,000+</strong>, yours for <strong style="color: #F7F6F3">$5,000</strong>. Hear first when doors open <strong style="color: #F7F6F3">Wednesday, November 18</strong>.</p>
+<a href="#register" class="btn mobcta">Join the VIP Early Access List</a>
 </div>
-<p class="cd-when">Wednesday, November 18 · 1:00 PM ET</p>
-</div>
-</div>
-<div style="display: flex; flex-wrap: wrap; gap: 40px; align-items: center">
+<div style="display: flex; flex-wrap: wrap; gap: 40px; align-items: flex-start">
 <div style="flex: 1 1 520px; min-width: 0; display: flex; flex-direction: column; gap: 18px">
 <div class="mockup" id="bundle-mockup"><!-- Replace this box with the bundle mockup image: <img src="MOCKUP-URL" alt="The Black Friday Mega Bundle: everything inside"> -->
 <span>[BUNDLE MOCKUP IMAGE: all 8 items together, 16:9, from the design team]</span>
@@ -159,9 +161,9 @@ details summary::-webkit-details-marker{display:none}
 </div>
 <p style="font-size: 15px; color: #BFC3C7; border-left: 3px solid #F04E98; padding-left: 14px"><strong style="color: #F7F6F3">Already in the AI Consultant program?</strong> This waitlist isn't for you. You'll get your own upgrade offer.</p>
 </div>
-<div id="register" style="flex: 0 1 420px; min-width: 300px; background: #F7F6F3; color: #111111; border-radius: 10px; padding: 32px; box-sizing: border-box; display: flex; flex-direction: column; gap: 10px">
-<h3 style="font-size: 30px; color: #111111">Join the waitlist</h3>
-<p style="font-size: 14px; color: #292929; margin-bottom: 8px">Be first to hear when the Mega Bundle opens on November 18.</p>
+<div class="formcol">
+<div id="register" style="background: #F7F6F3; color: #111111; border-radius: 10px; padding: 24px 28px; box-sizing: border-box; display: flex; flex-direction: column; gap: 8px">
+<h3 style="font-size: 26px; color: #111111; margin-bottom: 4px">Join the waitlist</h3>
 <form action="2-confirmed.html" method="get" style="display:flex;flex-direction:column;gap:10px">
 <input class="field" placeholder="Full name" required>
 <input class="field" type="email" placeholder="Email" required>
@@ -171,6 +173,16 @@ details summary::-webkit-details-marker{display:none}
 </form>
 <p style="font-size: 13px; color: #5A5F63; text-align: center; margin-top: 6px">Joining is free and doesn't commit you to buy. On November 18 you'll get the link to enroll, or to book a call with the team.</p>
 <p style="font-size: 11px; color: #5A5F63; text-align: center; line-height: 1.5">By joining, you agree to receive emails about this offer from AI InnoVision, and to our <a href="https://aiinnovision.com/privacy" style="color: #5A5F63">Privacy Policy</a> and <a href="https://aiinnovision.com/terms" style="color: #5A5F63">Terms</a>. Unsubscribe any time.</p>
+</div>
+<div class="countdown" id="countdown" aria-live="polite">
+<p class="eyebrow" style="color: #BFC3C7">Doors open in</p>
+<div class="cd-boxes">
+<div class="cd"><b data-cd="d">--</b><span>Days</span></div>
+<div class="cd"><b data-cd="h">--</b><span>Hours</span></div>
+<div class="cd"><b data-cd="m">--</b><span>Minutes</span></div>
+<div class="cd"><b data-cd="s">--</b><span>Seconds</span></div>
+</div>
+</div>
 </div>
 </div>
 </div>
