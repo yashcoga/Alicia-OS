@@ -1,8 +1,8 @@
 # Funnel: Black Friday Mega Bundle Waitlist (Nov 2026)
 
-Status (2026-11-05): copy approved (outline OK'd by the user); **design v1 built** in the AI Life Summit style. No mention of the AI Life Summit on these pages (user decision).
+Status (2026-11-05): copy approved (outline OK'd by the user); **design built and shortened** (4 parts: nav, hero + form, what's inside list + price box, footer) after comparing with last year's waitlist. AI Life Summit style. No mention of the AI Life Summit on these pages (user decision).
 
-- Design: `design/waitlist.html`, `design/confirmed.html` · GHL code: `ghl/waitlist.ghl.html` (scope ghl-waitlist), `ghl/confirmed.ghl.html` · Clickable preview: `preview/1-waitlist.html` · Image to upload: `assets/UPLOAD-LIST.md` (1 file).
+- Design: `design/waitlist.html`, `design/confirmed.html` · GHL code: `ghl/waitlist.ghl.html` (scope ghl-waitlist), `ghl/confirmed.ghl.html` · Clickable preview: `preview/1-waitlist.html` · No images to upload.
 - The waitlist form is a GHL form embed: set `WAITLIST_CONFIG.FORM_ID` in the page code. Fields: name, email, optional phone, unchecked SMS consent; button "Yes! Put me on the waitlist"; redirect to the confirmation page.
 
 - **Promotion starts:** Wednesday, Nov 11. **Offer opens:** Wednesday, Nov 18 (AI Life Summit Day 1, 1 PM ET). **Closes:** Nov 30, 11:59 p.m. PT.

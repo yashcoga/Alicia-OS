@@ -135,7 +135,18 @@ body { background: #111111; }
 #ghl-waitlist .fit .body {font-size:17px;padding-left:28px;position:relative}
 #ghl-waitlist .fit.yes .body:before {content:"\2713";position:absolute;left:0;color:#F04E98;font-weight:700}
 #ghl-waitlist .fit.no .body:before {content:"\2715";position:absolute;left:0;color:#5A5F63;font-weight:700}
+/* compact list (short version) */
+#ghl-waitlist .list {background:#FFFFFF;border:1px solid #E5E5E5;border-radius:10px;padding:8px 28px 14px;display:flex;flex-direction:column}
+#ghl-waitlist .list .grp {font-size:12px;letter-spacing:.16em;text-transform:uppercase;font-weight:700;color:#F04E98;padding:18px 0 6px}
+#ghl-waitlist .list .row {display:flex;justify-content:space-between;align-items:baseline;gap:16px;padding:12px 0;border-bottom:1px solid #E5E5E5;font-size:17px;color:#111111}
+#ghl-waitlist .list .row:last-child {border-bottom:0}
+#ghl-waitlist .list .row em {display:block;font-style:normal;font-size:13px;color:#5A5F63;margin-top:2px}
+#ghl-waitlist .list .row b {white-space:nowrap;font-weight:700}
+#ghl-waitlist .light .pricebox {background:#111111;border-color:#111111}
+#ghl-waitlist .light .pricebox .body {color:#E5E5E5}
 @media (max-width:640px) {
+  #ghl-waitlist .list {padding:4px 18px 10px}
+  #ghl-waitlist .list .row {font-size:15px}
   #ghl-waitlist .pricebox {padding:24px 18px}
   #ghl-waitlist .pricebox .big {font-size:64px}
   #ghl-waitlist .receipt li {font-size:15px}
@@ -198,159 +209,38 @@ body { background: #111111; }
 <h3 style="font-size: 30px; color: #111111">Join the waitlist</h3>
 <p style="font-size: 14px; color: #292929; margin-bottom: 8px">Be first to hear when the Mega Bundle opens on November 18.</p>
 <div id="ghl-form-slot"><!-- GHL form embed is inserted here by the page script (CONFIG.FORM_ID) --></div>
-<p style="font-size: 13px; color: #5A5F63; text-align: center; margin-top: 6px">Joining is free and doesn't commit you to buy.</p>
+<p style="font-size: 13px; color: #5A5F63; text-align: center; margin-top: 6px">Joining is free and doesn't commit you to buy. On November 18 you'll get the link to enroll, or to book a call with the team.</p>
 <p style="font-size: 11px; color: #5A5F63; text-align: center; line-height: 1.5">By joining, you agree to receive emails about this offer from AI InnoVision, and to our <a href="https://aiinnovision.com/privacy" style="color: #5A5F63">Privacy Policy</a> and <a href="https://aiinnovision.com/terms" style="color: #5A5F63">Terms</a>. Unsubscribe any time.</p>
 </div>
 </div>
 </div>
 
-<!-- WHAT'S INSIDE -->
+<!-- WHAT'S INSIDE + PRICE -->
 <div class="light" style="padding: 72px 0">
-<div class="wrap" style="display: flex; flex-direction: column; gap: 36px">
-<div style="max-width: 820px; display: flex; flex-direction: column; gap: 14px">
-<p class="eyebrow">What's inside</p>
-<h2 style="font-size: 46px; color: #111111">3 Programs and 5 Private Bonuses</h2>
-<p class="body" style="font-size: 19px">Each one is sold on its own today. Here's what it is, what it normally costs and why it's in the bundle.</p>
-</div>
-
-<div class="items">
-<div class="item prog">
-<div class="itop"><span class="tag">Program 1</span><span class="price">Normally $5,997</span></div>
-<h3>AI Consultant Certification Program</h3>
-<p class="body">The full certification: self-paced training, live sessions, the consultant tools and lifetime access. From "I know AI" to "I advise on AI."</p>
-<p class="ph">[2-3 LINES: WHY YOU NEED IT, from Alicia's team]</p>
-</div>
-<div class="item prog">
-<div class="itop"><span class="tag">Program 2</span><span class="price">Normally $1,997</span></div>
-<h3>AI Agents Course</h3>
-<p class="body">Learn, build and deploy AI agents, even if you're not technical. Step-by-step training, live sessions and office hours, ready-made agents and a CPD Certified AI Agent Builder certification.</p>
-<p class="ph">[2-3 LINES: WHY YOU NEED IT]</p>
-</div>
-<div class="item prog">
-<div class="itop"><span class="tag">Program 3</span><span class="price">Normally $1,997</span></div>
-<h3>AI Avatar Academy</h3>
-<p class="ph">[WHAT IT IS + WHY YOU NEED IT: 2-3 lines]</p>
-</div>
-</div>
-
-<div class="items">
-<div class="item bonus">
-<div class="itop"><span class="tag">Bonus 1</span><span class="price">Value $10,000</span></div>
-<h3>Private One-Day Mastermind With Alicia</h3>
-<p class="ph">[WHAT HAPPENS ON THE DAY, WHERE, WHEN: 2-3 lines]</p>
-</div>
-<div class="item bonus">
-<div class="itop"><span class="tag">Bonus 2</span><span class="price">Value $2,994</span></div>
-<h3>Two AI Agents Live Tickets</h3>
-<p class="body">A full day of live AI agent builds and networking, in person in Atlanta, GA. Two tickets, so you can bring someone. Next event: Monday, January 25 or Tuesday, January 26, 2027 (pick one day).</p>
-</div>
-<div class="item bonus">
-<div class="itop"><span class="tag">Bonus 3</span><span class="price">Value $297</span></div>
-<h3>Private Micro Drama Workshop</h3>
-<p class="ph">[WHAT IT IS + WHY: 2 lines]</p>
-</div>
-<div class="item bonus">
-<div class="itop"><span class="tag">Bonus 4</span><span class="price">Value $47</span></div>
-<h3>All AI Business Summit Replays</h3>
-<p class="ph">[WHICH SUMMITS / HOW MANY SESSIONS: 1-2 lines]</p>
-</div>
-<div class="item bonus">
-<div class="itop"><span class="tag">Bonus 5</span><span class="price">Included</span></div>
-<h3>TikTok Live Selling Training</h3>
-<p class="ph">Taught by a new instructor: [INSTRUCTOR NAME + CREDENTIALS: 1-2 lines]</p>
-<div class="vid"><div class="play"><svg width="22" height="22" viewBox="0 0 24 24" fill="#111111" aria-hidden="true"><path d="M8 5v14l11-7z"></path></svg></div><span>[60-SECOND INSTRUCTOR INTRO VIDEO]</span></div>
-</div>
-</div>
-</div>
-</div>
-
-<!-- INVESTMENT -->
-<div class="dark" style="padding: 72px 0">
 <div class="wrap" style="max-width: 860px; display: flex; flex-direction: column; gap: 28px">
 <div style="text-align: center; display: flex; flex-direction: column; gap: 12px; align-items: center">
-<p class="eyebrow" style="color: #F04E98">The investment</p>
-<h2 style="font-size: 46px; color: #F7F6F3">Everything Above, One Price</h2>
+<p class="eyebrow">What's inside</p>
+<h2 style="font-size: 46px; color: #111111">3 Programs, 5 Bonuses, One Price</h2>
 </div>
-<ul class="receipt">
-<li><span class="tick"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#111111" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"></path></svg></span><span style="flex: 1">AI Consultant Certification Program</span><b>$5,997</b></li>
-<li><span class="tick"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#111111" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"></path></svg></span><span style="flex: 1">AI Agents Course</span><b>$1,997</b></li>
-<li><span class="tick"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#111111" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"></path></svg></span><span style="flex: 1">AI Avatar Academy</span><b>$1,997</b></li>
-<li><span class="tick"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#111111" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"></path></svg></span><span style="flex: 1">Bonus: Private One-Day Mastermind With Alicia</span><b>$10,000</b></li>
-<li><span class="tick"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#111111" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"></path></svg></span><span style="flex: 1">Bonus: Two AI Agents Live Tickets</span><b>$2,994</b></li>
-<li><span class="tick"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#111111" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"></path></svg></span><span style="flex: 1">Bonus: Private Micro Drama Workshop</span><b>$297</b></li>
-<li><span class="tick"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#111111" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"></path></svg></span><span style="flex: 1">Bonus: All AI Business Summit Replays</span><b>$47</b></li>
-<li><span class="tick"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#111111" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"></path></svg></span><span style="flex: 1">Bonus: TikTok Live Selling Training</span><b>Included</b></li>
-</ul>
+<div class="list">
+<p class="grp">The programs</p>
+<div class="row"><span>AI Consultant Certification Program</span><b>$5,997</b></div>
+<div class="row"><span>AI Agents Course</span><b>$1,997</b></div>
+<div class="row"><span>AI Avatar Academy</span><b>$1,997</b></div>
+<p class="grp">The bonuses</p>
+<div class="row"><span>Private One-Day Mastermind With Alicia</span><b>$10,000</b></div>
+<div class="row"><span>Two AI Agents Live Tickets <em>In person, Atlanta, Jan 25 or 26, 2027</em></span><b>$2,994</b></div>
+<div class="row"><span>Private Micro Drama Workshop</span><b>$297</b></div>
+<div class="row"><span>All AI Business Summit Replays</span><b>$47</b></div>
+<div class="row"><span>TikTok Live Selling Training <em>With a new instructor</em></span><b>Included</b></div>
+</div>
 <div class="pricebox">
-<p class="eyebrow">Total if bought separately: <span style="color: #F7F6F3">$20,000+</span></p>
+<p class="eyebrow" style="color: #BFC3C7">Total if bought separately: <span style="color: #F7F6F3">$20,000+</span></p>
 <p class="big">$5,000</p>
 <p class="body" style="font-size: 18px">paid in full, or <strong style="color: #F7F6F3">2 payments of $2,600</strong></p>
 <p class="eyebrow" style="color: #F7F6F3">Opens Wednesday, November 18 &nbsp;·&nbsp; Closes November 30 at 11:59 p.m. PT</p>
 <div style="margin-top: 8px"><a href="#register" class="btn">Yes! Put me on the waitlist</a></div>
 </div>
-</div>
-</div>
-
-<!-- NEXT -->
-<div class="graphite" style="padding: 72px 0">
-<div class="wrap" style="display: flex; flex-direction: column; gap: 32px">
-<h2 style="font-size: 46px; color: #F7F6F3">What Happens Next</h2>
-<div class="steps">
-<div class="step"><span class="n">1</span><p class="eyebrow" style="color: #F04E98">Today</p><p class="body">Join the waitlist. It's free.</p></div>
-<div class="step"><span class="n">2</span><p class="eyebrow" style="color: #F04E98">Wednesday, November 18</p><p class="body">The Mega Bundle opens. Waitlist members hear first.</p></div>
-<div class="step"><span class="n">3</span><p class="eyebrow" style="color: #F04E98">The same day</p><p class="body">You get the link to the Mega Bundle page. Enroll there directly, or book a call with the team if you have questions.</p></div>
-<div class="step"><span class="n">4</span><p class="eyebrow" style="color: #F04E98">November 30, 11:59 p.m. PT</p><p class="body">The bundle closes.</p></div>
-</div>
-</div>
-</div>
-
-<!-- FOR YOU -->
-<div class="light" style="padding: 72px 0">
-<div class="wrap" style="display: flex; flex-wrap: wrap; gap: 24px">
-<div class="fit yes">
-<h2 style="font-size: 38px; color: #111111">This Is for You If…</h2>
-<p class="body">You've been to Alicia's events and you're ready for the full path, not one more workshop.</p>
-<p class="body">You want the certification, the agents and the avatars together, with Alicia in the room.</p>
-<p class="body">You'd rather pay once than buy each program separately later.</p>
-</div>
-<div class="fit no">
-<h2 style="font-size: 38px; color: #111111">This May Not Be for You If…</h2>
-<p class="body">You're looking for guaranteed income. No program can promise that, and this one doesn't.</p>
-<p class="body">You're already in the AI Consultant program. You'll get a separate upgrade offer.</p>
-<p class="body">You aren't ready to put in the practice. The bundle gives you the training; the work is yours.</p>
-</div>
-</div>
-</div>
-
-<!-- HOST -->
-<div class="dark" style="padding: 72px 0">
-<div class="wrap" style="display: flex; flex-wrap: wrap; gap: 48px; align-items: center">
-<img src="../assets/alicia-headshot.jpg" alt="Alicia Lyttle, The Queen of AI" style="flex: 0 1 380px; min-width: 260px; width: 380px; max-width: 100%; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 10px; display: block">
-<div style="flex: 1 1 480px; min-width: 0; display: flex; flex-direction: column; gap: 18px">
-<p class="eyebrow">Meet your teacher</p>
-<h2 style="font-size: 46px; color: #F7F6F3">Alicia Lyttle, The Queen of AI</h2>
-<p class="body" style="font-size: 17px">Alicia Lyttle is the CEO and Co-Founder of AI InnoVision, an AI education and training company, and the founder of the International Association of Artificial Intelligence Consultants. She has taught tens of thousands of people to use AI through her live summits, and she's a TEDx speaker.</p>
-<p class="body" style="font-size: 17px">She has been an entrepreneur for more than 25 years. She was named one of JPMorgan Chase's 100 Women to KNOW in America and received a Presidential Lifetime Achievement Award.</p>
-</div>
-</div>
-</div>
-
-<!-- FAQ -->
-<div class="light" style="padding: 72px 0">
-<div class="wrap" style="max-width: 820px; display: flex; flex-direction: column; gap: 12px">
-<h2 style="font-size: 46px; color: #111111; margin-bottom: 16px">Quick Questions</h2>
-<details style="border-bottom: 1px solid #E5E5E5; padding: 16px 0"><summary style="font-weight: 600; font-size: 18px; color: #111111; min-height: 44px; display: flex; align-items: center">Does joining the waitlist commit me to buy?</summary><p class="body" style="font-size: 16px; padding-top: 10px">No. It's free. You'll just hear first when the bundle opens.</p></details>
-<details style="border-bottom: 1px solid #E5E5E5; padding: 16px 0"><summary style="font-weight: 600; font-size: 18px; color: #111111; min-height: 44px; display: flex; align-items: center">How will I know when it opens?</summary><p class="body" style="font-size: 16px; padding-top: 10px">We'll email you on Wednesday, November 18, the moment it opens, and text you too if you ticked the box.</p></details>
-<details style="border-bottom: 1px solid #E5E5E5; padding: 16px 0"><summary style="font-weight: 600; font-size: 18px; color: #111111; min-height: 44px; display: flex; align-items: center">Is there a payment plan?</summary><p class="body" style="font-size: 16px; padding-top: 10px">Yes: 2 payments of $2,600.</p></details>
-</div>
-</div>
-
-<!-- CLOSE -->
-<div class="dark" style="padding: 80px 0; background: radial-gradient(ellipse at bottom, rgba(240,78,152,.14), transparent 60%), #111111">
-<div class="wrap" style="max-width: 820px; display: flex; flex-direction: column; gap: 20px; text-align: center; align-items: center">
-<h2 style="font-size: 52px; color: #F7F6F3">Be First When It Opens</h2>
-<p class="body" style="font-size: 19px">The Black Friday Mega Bundle opens Wednesday, November 18. Join the waitlist and you'll hear first.</p>
-<div><a href="#register" class="btn">Yes! Put me on the waitlist</a></div>
 </div>
 </div>
 

@@ -1,5 +1,3 @@
 # Waitlist: images to upload
 
-| File | GHL link |
-|---|---|
-| `alicia-headshot.jpg` (Meet your teacher) | |
+None. The short version has no images.

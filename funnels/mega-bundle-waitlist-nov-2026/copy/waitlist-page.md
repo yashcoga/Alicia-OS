@@ -3,6 +3,8 @@
 Status: DRAFT for review (2026-11-05). Written by us from Michael's team brief + Loom. Design: match the AI Life Summit pages (black #111111, pink #F04E98, off-white #F7F6F3, Cormorant Garamond headlines, Montserrat body, same nav and footer).
 Rules applied: price and contents shown up front (Nehemiah), verified prices only, no income promises, one deadline format. Anything not verified is in [BRACKETS].
 
+> **2026-11-05: SHORT VERSION APPROVED.** After comparing with last year's one-screen waitlist (`reference/model-funnels/black-friday-waitlist-2025/`), the page was cut to: Nav · Hero + form (with the consultant line and "On November 18 you'll get the link to enroll, or to book a call" under the form) · What's inside as a one-line-per-item list + price box · Footer. Sections 5 to 9 below (What happens next, For you, Meet Alicia, FAQ, Final CTA) are **no longer on the page**; item descriptions are dropped. Kept below for reference only. The built page is `design/waitlist.html`.
+
 ---
 
 ## 1. Nav
