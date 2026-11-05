@@ -58,8 +58,8 @@ A full day of live AI agent builds and networking, in person in Atlanta, GA. Two
 [WHICH SUMMITS / HOW MANY SESSIONS: 1-2 lines]
 
 **BONUS 5: TikTok Live Selling Training** · **Included** (no dollar value shown; not counted in the total)
-[INSTRUCTOR NAME + CREDENTIALS: 1-2 lines]
-[60-SECOND INSTRUCTOR VIDEO goes here]
+Taught by a new instructor: [INSTRUCTOR NAME + CREDENTIALS: 1-2 lines]
+[60-SECOND INSTRUCTOR INTRO VIDEO goes here, coming from Michael]
 
 (Order: strongest bonuses first. Reorder once values are confirmed.)
 
@@ -68,7 +68,7 @@ A full day of live AI agent builds and networking, in person in Atlanta, GA. Two
 Eyebrow: **THE INVESTMENT**
 Headline: **Everything Above, One Price**
 
-- Total if bought separately: **$23,329** [CONFIRM WITH MICHAEL before publishing; the Loom said "about $10,000"]
+- Total if bought separately: **$20,000+**
 - Black Friday Mega Bundle: **$5,000** paid in full, or **2 payments of $2,600**
 - Opens: **Wednesday, November 18** · Closes: **November 30 at 11:59 p.m. PT**
 
@@ -80,7 +80,7 @@ Headline: **What Happens Next**
 
 1. **Today:** join the waitlist. It's free.
 2. **Wednesday, November 18:** the Mega Bundle opens during The AI Life Summit (1:00 PM ET). Waitlist members hear first.
-3. **[NEXT STEP: buy from a checkout link, or book a call with the team]**
+3. **The same day:** you get the link to the Mega Bundle page. Enroll there directly, or book a call with the team if you have questions.
 4. **November 30 at 11:59 p.m. PT:** the bundle closes.
 
 Small line: Want to see Alicia teach before it opens? **Save your free seat at The AI Life Summit** (link to /ailife).
@@ -111,7 +111,7 @@ Reuse the host section from the AI Life Summit registration page (photo + "Alici
 
 **I'm already in the AI Consultant program. Can I join?** This waitlist is for new students. You'll get a separate upgrade offer.
 
-**Do I need to attend The AI Life Summit?** [CONFIRM: can waitlist members buy without attending?]
+**Do I need to attend The AI Life Summit to buy?** No. You can buy as soon as it opens on November 18, whether or not you attend. The summit is free if you'd like to see Alicia teach first.
 
 **Does the bundle guarantee clients or income?** No. It's education and training. Your results depend on your effort, your experience and your market.
 

@@ -12,7 +12,7 @@ Line: The Black Friday Mega Bundle opens Wednesday, November 18, during The AI L
 
 Box: **What happens next**
 - **November 18:** the bundle opens. Waitlist members hear first.
-- **[NEXT STEP: buy from the link we send, or book a call]**
+- **The same day:** you get the link to enroll, or to book a call with the team.
 - **November 30 at 11:59 p.m. PT:** the bundle closes.
 
 Box: **See Alicia teach first**
