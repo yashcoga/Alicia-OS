@@ -52,3 +52,7 @@ Countdown sits at the **top of the left column, above the mockup**, level with t
 ## Above the fold (checked 2026-11-05)
 
 The form button is above the fold at 1440 × 900, 1366 × 768 and 768 × 1024. On phones (390 × 844, 360 × 740) a pink "Join the VIP Early Access List" button under the subheadline (phones only) jumps to the form. At 1280 × 720 the form button is about 12 px below the fold. Keep the GHL form compact (4 fields + checkbox) so this still holds once the real form is in.
+
+## Opening time on the pages (2026-11-05)
+
+The pages show the date only ("Wednesday, November 18"), no time: 1:00 PM ET only made sense next to the summit, which these pages don't mention. The countdown still counts to 1:00 PM ET (`COUNTDOWN_CONFIG.OPENS_AT`).

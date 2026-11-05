@@ -7,7 +7,7 @@ Status: v3 buffed up from last year's confirmation (/confirmed and /confirmed-1)
 [Logo]
 Eyebrow (with pink tick): **YOU'RE IN**
 Headline: **You're on the *VIP Early Access List* 🎉**
-Line: You'll get your private early access link on **Wednesday, November 18 at 1:00 PM ET**. It's the one email you don't want to miss.
+Line: You'll get your private early access link on **Wednesday, November 18**. It's the one email you don't want to miss.
 Countdown: Doors open in [days/hours/minutes/seconds] (same as the waitlist page)
 [Bundle mockup image: same as the waitlist page]
 You'll be the **first to see the full breakdown** of everything inside, and the **first in line** when the doors open.
