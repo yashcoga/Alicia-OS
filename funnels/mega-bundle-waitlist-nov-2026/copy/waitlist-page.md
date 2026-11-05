@@ -83,7 +83,6 @@ Headline: **What Happens Next**
 3. **The same day:** you get the link to the Mega Bundle page. Enroll there directly, or book a call with the team if you have questions.
 4. **November 30 at 11:59 p.m. PT:** the bundle closes.
 
-Small line: Want to see Alicia teach before it opens? **Save your free seat at The AI Life Summit** (link to /ailife).
 
 ## 6. Is this for you? (light)
 
@@ -101,19 +100,13 @@ Headline: **This May Not Be for You If…**
 
 Reuse the host section from the AI Life Summit registration page (photo + "Alicia Lyttle, The Queen of AI" + first two paragraphs).
 
-## 8. FAQ (light)
+## 8. FAQ (light, 3 questions)
 
 **Does joining the waitlist commit me to buy?** No. It's free. You'll just hear first when the bundle opens.
 
-**When can I buy?** From Wednesday, November 18, until November 30 at 11:59 p.m. PT.
+**Do I need to attend The AI Life Summit to buy?** No. You can buy as soon as it opens on November 18, whether or not you attend.
 
 **Is there a payment plan?** Yes: 2 payments of $2,600.
-
-**I'm already in the AI Consultant program. Can I join?** This waitlist is for new students. You'll get a separate upgrade offer.
-
-**Do I need to attend The AI Life Summit to buy?** No. You can buy as soon as it opens on November 18, whether or not you attend. The summit is free if you'd like to see Alicia teach first.
-
-**Does the bundle guarantee clients or income?** No. It's education and training. Your results depend on your effort, your experience and your market.
 
 ## 9. Final CTA (dark)
 
