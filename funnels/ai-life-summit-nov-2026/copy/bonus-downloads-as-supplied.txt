@@ -1,0 +1,31 @@
+COLORS ['#1b1b1b', '#F7F6F3', '#292929', '#BFC3C7', '#F04E98', '#E5E5E5', '#111111', '#9a9ea3']
+FONTS ['inherit', 'var(--sans)', 'var(--serif)']
+LINKS ['holiday-planner.pdf', 'https://claude.ai/artifact/FvshFrsf7HCo5ScHfnU2yW', 'https://fonts.googleapis.com', 'https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,600&family=Montserrat:wght@400;500;600;700&display=swap', 'https://www.instagram.com/alicialyttle/', 'starter-pack.pdf']
+
+The AI Life Summit — Your VIP Bonus Pack
+The AI Life Summit · November 16–17
+Your VIP  bonus pack
+Thank you for going VIP. Three tools to put your new assistant to work the week after the summit: download the two PDFs, open the journal, and keep all three.
+[IMG: Cover of The Life Assistant Starter Pack]
+1
+The Life Assistant Starter Pack
+The 12 copy-and-paste setup prompts for every job we cover, plus the "Teach It Your Life" setup page, a jobs tracker and your Life Assistant Certified certificate. Fillable PDF, 18 pages.
+Value $97
+Open the PDF
+Opens in a new tab. Use the save or download button there.
+[IMG: Cover of The Thanksgiving and Holiday Planner]
+2
+The Thanksgiving & Holiday Planner
+The nine-day countdown, the six prompts for the menu, the budget, the group text, the shopping list, the day-of timeline and the gift list, with printable sheets. Fillable PDF, 12 pages.
+Value $47
+Open the PDF
+Opens in a new tab. Use the save or download button there.
+[IMG: The 2027 Goal Journal home screen]
+3
+My 2027 Goal Journal
+The interactive journal we fill in on Day 2: daily affirmations, the question of the day, a to-do list that carries over, a done list, a delegation tracker, and your Sunday review and monthly recap. It saves as you go.
+Value $67
+Open my journal
+One tip for the PDFs:  each one opens in a new tab. Save it to your phone or computer from there, then open it in Adobe Reader, Preview, Files or Chrome before you start typing. Some in-browser previews show the boxes but don't keep what you type.
+Intelligence Creates Freedom · Alicia Lyttle, The Queen of AI
+@alicialyttle

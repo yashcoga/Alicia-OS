@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The AI Life Summit: VIP Confirmed</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#111111}
+a{color:#F04E98}a:hover{color:#FF7AB8}
+.page{font-family:Montserrat,Arial,sans-serif;color:#F7F6F3;background:#111111;line-height:1.6;font-size:17px}
+.page h1,.page h2,.page h3{font-family:'Cormorant Garamond',Georgia,serif;font-weight:600;line-height:1.08;margin:0}
+.page p{margin:0}
+.wrap{max-width:1120px;margin:0 auto;padding:0 24px;box-sizing:border-box}
+.btn{display:inline-block;background:#F04E98;color:#111111;font-family:Montserrat,Arial,sans-serif;font-weight:700;font-size:15px;letter-spacing:.06em;text-transform:uppercase;padding:18px 32px;border:0;border-radius:6px;text-decoration:none;min-height:44px;box-sizing:border-box;text-align:center;cursor:pointer}
+.btn:hover{background:#FF6BAB;color:#111111}
+.eyebrow{font-size:13px;letter-spacing:.2em;text-transform:uppercase;font-weight:600;color:#BFC3C7}
+.light .eyebrow{color:#5A5F63}
+.ph{border:1px dashed #BFC3C7;border-radius:8px;padding:20px;color:#BFC3C7;font-size:14px;font-style:italic;line-height:1.5}
+.light .ph{border-color:#8A8F93;color:#5A5F63}
+.light{background:#F7F6F3;color:#111111}
+.light .body{color:#292929}
+.dark .body{color:#E5E5E5}
+.field{font-family:Montserrat,Arial,sans-serif;font-size:16px;padding:14px 16px;border:1px solid #BFC3C7;border-radius:6px;background:#FFFFFF;color:#111111;min-height:44px;box-sizing:border-box;width:100%}
+.lbl{font-size:13px;font-weight:600;letter-spacing:.04em;color:#292929}
+.tcard.hidden{display:none}
+.chat{background:#FFFFFF;border:1px solid #E5E5E5;border-radius:10px;padding:12px 16px;display:inline-block;max-width:100%;box-sizing:border-box;box-shadow:0 14px 30px -20px rgba(0,0,0,.6)}
+
+.wicon{width:48px;height:48px;border-radius:12px;background:rgba(240,78,152,.10);display:grid;place-items:center;margin-bottom:2px}
+.gicon{width:56px;height:56px;border-radius:14px;background:#111111;border:1px solid rgba(240,78,152,.45);display:grid;place-items:center}
+
+.graphite{background:#292929;color:#F7F6F3;border-top:1px solid rgba(191,195,199,.18);border-bottom:1px solid rgba(191,195,199,.18)}
+.graphite .body{color:#E5E5E5}
+.graphite .eyebrow{color:#BFC3C7}
+.silver{background:#E5E5E5;color:#111111}
+.silver .body{color:#292929}
+.silver .eyebrow{color:#5A5F63}
+.receipt{list-style:none;margin:0;padding:0;display:flex;flex-direction:column}
+.receipt li{display:flex;gap:16px;align-items:flex-start;padding:16px 0;border-bottom:1px solid rgba(191,195,199,.22);font-size:18px;line-height:1.45;color:#F7F6F3}
+.receipt li:last-child{border-bottom:0}
+.receipt .tick{flex:0 0 28px;width:28px;height:28px;border-radius:50%;background:#F04E98;display:grid;place-items:center;margin-top:1px}
+.receipt .tick svg{width:15px;height:15px}
+.receipt li em{font-style:normal;color:#BFC3C7;font-size:15px;display:block;margin-top:2px}
+.wins{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:22px}
+.win{background:#FFFFFF;border:1px solid #BFC3C7;border-left:6px solid #F04E98;border-radius:10px;padding:28px 28px 24px;display:flex;flex-direction:column;gap:12px;box-sizing:border-box}
+.win .result{font-family:'Cormorant Garamond',Georgia,serif;font-size:30px;font-weight:700;line-height:1.1;color:#111111}
+.win .who{font-size:12px;letter-spacing:.16em;text-transform:uppercase;font-weight:700;color:#F04E98}
+.win .body{font-size:16.5px}
+.win .tag{margin-top:auto;padding-top:12px;border-top:1px dashed #BFC3C7;font-size:13.5px;color:#5A5F63}
+.win .tag b{color:#111111}
+@media (max-width:640px){.receipt li{font-size:16px}.win .result{font-size:26px}}
+details summary{cursor:pointer;list-style:none}
+details summary::-webkit-details-marker{display:none}
+
+@media (max-width: 640px){
+  .page h1{font-size:36px !important}
+  .page h2{font-size:32px !important}
+  .page h3{font-size:24px !important}
+  .page{font-size:16px}
+}
+
+.cbox{background:#1B1B1B;border:1px solid #292929;border-radius:10px;padding:28px;box-sizing:border-box;display:flex;flex-direction:column;gap:18px;width:100%;max-width:640px}
+.cday{display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap;padding:12px 0;border-bottom:1px solid #292929}
+.cday:last-of-type{border-bottom:0}
+.cday b{font-family:'Cormorant Garamond',Georgia,serif;font-size:24px;font-weight:600;color:#F7F6F3}
+.cday span{font-size:15px;color:#BFC3C7}
+.cbox{text-align:left}
+@media (max-width:640px){.cbox{padding:22px}.cday{flex-direction:column;align-items:flex-start;gap:2px}.crow .btn,.crow .btn2{width:100%}}
+.btn2{display:inline-block;background:transparent;color:#F7F6F3;border:1.5px solid #BFC3C7;font-family:Montserrat,Arial,sans-serif;font-weight:600;font-size:13px;letter-spacing:.06em;text-transform:uppercase;padding:14px 20px;border-radius:6px;text-decoration:none;min-height:44px;box-sizing:border-box;cursor:pointer}
+.btn2:hover{border-color:#F04E98;color:#F04E98}
+.crow{display:flex;flex-wrap:wrap;gap:12px;justify-content:center}
+.tick{flex:0 0 22px;width:22px;height:22px;border-radius:50%;background:#F04E98;display:grid;place-items:center}
+.blist{display:flex;flex-direction:column;gap:10px;text-align:left}
+.blist p{display:flex;gap:12px;align-items:center;font-size:16px;color:#E5E5E5}
+/* mobile-fix-2026-11-05 */
+@media (max-width:640px){
+  #legal a{display:inline-flex;align-items:center;min-height:44px}
+  a[href="/ailife-wall"],a[href="/ailife-confirmed"],a[href="4-confirmed.html"],a[href*="6FT5Le1Ncs8Xje5mwRfiAH"],a[href="3-testimonial-wall.html"]{display:inline-flex;align-items:center;min-height:44px}
+  p[style*="font-size: 11px"]{font-size:12px !important}
+}
+</style>
+</head>
+<body>
+<div class="page" style="width: 100%; box-sizing: border-box; display: flex; flex-direction: column">
+
+<!-- NAV -->
+<div class="dark" style="border-bottom: 1px solid #292929">
+<div class="wrap" style="display: flex; align-items: center; gap: 14px; padding-top: 18px; padding-bottom: 18px">
+<div style="width: 44px; height: 44px; border: 1.5px solid #BFC3C7; border-radius: 6px; display: flex; align-items: center; justify-content: center; font-family: 'Cormorant Garamond', Georgia, serif; font-size: 22px; font-weight: 700; color: #BFC3C7; letter-spacing: .02em">AL</div>
+<div style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: 24px; font-weight: 600; color: #F7F6F3">The AI Life Summit</div>
+</div>
+</div>
+
+<!-- CONFIRMED -->
+<div class="dark" style="padding: 72px 0 80px 0; background: radial-gradient(ellipse at top, rgba(240,78,152,.14), transparent 60%)">
+<div class="wrap" style="display: flex; flex-direction: column; align-items: center; text-align: center; gap: 22px">
+<div style="display: flex; align-items: center; gap: 10px"><span class="tick"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#111111" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"></path></svg></span><span class="eyebrow" style="color: #F7F6F3">VIP upgrade confirmed</span></div>
+<h1 style="font-size: 56px; color: #F7F6F3; max-width: 900px">You're VIP. See you Wednesday, November 18.</h1>
+<p class="body" style="font-size: 19px">1:00 PM ET, live on Zoom</p>
+
+<div class="cbox">
+<div>
+<div class="cday"><b>Day 1</b><span>Wednesday, November 18 &middot; 1:00 PM ET</span></div>
+<div class="cday"><b>Day 2</b><span>Thursday, November 19 &middot; 1:00 PM ET</span></div>
+</div>
+<div id="zoom-slot" class="crow"></div>
+<div class="crow">
+<a id="cal-google" class="btn2" href="#" target="_blank" rel="noopener">Add to Google Calendar</a>
+<button id="cal-ics" class="btn2" type="button">Add to Apple / Outlook</button>
+</div>
+</div>
+
+<div class="cbox" style="border-color:#F04E98">
+<p class="eyebrow" style="color:#F04E98">Your $211 VIP bonus pack</p>
+<div class="blist">
+<p><span class="tick"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#111111" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"></path></svg></span>The Life Assistant Starter Pack</p>
+<p><span class="tick"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#111111" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"></path></svg></span>The Thanksgiving &amp; Holiday Planner</p>
+<p><span class="tick"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#111111" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"></path></svg></span>My 2027 Goal Journal</p>
+</div>
+<div class="crow"><a id="bonus-link" href="/ailife-bonuses" class="btn">Open my VIP bonuses</a></div>
+<div class="ph" style="font-size:13px">[RECORDINGS TIMING: confirm with team, e.g. &ldquo;Each day's recording lands in your VIP portal within 24 hours.&rdquo;]</div>
+</div>
+<div id="fb-slot" class="cbox" style="display:none">
+<p class="body" style="font-size: 16px">Join the other attendees before Day 1.</p>
+<div class="crow"><a id="fb-link" href="#" class="btn2" target="_blank" rel="noopener">Join the attendee Facebook group</a></div>
+</div>
+
+<p class="body" style="font-size: 16px; max-width: 640px">Check your email. Your VIP welcome email has the link to your bonus pack, so you can come back to it any time. If you don't see it, check spam or promotions.</p>
+</div>
+</div>
+
+<!-- FOOTER -->
+<div class="dark" style="padding: 40px 0; border-top: 1px solid #292929">
+<div class="wrap" style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 16px; font-size: 14px; color: #BFC3C7">
+<div style="display: flex; align-items: center; gap: 12px">
+<div style="width: 36px; height: 36px; border: 1.5px solid #BFC3C7; border-radius: 5px; display: flex; align-items: center; justify-content: center; font-family: 'Cormorant Garamond', Georgia, serif; font-size: 18px; font-weight: 700; color: #BFC3C7">AL</div>
+<span>© 2026 Alicia Lyttle · AI InnoVision</span>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center">
+<span style="color: #F04E98; font-weight: 600">@alicialyttle</span>
+<span>aibusinesssummit.com</span>
+<span style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: 18px; font-style: italic; color: #F7F6F3">Intelligence Creates Freedom</span>
+</div>
+</div>
+<div id="legal" class="wrap" style="display: flex; flex-direction: column; gap: 14px; margin-top: 28px; padding-top: 24px; border-top: 1px solid #292929; font-size: 13px; line-height: 1.6; color: #BFC3C7">
+<div style="display: flex; flex-wrap: wrap; gap: 8px 24px; font-weight: 600; letter-spacing: .04em; text-transform: uppercase; font-size: 12px">
+<a href="https://aiinnovision.com/privacy" style="color: #F7F6F3; text-decoration: none">Privacy Policy</a>
+<a href="https://aiinnovision.com/terms" style="color: #F7F6F3; text-decoration: none">Terms &amp; Conditions</a>
+<a href="#legal" style="color: #F7F6F3; text-decoration: none">Earnings &amp; Results Disclaimer</a>
+<a href="https://aiinnovision.com/terms" style="color: #F7F6F3; text-decoration: none">Refund Policy</a>
+<a href="https://aiinnovision.com/contact" style="color: #F7F6F3; text-decoration: none">Contact</a>
+</div>
+<p><strong style="color: #F7F6F3">Results vary.</strong> The examples on this page (meal plans, budgets, credit dispute letters, side-hustle income, trip savings) describe what attendees can build during the summit, not guaranteed outcomes. Your results depend on your own effort, your circumstances and the information you give your AI tools. Any income or savings figures are illustrative examples, not promises of earnings.</p>
+<p><strong style="color: #F7F6F3">Not professional advice.</strong> Nothing in this event is financial, legal, tax, medical, insurance or credit-repair advice, and attending does not create a professional relationship. AI InnoVision is not a credit repair organization and does not provide credit repair services; we teach you to use AI tools to prepare your own correspondence. AI tools make mistakes. Check any output that matters (budgets, letters, claims, health routines, legal or insurance documents) with a qualified professional before you act on it.</p>
+<p><strong style="color: #F7F6F3">Third-party tools.</strong> ChatGPT, Claude and Gemini are products of OpenAI, Anthropic and Google, respectively. This event is not affiliated with, sponsored by or endorsed by any of them, and your use of those tools is subject to their own terms and privacy policies. You are responsible for what you choose to share with any AI tool. Never share passwords, Social Security numbers or full account numbers.</p>
+<p><strong style="color: #F7F6F3">Recording notice.</strong> The summit is recorded. By attending, you agree that your name, chat messages, questions, and your voice or likeness if you unmute or appear on camera, may be included in the recordings and in future promotion of our events.</p>
+<p><strong style="color: #F7F6F3">Email consent.</strong> By registering, you agree to receive emails from AI InnoVision about this event and related offers. You can unsubscribe at any time using the link in any email. Registration is free; the VIP upgrade and any other paid products are governed by our Terms &amp; Conditions and Refund Policy.</p>
+<p>This site is not a part of the Facebook website or Meta Platforms, Inc., and is not endorsed by Facebook in any way. FACEBOOK is a trademark of Meta Platforms, Inc. This site is not part of, or endorsed by, Google LLC. YouTube, Zoom, ChatGPT, Claude and Gemini are trademarks of their respective owners.</p>
+<p>© 2026 AI InnoVision. All rights reserved. · 1150 Malabar Rd SE Ste 111, #205, Palm Bay, Florida 32907 · hello@aiinnovision.com · aibusinesssummit.com</p>
+</div>
+</div>
+
+</div>
+
+<script>
+/* ===== CONFIG: edit these values only ===== */
+var CONFIRM_CONFIG = {
+  ZOOM_URL: '',          /* ⛔ Zoom join link. Empty = shows "[ZOOM LINK]" */
+  FB_GROUP_URL: '',      /* optional attendee Facebook group. Empty = the box stays hidden */
+  BONUS_URL: '/ailife-bonuses', /* VIP page only: the Bonus Downloads step path */
+  DAY_LENGTH_MIN: 0      /* ⛔ how long each day runs, for the calendar entry. 0 = start time only */
+};
+/* Summit: Wed Nov 18 and Thu Nov 19, 2026, 1:00 PM ET = 18:00 UTC (EST). */
+(function(){
+  var C = CONFIRM_CONFIG;
+  var DAYS = ['20261118T180000Z', '20261119T180000Z'];
+  function addMin(stamp, m){
+    var d = new Date(Date.UTC(+stamp.slice(0,4), +stamp.slice(4,6)-1, +stamp.slice(6,8), +stamp.slice(9,11), +stamp.slice(11,13) + m));
+    return d.toISOString().replace(/[-:]/g,'').replace(/\.\d{3}/,'');
+  }
+  var title = 'The AI Life Summit with Alicia Lyttle';
+  var details = 'Live on Zoom, 1:00 PM ET.' + (C.ZOOM_URL ? ' Join: ' + C.ZOOM_URL : '');
+
+  var zs = document.getElementById('zoom-slot');
+  if (zs) zs.innerHTML = C.ZOOM_URL
+    ? '<a class="btn" href="' + C.ZOOM_URL + '" target="_blank" rel="noopener">Join on Zoom</a>'
+    : '<div class="ph" style="width:100%;text-align:center">[ZOOM LINK]</div>';
+
+  var g = document.getElementById('cal-google');
+  if (g) g.href = 'https://calendar.google.com/calendar/render?action=TEMPLATE'
+    + '&text=' + encodeURIComponent(title)
+    + '&dates=' + DAYS[0] + '/' + addMin(DAYS[0], C.DAY_LENGTH_MIN)
+    + '&details=' + encodeURIComponent(details)
+    + '&location=' + encodeURIComponent(C.ZOOM_URL || 'Zoom')
+    + '&recur=' + encodeURIComponent('RRULE:FREQ=DAILY;COUNT=2');
+
+  var ics = document.getElementById('cal-ics');
+  if (ics) ics.addEventListener('click', function(){
+    var lines = ['BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//AI InnoVision//AI Life Summit//EN','CALSCALE:GREGORIAN'];
+    DAYS.forEach(function(s, i){
+      lines.push('BEGIN:VEVENT','UID:ai-life-summit-day' + (i+1) + '@aibusinesssummit.com','DTSTAMP:' + DAYS[0],
+        'DTSTART:' + s);
+      if (C.DAY_LENGTH_MIN > 0) lines.push('DTEND:' + addMin(s, C.DAY_LENGTH_MIN));
+      lines.push('SUMMARY:' + title + ', Day ' + (i+1), 'DESCRIPTION:' + details, 'LOCATION:' + (C.ZOOM_URL || 'Zoom'), 'END:VEVENT');
+    });
+    lines.push('END:VCALENDAR');
+    var blob = new Blob([lines.join('\r\n')], { type: 'text/calendar' });
+    var a = document.createElement('a');
+    a.href = URL.createObjectURL(blob); a.download = 'ai-life-summit.ics';
+    document.body.appendChild(a); a.click(); a.remove();
+  });
+
+  if (C.FB_GROUP_URL) {
+    var fb = document.getElementById('fb-slot'); if (fb) fb.style.display = '';
+    var fl = document.getElementById('fb-link'); if (fl) fl.href = C.FB_GROUP_URL;
+  }
+  var bl = document.getElementById('bonus-link'); if (bl && C.BONUS_URL) bl.href = C.BONUS_URL;
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,170 @@
+<!-- ========================================================================
+     The AI Life Summit: Your VIP Bonus Pack
+     Generated for GoHighLevel by html-to-ghl.
+
+     HOW TO INSTALL
+       1. GHL builder -> Add Element -> Custom JS/HTML
+       2. Paste this entire file in, save, preview.
+       3. Set the containing row/column padding to 0 for a clean edge.
+       4. Page Settings -> turn OFF 'Optimise JavaScript'. It can delay
+          the hydration event this page waits for before booting.
+       5. Page Settings -> SEO: paste the values below.
+
+     SEO title:       The AI Life Summit: Your VIP Bonus Pack
+
+     Self contained: no external files. Edit the CONFIG block inside the
+     <script> at the bottom; nothing else should need touching.
+     ======================================================================== -->
+
+<!-- Fonts. Faster still: move these links to Page Settings -> Custom Code -> Head. -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,600&family=Montserrat:wght@400;500;600;700&display=swap">
+
+<style>
+/* Reveal the page now that its styles exist (see the wrapper's inline style). */
+#ghl-bonus { visibility: visible !important; }
+
+/* --- page level: the only rules allowed outside the scope --------------
+   overflow-x contains the full-bleed escape below; the background stops
+   GHL's default light chrome showing through at the edges.            --- */
+html { overflow-x: hidden; }
+body { background: #111111; }
+
+/* --- inheritance firewall ----------------------------------------------
+   Scoping stops our rules escaping, but not GHL's leaking in, and two
+   routes do real damage:
+     * inherited properties — a host `body { line-height: 1.5 }` flows
+       straight into this wrapper and silently retimes every block of text;
+     * direct element rules — a host `h1 { font-family: Georgia }` beats
+       inheritance outright, because any direct rule does.
+   So pin the inherited text properties on the wrapper, and re-point the
+   usual elements back at it. :where() contributes zero specificity, so
+   the page's own scoped rules below still win every tie.
+   This block sits BEFORE those rules for the same reason.          --- */
+#ghl-bonus { line-height: normal; letter-spacing: normal; word-spacing: normal;
+            font-style: normal; font-variant: normal; text-transform: none;
+            text-align: start; text-indent: 0; }
+#ghl-bonus :where(h1,h2,h3,h4,h5,h6,p,ul,ol,li,dl,dt,dd,a,span,div,section,article,
+        button,input,select,textarea,summary,details,label,fieldset,legend,
+        blockquote,figure,figcaption,table,thead,tbody,tr,th,td,strong,em,small) {
+  font-family: inherit; line-height: inherit; letter-spacing: inherit;
+}
+/* Media: a host `img { border / padding / box-shadow }` would frame every
+   picture. Pages rarely set these themselves, so nothing else stops them. */
+#ghl-bonus :where(img,svg,video,picture) { border: 0; padding: 0; box-shadow: none; }
+
+/* --- scoped: GHL's stylesheet cannot reach in, ours cannot reach out --- */
+#ghl-bonus {--onyx:#111111;--graphite:#292929;--white:#F7F6F3;--silver:#BFC3C7;--soft:#E5E5E5;--pink:#F04E98;--line:rgba(191,195,199,.18);--muted:#9a9ea3;
+--serif:'Cormorant Garamond',Georgia,serif;--sans:'Montserrat',system-ui,sans-serif}
+#ghl-bonus * {box-sizing:border-box}
+#ghl-bonus, #ghl-bonus {margin:0;background:var(--onyx);color:var(--white);font-family:var(--sans);font-size:16px;line-height:1.55}
+#ghl-bonus .wrap {max-width:980px;margin:0 auto;padding:0 22px}
+#ghl-bonus header {padding:56px 0 28px;text-align:center;background:radial-gradient(ellipse at top,rgba(240,78,152,.14),transparent 60%)}
+#ghl-bonus .kicker {font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--pink)}
+#ghl-bonus h1 {font-family:var(--serif);font-weight:600;font-size:clamp(38px,6vw,64px);line-height:1.02;margin:12px 0 10px}
+#ghl-bonus h1 em {color:var(--pink);font-style:italic}
+#ghl-bonus .sub {color:var(--silver);max-width:640px;margin:0 auto;font-size:17px}
+#ghl-bonus .cards {display:grid;gap:18px;padding:26px 0 10px}
+#ghl-bonus .card {background:#1b1b1b;border:1px solid var(--line);border-radius:20px;padding:26px;display:grid;grid-template-columns:150px 1fr auto;gap:22px;align-items:center}
+#ghl-bonus .card .pic {position:relative;width:150px}
+#ghl-bonus .card .pic img {width:100%;height:auto;display:block;border-radius:8px;box-shadow:0 16px 30px -16px rgba(0,0,0,.8)}
+#ghl-bonus .card .pic img.wide {border:1px solid var(--line)}
+#ghl-bonus .card .pic .num {position:absolute;top:-12px;left:-12px;width:40px;height:40px;font-size:20px;background:var(--onyx)}
+@media (max-width:720px) {#ghl-bonus .card {grid-template-columns:1fr;text-align:center}#ghl-bonus .card .pic {margin:0 auto}#ghl-bonus .card .act {justify-self:center}}
+#ghl-bonus .num {width:72px;height:72px;border-radius:50%;border:2px solid var(--pink);display:grid;place-items:center;font-family:var(--serif);font-size:34px;font-weight:700;color:var(--pink)}
+#ghl-bonus .card h2 {font-family:var(--serif);font-size:30px;font-weight:600;margin:0 0 4px;line-height:1.1}
+#ghl-bonus .card p {margin:0;color:var(--silver);font-size:15px}
+#ghl-bonus .val {display:inline-block;margin-top:10px;font-size:11.5px;font-weight:700;letter-spacing:1.2px;text-transform:uppercase;color:var(--soft);border:1px solid var(--line);border-radius:999px;padding:4px 12px}
+#ghl-bonus .btn {display:inline-block;background:var(--pink);color:#fff;text-decoration:none;font-weight:700;font-size:14px;padding:14px 22px;border-radius:14px;white-space:nowrap}
+#ghl-bonus .btn:hover {filter:brightness(1.08)}
+#ghl-bonus .btn.white {background:var(--white);color:var(--onyx)}
+#ghl-bonus .tip {display:flex;gap:12px;align-items:flex-start;background:var(--graphite);border:1px solid var(--line);border-radius:16px;padding:16px 18px;margin:18px 0 0;font-size:14px;color:var(--soft)}
+#ghl-bonus .tip b {color:var(--white)}
+#ghl-bonus .tip svg {width:20px;height:20px;color:var(--pink);flex-shrink:0;margin-top:2px}
+#ghl-bonus button.btn {border:0;cursor:pointer;font-family:inherit}
+#ghl-bonus button.btn:disabled {opacity:.6;cursor:default}
+#ghl-bonus .note {font-size:12.5px;color:var(--muted);margin-top:8px;max-width:220px;text-align:center}
+@media (max-width:720px) {#ghl-bonus .note {text-align:center}}
+#ghl-bonus footer {border-top:1px solid var(--line);margin-top:48px;padding:26px 0 40px;font-size:13px;color:var(--silver)}
+#ghl-bonus footer .wrap {display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between;align-items:center}
+#ghl-bonus footer a {color:var(--white);text-decoration:none;font-weight:600}
+#ghl-bonus footer a:hover {color:var(--pink)}
+/* mobile-fix-2026-11-05 */
+@media (max-width:720px) {
+  #ghl-bonus .kicker, #ghl-bonus .val {font-size:12px}
+  #ghl-bonus footer a {display:inline-flex;align-items:center;min-height:44px}
+}
+
+/* --- structural overrides -----------------------------------------------
+   These come LAST on purpose. The original page styled `body`, which the
+   scoping above folds into the wrapper — so a source rule like
+   `body { margin: 0 }` would otherwise cancel the full-bleed margin here. */
+#ghl-bonus { position: relative; }
+/* Break out of GHL's section/row/column padding to true edge-to-edge.
+   Geometric rather than class-name based, so it survives builder updates.
+   Delete these if your row is already full width. */
+/* 100vw includes a desktop scrollbar (~15px), which pushes the page off
+   centre and under the scrollbar. The script measures the real width into
+   --ghl-vw; 100vw is only the fallback before it runs. */
+#ghl-bonus { width: var(--ghl-vw, 100vw); margin-left: calc(50% - var(--ghl-vw, 100vw) / 2); }
+/* Re-assert the box model the original was authored against, so a reset
+   from GHL cannot shift any geometry. Inline box-sizing still wins, and a
+   more specific source rule still wins over the universal selector. */
+#ghl-bonus, #ghl-bonus :where(*), #ghl-bonus :where(*)::before, #ghl-bonus :where(*)::after { box-sizing: border-box; }
+</style>
+
+<!-- Hidden until the stylesheet above has applied (it flips this to visible),
+     so no half-styled frame can ever be painted. -->
+<div id="ghl-bonus" style="visibility:hidden">
+<header><div class="wrap">
+  <div class="kicker">The AI Life Summit · November 18–19</div>
+  <h1>Your VIP <em>bonus pack</em></h1>
+  <p class="sub">Thank you for going VIP. Three tools to put your new assistant to work the week after the summit: download the two PDFs, open the journal, and keep all three.</p>
+</div></header>
+
+<main class="wrap">
+  <div class="cards">
+    <div class="card">
+      <div class="pic"><img src="../assets/vip/vip-02-starter-pack-cover.jpg" alt="Cover of The Life Assistant Starter Pack"><div class="num">1</div></div>
+      <div>
+        <h2>The Life Assistant Starter Pack</h2>
+        <p>The 12 copy-and-paste setup prompts for every job we cover, plus the "Teach It Your Life" setup page, a jobs tracker and your Life Assistant Certified certificate. Fillable PDF, 18 pages.</p>
+        <span class="val">Value $97</span>
+      </div>
+      <div class="act"><a class="btn" href="starter-pack.pdf" target="_blank" rel="noopener">Open the PDF</a><div class="note">Opens in a new tab. Use the save or download button there.</div></div>
+    </div>
+
+    <div class="card">
+      <div class="pic"><img src="../assets/vip/vip-03-holiday-planner-cover.jpg" alt="Cover of The Thanksgiving and Holiday Planner"><div class="num">2</div></div>
+      <div>
+        <h2>The Thanksgiving &amp; Holiday Planner</h2>
+        <p>The nine-day countdown, the six prompts for the menu, the budget, the group text, the shopping list, the day-of timeline and the gift list, with printable sheets. Fillable PDF, 12 pages.</p>
+        <span class="val">Value $47</span>
+      </div>
+      <div class="act"><a class="btn" href="holiday-planner.pdf" target="_blank" rel="noopener">Open the PDF</a><div class="note">Opens in a new tab. Use the save or download button there.</div></div>
+    </div>
+
+    <div class="card">
+      <div class="pic"><img class="wide" src="../assets/registration/23-2027-goal-journal-1.jpg" alt="The 2027 Goal Journal home screen"><div class="num">3</div></div>
+      <div>
+        <h2>My 2027 Goal Journal</h2>
+        <p>The interactive journal we fill in on Day 2: daily affirmations, the question of the day, a to-do list that carries over, a done list, a delegation tracker, and your Sunday review and monthly recap. It saves as you go.</p>
+        <span class="val">Value $67</span>
+      </div>
+      <div class="act"><a class="btn white" href="https://claude.ai/artifact/FvshFrsf7HCo5ScHfnU2yW" target="_blank" rel="noopener">Open my journal</a></div>
+    </div>
+  </div>
+
+  <div class="tip">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg>
+    <div><b>One tip for the PDFs:</b> each one opens in a new tab. Save it to your phone or computer from there, then open it in Adobe Reader, Preview, Files or Chrome before you start typing. Some in-browser previews show the boxes but don't keep what you type.</div>
+  </div>
+</main>
+
+<footer><div class="wrap">
+  <div>Intelligence Creates Freedom · Alicia Lyttle, The Queen of AI</div>
+  <div><a href="https://www.instagram.com/alicialyttle/" target="_blank" rel="noopener">@alicialyttle</a></div>
+</div></footer>
+</div>
+
