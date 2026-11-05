@@ -6,3 +6,4 @@ Funnels shared for reference (Alicia's live funnels or examples to model). One f
 |---|---|---|
 | `become-an-ai-consultant/` | Main high-ticket funnel (live) | https://becomeanaiconsultant.com/joinus |
 | `the-ai-agents-course/` | AI Agents Course sales page (Lovable) + GHL order pages; $1,997 | https://theaiagentscourse.com/ |
+| `ai-micro-drama-ads-academy/` | AI Micro Drama Ads Academy membership (Lovable) + GHL order pages; $97/mo or $970/yr | https://aimicrodramaadsacademy.com/ |

@@ -42,7 +42,7 @@ The full certification: self-paced training, live sessions, the consultant tools
 Learn, build and deploy AI agents, even if you're not technical. Includes step-by-step training, live sessions and office hours, ready-made agents and a CPD Certified AI Agent Builder certification.
 [2-3 LINES: WHY YOU NEED IT]
 
-**3. AI Avatar Academy** · Normally **[NORMAL PRICE]**
+**3. AI Avatar Academy** · Normally **$1,997**
 [WHAT IT IS + WHY YOU NEED IT: 2-3 lines]
 
 **BONUS 1: Private One-Day Mastermind With Alicia** · Value **[VALUE]**
@@ -51,10 +51,10 @@ Learn, build and deploy AI agents, even if you're not technical. Includes step-b
 **BONUS 2: Two AI Agents Live Tickets** · Value **$2,994** (2 × $1,497)
 A full day of live AI agent builds and networking, in person in Atlanta, GA. Two tickets, so you can bring someone. Next event: Monday, January 25 or Tuesday, January 26, 2027 (pick one day). [CONFIRM: "bring someone" is OK]
 
-**BONUS 3: Private Micro Drama Workshop** · Value **[VALUE]**
+**BONUS 3: Private Micro Drama Workshop** · Value **$297**
 [WHAT IT IS + WHY: 2 lines]
 
-**BONUS 4: All AI Business Summit Replays** · Value **[VALUE]**
+**BONUS 4: All AI Business Summit Replays** · Value **$47**
 [WHICH SUMMITS / HOW MANY SESSIONS: 1-2 lines]
 
 **BONUS 5: TikTok Live Selling Training** · Value **[VALUE]**
