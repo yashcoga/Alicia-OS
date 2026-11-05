@@ -18,7 +18,8 @@ Status (2026-11-05): copy draft v1 written by us (no copy or design from Alicia'
 - AI Agents Course: **$1,997** (theaiagentscourse.com, "Total Value $12,111"; 2 × $1,200). AI Agents Live ticket: **$1,497** value each, next event Jan 25 or 26, 2027, Atlanta (same page). Notes: `reference/model-funnels/the-ai-agents-course/`.
 - Bundle: $5,000 or 2 × $2,600 (team brief).
 - From the user (2026-11-05): AI Avatar Academy **$1,997**; AI Business Summit Replays **$47**; Private Micro Drama Workshop **$297** (matches the Micro-Drama add-on on Alicia's checkout). Micro Drama Academy reference: `reference/model-funnels/ai-micro-drama-ads-academy/`.
-- Still missing: One-Day Mastermind value; TikTok Live Selling Training value + instructor.
+- One-Day Mastermind: **$10,000** (user: sold for $10,000 to $12,000; we use the low end). TikTok Live Selling Training: shown as **Included**, no value, not in the total (user decision; no verified price). **Total value: $23,329** (confirm with Michael; Loom said "about $10,000").
+- Still missing: TikTok instructor name, credentials and video.
 
 ## Needed from Michael / Alicia's team
 

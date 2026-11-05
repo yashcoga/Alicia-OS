@@ -45,7 +45,7 @@ Learn, build and deploy AI agents, even if you're not technical. Includes step-b
 **3. AI Avatar Academy** · Normally **$1,997**
 [WHAT IT IS + WHY YOU NEED IT: 2-3 lines]
 
-**BONUS 1: Private One-Day Mastermind With Alicia** · Value **[VALUE]**
+**BONUS 1: Private One-Day Mastermind With Alicia** · Value **$10,000**
 [WHAT HAPPENS ON THE DAY, WHERE, WHEN: 2-3 lines]
 
 **BONUS 2: Two AI Agents Live Tickets** · Value **$2,994** (2 × $1,497)
@@ -57,7 +57,7 @@ A full day of live AI agent builds and networking, in person in Atlanta, GA. Two
 **BONUS 4: All AI Business Summit Replays** · Value **$47**
 [WHICH SUMMITS / HOW MANY SESSIONS: 1-2 lines]
 
-**BONUS 5: TikTok Live Selling Training** · Value **[VALUE]**
+**BONUS 5: TikTok Live Selling Training** · **Included** (no dollar value shown; not counted in the total)
 [INSTRUCTOR NAME + CREDENTIALS: 1-2 lines]
 [60-SECOND INSTRUCTOR VIDEO goes here]
 
@@ -68,7 +68,7 @@ A full day of live AI agent builds and networking, in person in Atlanta, GA. Two
 Eyebrow: **THE INVESTMENT**
 Headline: **Everything Above, One Price**
 
-- Total if bought separately: **[VERIFIED TOTAL VALUE]**
+- Total if bought separately: **$23,329** [CONFIRM WITH MICHAEL before publishing; the Loom said "about $10,000"]
 - Black Friday Mega Bundle: **$5,000** paid in full, or **2 payments of $2,600**
 - Opens: **Wednesday, November 18** · Closes: **November 30 at 11:59 p.m. PT**
 
