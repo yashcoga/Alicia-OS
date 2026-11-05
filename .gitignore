@@ -30,3 +30,6 @@ reference/source-docs/*.zip
 funnels/*/source/highlevel-kit/
 # Paid VIP bonus PDFs (a $47 product): never public
 *.pdf
+
+# John handoff one-pager (team doc, not a paid file)
+!funnels/*/HANDOFF-*.pdf
