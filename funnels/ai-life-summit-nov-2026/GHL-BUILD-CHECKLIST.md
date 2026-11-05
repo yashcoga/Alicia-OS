@@ -67,7 +67,7 @@ Alicia's spec had one page for everyone; we split it (decided 2026-11-05) so VIP
 - [ ] Add a 4th funnel step, path ⛔ (suggest `/ailife-bonuses`). Not a step in the sales flow: people reach it from the VIP thank-you page button and the VIP welcome email.
 - [ ] Section (full width, padding 0) → Custom JS/HTML → paste `ghl/bonus-downloads.ghl.html` (final version from Claude, with the PDF links).
 
-## Step 8: Workflows (leave both in **Draft**)
+## Step 8: Workflows: SKIP (not part of the funnel team's task; decided 2026-11-05). Kept below for reference only.
 
 - [ ] "AI Life Summit — Registered": form submitted → tag `ailife-registered` → confirmation email (subject "You're in: The AI Life Summit, Nov 18–19", with the time, the Zoom link and a line that the VIP upgrade is at /ailife-vip) → if SMS consent is checked: tag `ailife-sms` → 3 texts: **Tue Nov 17, 6:00 PM ET**, **Wed Nov 18, 12:00 PM ET**, **Thu Nov 19, 12:00 PM ET** (each with the Zoom link and "Reply STOP to opt out").
 - [ ] "AI Life Summit — VIP": order submitted → tag `ailife-vip` → VIP welcome email with the Bonus Downloads link and "Each day's recording lands in your portal within 24 hours" (⛔ Alicia may change this).
