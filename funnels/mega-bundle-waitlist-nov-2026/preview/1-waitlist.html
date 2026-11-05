@@ -86,6 +86,9 @@ details summary::-webkit-details-marker{display:none}
 .fit .body{font-size:17px;padding-left:28px;position:relative}
 .fit.yes .body:before{content:"\2713";position:absolute;left:0;color:#F04E98;font-weight:700}
 .fit.no .body:before{content:"\2715";position:absolute;left:0;color:#5A5F63;font-weight:700}
+/* logo slot (replaces the nav bar, like last year's waitlist) */
+.logo{width:340px;max-width:80%;aspect-ratio:3/1;border:1px dashed #BFC3C7;border-radius:10px;display:flex;align-items:center;justify-content:center;text-align:center;padding:12px;box-sizing:border-box;color:#BFC3C7;font-size:13px;font-style:italic;letter-spacing:.04em}
+.logo img{width:100%;height:100%;object-fit:contain;display:block}
 /* bundle mockup slot (hero) */
 .mockup{width:100%;aspect-ratio:16/9;border:1px dashed #BFC3C7;border-radius:10px;background:#1B1B1B;display:flex;align-items:center;justify-content:center;text-align:center;padding:20px;box-sizing:border-box;color:#BFC3C7;font-size:14px;font-style:italic}
 .mockup img{width:100%;height:100%;object-fit:contain;display:block}
@@ -112,27 +115,18 @@ details summary::-webkit-details-marker{display:none}
 <body><div style="position:sticky;top:0;z-index:99;background:#F04E98;color:#111;font:600 13px Montserrat,Arial,sans-serif;text-align:center;padding:8px 12px">PREVIEW ONLY · Step 1: Waitlist page. The form below is a stand-in for the GHL form; it goes to the confirmation page.</div>
 <div class="page" style="width: 100%; box-sizing: border-box; display: flex; flex-direction: column">
 
-<!-- NAV -->
-<div class="dark" style="border-bottom: 1px solid #292929">
-<div class="wrap" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 16px; padding-top: 18px; padding-bottom: 18px">
-<div style="display: flex; align-items: center; gap: 14px">
-<div style="width: 44px; height: 44px; border: 1.5px solid #BFC3C7; border-radius: 6px; display: flex; align-items: center; justify-content: center; font-family: 'Cormorant Garamond', Georgia, serif; font-size: 22px; font-weight: 700; color: #BFC3C7; letter-spacing: .02em">AL</div>
-<div style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: 24px; font-weight: 600; letter-spacing: .02em; color: #F7F6F3">The Black Friday Mega Bundle</div>
-</div>
-<div style="display: flex; align-items: center; gap: 20px; flex-wrap: wrap">
-<span class="eyebrow">Waitlist · Opens Nov 18</span>
-<a href="#register" class="btn" style="padding: 12px 20px; font-size: 13px">Join the waitlist</a>
-</div>
-</div>
-</div>
-
 <!-- HERO -->
-<div class="dark" style="padding: 64px 0; background: radial-gradient(ellipse at top, rgba(240,78,152,.14), transparent 60%), #111111">
-<div class="wrap" style="display: flex; flex-wrap: wrap; gap: 48px; align-items: center">
-<div style="flex: 1 1 520px; min-width: 0; display: flex; flex-direction: column; gap: 20px">
-<p class="eyebrow" style="color: #F04E98">Waitlist · Opens Wednesday, November 18</p>
-<h1 style="font-size: 60px; color: #F7F6F3">The Black Friday Mega Bundle <em style="display: block; font-style: italic; font-weight: 500; color: #BFC3C7; font-size: .62em; margin-top: 12px">Everything you need to become an AI consultant, in one bundle.</em></h1>
-<p class="body" style="font-size: 19px">This is Alicia's biggest offer of the year: the AI Consultant Certification plus her AI programs and private bonuses, together for <strong style="color: #F7F6F3">$5,000</strong>. Everything inside and the price are below, so you can decide now. The waitlist hears first when it opens on November 18.</p>
+<div class="dark" style="padding: 40px 0 72px 0; background: radial-gradient(ellipse at top, rgba(240,78,152,.16), transparent 60%), #111111">
+<div class="wrap" style="display: flex; flex-direction: column; gap: 40px">
+<div style="display: flex; flex-direction: column; gap: 22px; align-items: center; text-align: center">
+<div class="logo" id="bundle-logo"><!-- Replace with the logo image: <img src="LOGO-URL" alt="Alicia Lyttle: The Black Friday Mega Bundle"> -->
+<span>[BLACK FRIDAY MEGA BUNDLE LOGO]</span>
+</div>
+<h1 style="font-size: 56px; color: #F7F6F3; max-width: 980px">Get First Access to Alicia's Black Friday Mega Bundle</h1>
+<p class="body" style="font-size: 20px; max-width: 760px">Her biggest offer of the year, for <strong style="color: #F7F6F3">$5,000</strong>. See everything inside and the price below, then join the waitlist to hear first when it opens on <strong style="color: #F7F6F3">Wednesday, November 18</strong>.</p>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 40px; align-items: center">
+<div style="flex: 1 1 520px; min-width: 0; display: flex; flex-direction: column; gap: 18px">
 <div class="mockup" id="bundle-mockup"><!-- Replace this box with the bundle mockup image: <img src="MOCKUP-URL" alt="The Black Friday Mega Bundle: everything inside"> -->
 <span>[BUNDLE MOCKUP IMAGE: all 8 items together, 16:9, from the design team]</span>
 </div>
@@ -155,6 +149,7 @@ details summary::-webkit-details-marker{display:none}
 </form>
 <p style="font-size: 13px; color: #5A5F63; text-align: center; margin-top: 6px">Joining is free and doesn't commit you to buy. On November 18 you'll get the link to enroll, or to book a call with the team.</p>
 <p style="font-size: 11px; color: #5A5F63; text-align: center; line-height: 1.5">By joining, you agree to receive emails about this offer from AI InnoVision, and to our <a href="https://aiinnovision.com/privacy" style="color: #5A5F63">Privacy Policy</a> and <a href="https://aiinnovision.com/terms" style="color: #5A5F63">Terms</a>. Unsubscribe any time.</p>
+</div>
 </div>
 </div>
 </div>

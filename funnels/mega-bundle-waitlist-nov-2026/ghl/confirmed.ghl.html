@@ -142,6 +142,8 @@ body { background: #111111; }
   #ghl-waitlist-confirmed #legal a {display:inline-flex;align-items:center;min-height:44px}
   #ghl-waitlist-confirmed p[style*="font-size: 11px"] {font-size:12px !important}
 }
+#ghl-waitlist-confirmed .logo {width:340px;max-width:80%;aspect-ratio:3/1;border:1px dashed #BFC3C7;border-radius:10px;display:flex;align-items:center;justify-content:center;text-align:center;padding:12px;box-sizing:border-box;color:#BFC3C7;font-size:13px;font-style:italic;letter-spacing:.04em;margin-bottom:12px}
+#ghl-waitlist-confirmed .logo img {width:100%;height:100%;object-fit:contain;display:block}
 #ghl-waitlist-confirmed .cnext {display:flex;gap:16px;align-items:baseline;padding:12px 0;border-bottom:1px solid #292929;flex-wrap:wrap}
 #ghl-waitlist-confirmed .cnext:last-child {border-bottom:0}
 #ghl-waitlist-confirmed .cnext b {font-family:'Cormorant Garamond',Georgia,serif;font-size:22px;font-weight:600;color:#F7F6F3;min-width:270px}
@@ -171,23 +173,12 @@ body { background: #111111; }
 <div id="ghl-waitlist-confirmed" style="visibility:hidden">
 <div class="page" style="width: 100%; box-sizing: border-box; display: flex; flex-direction: column">
 
-<!-- NAV -->
-<div class="dark" style="border-bottom: 1px solid #292929">
-<div class="wrap" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 16px; padding-top: 18px; padding-bottom: 18px">
-<div style="display: flex; align-items: center; gap: 14px">
-<div style="width: 44px; height: 44px; border: 1.5px solid #BFC3C7; border-radius: 6px; display: flex; align-items: center; justify-content: center; font-family: 'Cormorant Garamond', Georgia, serif; font-size: 22px; font-weight: 700; color: #BFC3C7; letter-spacing: .02em">AL</div>
-<div style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: 24px; font-weight: 600; letter-spacing: .02em; color: #F7F6F3">The Black Friday Mega Bundle</div>
-</div>
-<div style="display: flex; align-items: center; gap: 20px; flex-wrap: wrap">
-<span class="eyebrow">Waitlist · Opens Nov 18</span>
-
-</div>
-</div>
-</div>
-
 <!-- CONFIRMED -->
-<div class="dark" style="padding: 80px 0 88px 0; background: radial-gradient(ellipse at top, rgba(240,78,152,.14), transparent 60%), #111111">
+<div class="dark" style="padding: 40px 0 88px 0; background: radial-gradient(ellipse at top, rgba(240,78,152,.14), transparent 60%), #111111">
 <div class="wrap" style="max-width: 760px; display: flex; flex-direction: column; align-items: center; text-align: center; gap: 22px">
+<div class="logo" id="bundle-logo"><!-- Replace with the logo image: <img src="LOGO-URL" alt="Alicia Lyttle: The Black Friday Mega Bundle"> -->
+<span>[BLACK FRIDAY MEGA BUNDLE LOGO]</span>
+</div>
 <div style="display: flex; align-items: center; gap: 10px"><span style="width: 22px; height: 22px; border-radius: 50%; background: #F04E98; display: grid; place-items: center"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#111111" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"></path></svg></span><span class="eyebrow" style="color: #F7F6F3">You're on the waitlist</span></div>
 <h1 style="font-size: 56px; color: #F7F6F3">You're In. You'll Hear First on November 18.</h1>
 <p class="body" style="font-size: 19px">The Black Friday Mega Bundle opens Wednesday, November 18. We'll email you the moment it opens.</p>

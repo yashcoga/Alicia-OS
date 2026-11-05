@@ -33,6 +33,10 @@ Normal price and 2-3 lines on "why you need it" for each component; verified tot
 - Waitlist members can buy without attending the summit (that's the point of the waitlist).
 - No domain or page paths yet: keep /[PATH].
 
-## Bundle mockup image (for the design team)
+## Logo + bundle mockup (for the design team)
+
+Logo: a "Black Friday Mega Bundle" logo (like last year's), wide format about 3:1, transparent background, for the box `#bundle-logo` at the top of both pages (it replaces the nav bar).
+
+Mockup:
 
 One 16:9 image of the whole bundle (like last year's mockup), for the hero box `#bundle-mockup`: AI Consultant Certification Program, AI Agents Course, AI Avatar Academy, One-Day Mastermind With Alicia, Two AI Agents Live Tickets, Micro Drama Workshop, AI Business Summit Replays, TikTok Live Selling Training. AI Life Summit colours (black #111111, pink #F04E98), title "The Black Friday Mega Bundle". Dark or transparent background.
