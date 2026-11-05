@@ -47,7 +47,7 @@ Learn, build and deploy AI agents, even if you're not technical. Includes step-b
 **3. AI Avatar Academy** · Normally **$1,997**
 [WHAT IT IS + WHY YOU NEED IT: 2-3 lines]
 
-**BONUS 1: Private One-Day Mastermind With Alicia** · Value **$10,000**
+**BONUS 1: Private One-Day Mastermind With Alicia** · Value **$10,000+**
 [WHAT HAPPENS ON THE DAY, WHERE, WHEN: 2-3 lines]
 
 **BONUS 2: Two AI Agents Live Tickets** · Value **$2,994** (2 × $1,497)
