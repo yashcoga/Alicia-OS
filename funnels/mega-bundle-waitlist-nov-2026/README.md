@@ -2,7 +2,7 @@
 
 Status (2026-11-05): copy approved (outline OK'd by the user); **design built and shortened** (4 parts: nav, hero + form, what's inside list + price box, footer) after comparing with last year's waitlist. AI Life Summit style. No mention of the AI Life Summit on these pages (user decision).
 
-- Design: `design/waitlist.html`, `design/confirmed.html` · GHL code: `ghl/waitlist.ghl.html` (scope ghl-waitlist), `ghl/confirmed.ghl.html` · Clickable preview: `preview/1-waitlist.html` · No images to upload.
+- Design: `design/waitlist.html`, `design/confirmed.html` · GHL code: `ghl/waitlist.ghl.html` (scope ghl-waitlist), `ghl/confirmed.ghl.html` · Clickable preview: `preview/1-waitlist.html` · Images: logo + group mockup from the design team placed 2026-11-06 (`assets/UPLOAD-LIST.md`, 2 files).
 - The waitlist form is a GHL form embed: set `WAITLIST_CONFIG.FORM_ID` in the page code. Fields: name, email, optional phone, unchecked SMS consent; button "Yes! Put me on the waitlist"; redirect to the confirmation page.
 
 - **Promotion starts:** Wednesday, Nov 11. **Offer opens:** Wednesday, Nov 18 (AI Life Summit Day 1, 1 PM ET). **Closes:** Nov 30, 11:59 p.m. PT.
@@ -33,7 +33,7 @@ Normal price and 2-3 lines on "why you need it" for each component; verified tot
 - Waitlist members can buy without attending the summit (that's the point of the waitlist).
 - No domain or page paths yet: keep /[PATH].
 
-## Logo + bundle mockup (for the design team)
+## Logo + bundle mockup (for the design team) ✅ delivered 2026-11-06, placed on both pages
 
 Logo: a "Black Friday Mega Bundle" logo (like last year's), wide format about 3:1, transparent background, for the box `#bundle-logo` at the top of both pages (it replaces the nav bar).
 
@@ -56,3 +56,6 @@ The form button is above the fold at 1440 × 900, 1366 × 768 and 768 × 1024. O
 ## Opening time on the pages (2026-11-05)
 
 The pages show the date only ("Wednesday, November 18"), no time: 1:00 PM ET only made sense next to the summit, which these pages don't mention. The countdown still counts to 1:00 PM ET (`COUNTDOWN_CONFIG.OPENS_AT`).
+
+## Images placed (2026-11-06)
+Logo (with ribbon, 260 px wide) at the top of both pages; group mockup (without Alicia) in the waitlist hero and on the confirmation page. Rechecked: form button still above the fold at 1440×900, 1366×768 (bottom at 762 px) and 768×1024; phones use the pink button; 360/390 px: no sideways scroll, no text under 12 px, all images load.

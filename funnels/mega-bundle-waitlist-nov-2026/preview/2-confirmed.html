@@ -155,6 +155,10 @@ details summary::-webkit-details-marker{display:none}
 .vclose{margin-top:10px;display:inline-block;border:1px solid rgba(240,78,152,.6);border-radius:999px;padding:8px 16px;font-size:12px;letter-spacing:.12em;text-transform:uppercase;font-weight:600;color:#F7F6F3}
 @media (max-width:640px){.vperks{grid-template-columns:1fr}.vperk + .vperk{border-left:0;border-top:1px solid #292929}.vperk{padding:18px 20px}.vnow{font-size:60px}.vclose{font-size:12px;letter-spacing:.06em;border-radius:12px;line-height:1.6}.vdot{display:none}.vplan .nw{display:block}}
 .nw{white-space:nowrap}
+/* real logo + mockup from the design team (2026-11-06) */
+.logoimg{display:block;width:260px;max-width:75%;height:auto}
+.mockup.has{border:0;background:none;padding:0;aspect-ratio:auto}
+.mockup.has img{width:100%;height:auto;object-fit:contain}
 </style>
 </head>
 <body><div style="position:sticky;top:0;z-index:99;background:#F04E98;color:#111;font:600 13px Montserrat,Arial,sans-serif;text-align:center;padding:8px 12px">PREVIEW ONLY · Step 2: Confirmation page. <a href="1-waitlist.html" style="color:#111">← Back to the waitlist page</a></div>
@@ -163,9 +167,7 @@ details summary::-webkit-details-marker{display:none}
 <!-- CONFIRMED -->
 <div class="dark" style="padding: 28px 0 80px 0; background: radial-gradient(ellipse at top, rgba(240,78,152,.16), transparent 60%), #111111">
 <div class="wrap" style="max-width: 820px; display: flex; flex-direction: column; align-items: center; text-align: center; gap: 22px">
-<div class="logo" id="bundle-logo"><!-- Replace with the logo image: <img src="LOGO-URL" alt="Alicia Lyttle: The Black Friday Mega Bundle"> -->
-<span>[BLACK FRIDAY MEGA BUNDLE LOGO]</span>
-</div>
+<img class="logoimg" id="bundle-logo" src="../assets/mb-logo.webp" alt="Alicia Lyttle: Black Friday Mega Bundle" width="608" height="168">
 <div style="display: flex; align-items: center; gap: 10px"><span style="width: 22px; height: 22px; border-radius: 50%; background: #F04E98; display: grid; place-items: center"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#111111" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"></path></svg></span><span class="eyebrow" style="color: #F7F6F3">You're in</span></div>
 <h1 style="font-size: 52px; color: #F7F6F3">You're on the <em style="font-style: italic; color: #F04E98">VIP Early Access List</em> 🎉</h1>
 <p class="body" style="font-size: 19px; max-width: 800px">You'll get your private early access link on<br class="dbr"> <strong style="color: #F7F6F3"><span style="white-space: nowrap">Wednesday, November 18</span></strong>.<br>It's the one email you don't want to miss.</p>
@@ -178,9 +180,7 @@ details summary::-webkit-details-marker{display:none}
 <div class="cd"><b data-cd="s">--</b><span>Seconds</span></div>
 </div>
 </div>
-<div class="mockup" id="bundle-mockup" style="margin-top: 8px"><!-- Replace this box with the bundle mockup image: <img src="MOCKUP-URL" alt="The Black Friday Mega Bundle: everything inside"> -->
-<span>[BUNDLE MOCKUP IMAGE: same image as the waitlist page]</span>
-</div>
+<div class="mockup has" id="bundle-mockup" style="margin-top: 8px"><img src="../assets/mb-group.webp" alt="Everything in the Black Friday Mega Bundle: 3 programs and 5 bonuses" width="1574" height="759"></div>
 <div class="vcard">
 <div class="vperks">
 <div class="vperk"><span class="vtick"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#111111" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"></path></svg></span><p><strong>First to see the full breakdown</strong><br>of everything inside the bundle</p></div>
