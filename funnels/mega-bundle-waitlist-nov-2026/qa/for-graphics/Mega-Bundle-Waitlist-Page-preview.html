@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Black Friday Mega Bundle: Waitlist</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#111111}
+a{color:#F04E98}a:hover{color:#FF7AB8}
+.page{font-family:Montserrat,Arial,sans-serif;color:#F7F6F3;background:#111111;line-height:1.6;font-size:17px}
+.page h1,.page h2,.page h3{font-family:'Cormorant Garamond',Georgia,serif;font-weight:600;line-height:1.08;margin:0}
+.page p{margin:0}
+.wrap{max-width:1120px;margin:0 auto;padding:0 24px;box-sizing:border-box}
+.btn{display:inline-block;background:#F04E98;color:#111111;font-family:Montserrat,Arial,sans-serif;font-weight:700;font-size:15px;letter-spacing:.06em;text-transform:uppercase;padding:18px 32px;border:0;border-radius:6px;text-decoration:none;min-height:44px;box-sizing:border-box;text-align:center;cursor:pointer}
+.btn:hover{background:#FF6BAB;color:#111111}
+.eyebrow{font-size:13px;letter-spacing:.2em;text-transform:uppercase;font-weight:600;color:#BFC3C7}
+.light .eyebrow{color:#5A5F63}
+.ph{border:1px dashed #BFC3C7;border-radius:8px;padding:20px;color:#BFC3C7;font-size:14px;font-style:italic;line-height:1.5}
+.light .ph{border-color:#8A8F93;color:#5A5F63}
+.light{background:#F7F6F3;color:#111111}
+.light .body{color:#292929}
+.dark .body{color:#E5E5E5}
+.field{font-family:Montserrat,Arial,sans-serif;font-size:16px;padding:14px 16px;border:1px solid #BFC3C7;border-radius:6px;background:#FFFFFF;color:#111111;min-height:44px;box-sizing:border-box;width:100%}
+.lbl{font-size:13px;font-weight:600;letter-spacing:.04em;color:#292929}
+.tcard.hidden{display:none}
+.chat{background:#FFFFFF;border:1px solid #E5E5E5;border-radius:10px;padding:12px 16px;display:inline-block;max-width:100%;box-sizing:border-box;box-shadow:0 14px 30px -20px rgba(0,0,0,.6)}
+
+.wicon{width:48px;height:48px;border-radius:12px;background:rgba(240,78,152,.10);display:grid;place-items:center;margin-bottom:2px}
+.gicon{width:56px;height:56px;border-radius:14px;background:#111111;border:1px solid rgba(240,78,152,.45);display:grid;place-items:center}
+
+.graphite{background:#292929;color:#F7F6F3;border-top:1px solid rgba(191,195,199,.18);border-bottom:1px solid rgba(191,195,199,.18)}
+.graphite .body{color:#E5E5E5}
+.graphite .eyebrow{color:#BFC3C7}
+.silver{background:#E5E5E5;color:#111111}
+.silver .body{color:#292929}
+.silver .eyebrow{color:#5A5F63}
+.receipt{list-style:none;margin:0;padding:0;display:flex;flex-direction:column}
+.receipt li{display:flex;gap:16px;align-items:flex-start;padding:16px 0;border-bottom:1px solid rgba(191,195,199,.22);font-size:18px;line-height:1.45;color:#F7F6F3}
+.receipt li:last-child{border-bottom:0}
+.receipt .tick{flex:0 0 28px;width:28px;height:28px;border-radius:50%;background:#F04E98;display:grid;place-items:center;margin-top:1px}
+.receipt .tick svg{width:15px;height:15px}
+.receipt li em{font-style:normal;color:#BFC3C7;font-size:15px;display:block;margin-top:2px}
+.wins{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:22px}
+.win{background:#FFFFFF;border:1px solid #BFC3C7;border-left:6px solid #F04E98;border-radius:10px;padding:28px 28px 24px;display:flex;flex-direction:column;gap:12px;box-sizing:border-box}
+.win .result{font-family:'Cormorant Garamond',Georgia,serif;font-size:30px;font-weight:700;line-height:1.1;color:#111111}
+.win .who{font-size:12px;letter-spacing:.16em;text-transform:uppercase;font-weight:700;color:#F04E98}
+.win .body{font-size:16.5px}
+.win .tag{margin-top:auto;padding-top:12px;border-top:1px dashed #BFC3C7;font-size:13.5px;color:#5A5F63}
+.win .tag b{color:#111111}
+@media (max-width:640px){.receipt li{font-size:16px}.win .result{font-size:26px}}
+details summary{cursor:pointer;list-style:none}
+details summary::-webkit-details-marker{display:none}
+
+@media (max-width: 640px){
+  .page h1{font-size:36px !important}
+  .page h2{font-size:32px !important}
+  .page h3{font-size:24px !important}
+  .page{font-size:16px}
+}
+
+/* Mega Bundle waitlist additions (same palette and fonts as the AI Life Summit pages) */
+.pill{display:inline-block;border:1px solid rgba(240,78,152,.6);color:#F7F6F3;border-radius:999px;padding:8px 14px;font-size:13px;font-weight:600;letter-spacing:.04em}
+.items{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:22px}
+.item{background:#FFFFFF;border:1px solid #BFC3C7;border-left:6px solid #F04E98;border-radius:10px;padding:26px 26px 24px;display:flex;flex-direction:column;gap:12px;box-sizing:border-box}
+.item.bonus{border-left-color:#111111}
+.item h3{font-size:28px;color:#111111}
+.item .body{font-size:16px}
+.item .ph{font-size:13px;padding:12px 14px}
+.itop{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}
+.tag{font-size:12px;letter-spacing:.16em;text-transform:uppercase;font-weight:700;color:#F04E98}
+.item.bonus .tag{color:#5A5F63}
+.price{background:#111111;color:#F7F6F3;font-weight:700;font-size:14px;letter-spacing:.03em;padding:7px 12px;border-radius:6px}
+.vid{aspect-ratio:16/9;background:#292929;border:1px dashed #8A8F93;border-radius:8px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;color:#BFC3C7;font-size:12px;font-style:italic;text-align:center;padding:12px}
+.play{width:48px;height:48px;border-radius:50%;background:#F04E98;display:grid;place-items:center}
+.receipt b{font-weight:700;color:#F7F6F3;white-space:nowrap}
+.pricebox{border:1px solid #F04E98;border-radius:10px;padding:32px;text-align:center;display:flex;flex-direction:column;gap:10px;align-items:center;background:rgba(240,78,152,.06)}
+.pricebox .big{font-family:'Cormorant Garamond',Georgia,serif;font-size:84px;font-weight:700;line-height:1;color:#F7F6F3}
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+.step{background:#111111;border:1px solid #3A3F43;border-radius:10px;padding:26px;display:flex;flex-direction:column;gap:10px}
+.step .n{width:40px;height:40px;border-radius:50%;border:2px solid #F04E98;display:grid;place-items:center;font-family:'Cormorant Garamond',Georgia,serif;font-size:22px;font-weight:700;color:#F04E98}
+.step .body{font-size:16px}
+.fit{flex:1 1 420px;min-width:0;background:#FFFFFF;border:1px solid #E5E5E5;border-radius:10px;padding:32px;display:flex;flex-direction:column;gap:14px;box-sizing:border-box}
+.fit.yes{border-top:5px solid #F04E98}
+.fit.no{border-top:5px solid #111111}
+.fit .body{font-size:17px;padding-left:28px;position:relative}
+.fit.yes .body:before{content:"\2713";position:absolute;left:0;color:#F04E98;font-weight:700}
+.fit.no .body:before{content:"\2715";position:absolute;left:0;color:#5A5F63;font-weight:700}
+/* logo slot (replaces the nav bar, like last year's waitlist) */
+.logo{width:220px;max-width:60%;aspect-ratio:3/1;border:1px dashed #BFC3C7;border-radius:10px;display:flex;align-items:center;justify-content:center;text-align:center;padding:12px;box-sizing:border-box;color:#BFC3C7;font-size:13px;font-style:italic;letter-spacing:.04em}
+.logo img{width:100%;height:100%;object-fit:contain;display:block}
+/* hero top: kept tight so the CTA sits above the fold */
+.herotop{display:flex;flex-direction:column;gap:14px;align-items:center;text-align:center}
+.herotop .hl{font-size:52px;color:#F7F6F3;max-width:1000px}
+.herotop .sub{font-size:18px;max-width:1040px}
+.herocta{margin-top:4px}
+@media (max-width:640px){.herotop{gap:14px}.herotop .hl{font-size:34px !important}.herotop .sub{font-size:16px}}
+/* right column: form card, countdown under it */
+.formcol{flex:0 1 420px;min-width:300px;display:flex;flex-direction:column;gap:18px}
+/* phone-only CTA under the subheadline (the form can't fit above the fold on a phone) */
+.mobcta{display:none}
+@media (max-width:640px){.mobcta{display:inline-block;width:100%;padding:16px 20px}}
+/* countdown (hero) */
+.countdown{display:flex;flex-direction:column;align-items:flex-start;gap:8px}
+@media (max-width:1000px){.countdown{align-items:center}}
+.cd-boxes{display:flex;gap:12px}
+.cd{width:84px;box-sizing:border-box;background:#1B1B1B;border:1px solid rgba(240,78,152,.45);border-radius:10px;padding:8px 6px 6px;display:flex;flex-direction:column;align-items:center;gap:4px}
+.cd b{font-family:'Cormorant Garamond',Georgia,serif;font-size:36px;font-weight:700;line-height:1;color:#F04E98;font-variant-numeric:tabular-nums}
+.cd span{font-size:11px;letter-spacing:.16em;text-transform:uppercase;font-weight:600;color:#BFC3C7}
+.cd-when{font-size:14px;color:#BFC3C7}
+.countdown.open .cd-boxes{display:none}
+@media (max-width:640px){.cd-boxes{gap:8px}.cd{width:68px;padding:6px 2px 6px}.cd b{font-size:30px}.cd span{font-size:12px;letter-spacing:.04em}}
+/* phones/tablets: when the hero stacks, show the form before the mockup */
+@media (max-width:1000px){.formcol{order:-1;flex:1 1 100%}}
+/* bundle mockup slot (hero) */
+.mockup{width:100%;aspect-ratio:16/9;border:1px dashed #BFC3C7;border-radius:10px;background:#1B1B1B;display:flex;align-items:center;justify-content:center;text-align:center;padding:20px;box-sizing:border-box;color:#BFC3C7;font-size:14px;font-style:italic}
+.mockup img{width:100%;height:100%;object-fit:contain;display:block}
+/* compact list (short version) */
+.list{background:#FFFFFF;border:1px solid #E5E5E5;border-radius:10px;padding:8px 28px 14px;display:flex;flex-direction:column}
+.list .grp{font-size:12px;letter-spacing:.16em;text-transform:uppercase;font-weight:700;color:#F04E98;padding:18px 0 6px}
+.list .row{display:flex;justify-content:space-between;align-items:baseline;gap:16px;padding:12px 0;border-bottom:1px solid #E5E5E5;font-size:17px;color:#111111}
+.list .row:last-child{border-bottom:0}
+.list .row em{display:block;font-style:normal;font-size:13px;color:#5A5F63;margin-top:2px}
+.list .row b{white-space:nowrap;font-weight:700}
+.light .pricebox{background:#111111;border-color:#111111}
+.light .pricebox .body{color:#E5E5E5}
+@media (max-width:640px){
+  .list{padding:4px 18px 10px}
+  .list .row{font-size:15px}
+  .pricebox{padding:24px 18px}
+  .pricebox .big{font-size:64px}
+  .receipt li{font-size:15px}
+  #legal a{display:inline-flex;align-items:center;min-height:44px}
+  p[style*="font-size: 11px"]{font-size:12px !important}
+}
+</style>
+</head>
+<body><div style="position:sticky;top:0;z-index:99;background:#F04E98;color:#111;font:600 13px Montserrat,Arial,sans-serif;text-align:center;padding:8px 12px">PREVIEW ONLY · Step 1: Waitlist page. The form below is a stand-in for the GHL form; it goes to the confirmation page.</div>
+<div class="page" style="width: 100%; box-sizing: border-box; display: flex; flex-direction: column">
+
+<!-- HERO -->
+<div class="dark" style="padding: 28px 0 64px 0; background: radial-gradient(ellipse at top, rgba(240,78,152,.16), transparent 60%), #111111">
+<div class="wrap" style="display: flex; flex-direction: column; gap: 28px">
+<div class="herotop">
+<div class="logo" id="bundle-logo"><!-- Replace with the logo image: <img src="LOGO-URL" alt="Alicia Lyttle: The Black Friday Mega Bundle"> -->
+<span>[BLACK FRIDAY MEGA BUNDLE LOGO]</span>
+</div>
+<p class="eyebrow" style="color: #F04E98">The VIP Early Access List Is Now Open</p>
+<h1 class="hl">Get First Access to Alicia's <em style="font-style: italic; color: #F04E98">Mega Bundle</em><br>Black Friday Deal</h1>
+<p class="body sub">Be the first to unlock Alicia's biggest bundle yet: the AI Consultant Certification, her AI Agents and AI Avatar programs, a private one-day mastermind with Alicia and 4 more bonuses. Valued at <strong style="color: #F7F6F3">$20,000+</strong>, yours for <strong style="color: #F7F6F3">$5,000</strong>. Hear first when doors open <strong style="color: #F7F6F3">Wednesday, November 18</strong>.</p>
+<a href="#register" class="btn mobcta">Join the VIP Early Access List</a>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 40px; align-items: flex-start">
+<div style="flex: 1 1 520px; min-width: 0; display: flex; flex-direction: column; gap: 18px">
+<div class="countdown" id="countdown" aria-live="polite">
+<p class="eyebrow" style="color: #BFC3C7">Doors open in</p>
+<div class="cd-boxes">
+<div class="cd"><b data-cd="d">--</b><span>Days</span></div>
+<div class="cd"><b data-cd="h">--</b><span>Hours</span></div>
+<div class="cd"><b data-cd="m">--</b><span>Minutes</span></div>
+<div class="cd"><b data-cd="s">--</b><span>Seconds</span></div>
+</div>
+</div>
+<div class="mockup" id="bundle-mockup"><!-- Replace this box with the bundle mockup image: <img src="MOCKUP-URL" alt="The Black Friday Mega Bundle: everything inside"> -->
+<span>[BUNDLE MOCKUP IMAGE: all 8 items together, 16:9, from the design team]</span>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 12px">
+<span class="pill">3 programs + 5 bonuses</span>
+<span class="pill">$20,000+ value</span>
+<span class="pill">$5,000 or 2 × $2,600</span>
+</div>
+<p style="font-size: 15px; color: #BFC3C7; border-left: 3px solid #F04E98; padding-left: 14px"><strong style="color: #F7F6F3">Already in the AI Consultant program?</strong> This waitlist isn't for you. You'll get your own upgrade offer.</p>
+</div>
+<div class="formcol">
+<div id="register" style="background: #F7F6F3; color: #111111; border-radius: 10px; padding: 24px 28px; box-sizing: border-box; display: flex; flex-direction: column; gap: 8px">
+<h3 style="font-size: 26px; color: #111111; margin-bottom: 4px">Join the waitlist</h3>
+<form action="Mega-Bundle-Confirmation-Page-preview.html" method="get" style="display:flex;flex-direction:column;gap:10px">
+<input class="field" placeholder="Full name" required>
+<input class="field" type="email" placeholder="Email" required>
+<input class="field" type="tel" placeholder="Phone (optional, for a text when it opens)">
+<label style="display:flex;gap:10px;align-items:flex-start;font-size:12px;color:#292929;line-height:1.45"><input type="checkbox" style="margin-top:2px;accent-color:#F04E98">Yes, text me when the Mega Bundle opens. Msg &amp; data rates may apply. Reply STOP to opt out, HELP for help.</label>
+<button type="submit" class="btn" style="width:100%">Yes! Put me on the waitlist</button>
+</form>
+<p style="font-size: 13px; color: #5A5F63; text-align: center; margin-top: 6px">Joining is free and doesn't commit you to buy. On November 18 you'll get the link to enroll, or to book a call with the team.</p>
+<p style="font-size: 11px; color: #5A5F63; text-align: center; line-height: 1.5">By joining, you agree to receive emails about this offer from AI InnoVision, and to our <a href="https://aiinnovision.com/privacy" style="color: #5A5F63">Privacy Policy</a> and <a href="https://aiinnovision.com/terms" style="color: #5A5F63">Terms</a>. Unsubscribe any time.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<!-- WHAT'S INSIDE + PRICE -->
+<div class="light" style="padding: 72px 0">
+<div class="wrap" style="max-width: 860px; display: flex; flex-direction: column; gap: 28px">
+<div style="text-align: center; display: flex; flex-direction: column; gap: 12px; align-items: center">
+<p class="eyebrow">What's inside</p>
+<h2 style="font-size: 46px; color: #111111">3 Programs, 5 Bonuses, One Price</h2>
+</div>
+<div class="list">
+<p class="grp">The programs</p>
+<div class="row"><span>AI Consultant Certification Program</span><b>$5,997</b></div>
+<div class="row"><span>AI Agents Course</span><b>$1,997</b></div>
+<div class="row"><span>AI Avatar Academy</span><b>$1,997</b></div>
+<p class="grp">The bonuses</p>
+<div class="row"><span>Private One-Day Mastermind With Alicia</span><b>$10,000+</b></div>
+<div class="row"><span>Two AI Agents Live Tickets <em>In person, Atlanta, Jan 25 or 26, 2027</em></span><b>$2,994</b></div>
+<div class="row"><span>Private Micro Drama Workshop</span><b>$297</b></div>
+<div class="row"><span>All AI Business Summit Replays</span><b>$47</b></div>
+<div class="row"><span>TikTok Live Selling Training <em>With a new instructor</em></span><b>Included</b></div>
+</div>
+<div class="pricebox">
+<p class="eyebrow" style="color: #BFC3C7">Total if bought separately: <span style="color: #F7F6F3">$20,000+</span></p>
+<p class="big">$5,000</p>
+<p class="body" style="font-size: 18px">paid in full, or <strong style="color: #F7F6F3">2 payments of $2,600</strong></p>
+<p class="eyebrow" style="color: #F7F6F3">Opens Wednesday, November 18 &nbsp;·&nbsp; Closes November 30 at 11:59 p.m. PT</p>
+<div style="margin-top: 8px"><a href="#register" class="btn">Yes! Put me on the waitlist</a></div>
+</div>
+</div>
+</div>
+
+<!-- FOOTER -->
+<div class="dark" style="padding: 40px 0; border-top: 1px solid #292929">
+<div class="wrap" style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 16px; font-size: 14px; color: #BFC3C7">
+<div style="display: flex; align-items: center; gap: 12px">
+<div style="width: 36px; height: 36px; border: 1.5px solid #BFC3C7; border-radius: 5px; display: flex; align-items: center; justify-content: center; font-family: 'Cormorant Garamond', Georgia, serif; font-size: 18px; font-weight: 700; color: #BFC3C7">AL</div>
+<span>© 2026 Alicia Lyttle · AI InnoVision</span>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center">
+<span style="color: #F04E98; font-weight: 600">@alicialyttle</span>
+<span style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: 18px; font-style: italic; color: #F7F6F3">Intelligence Creates Freedom</span>
+</div>
+</div>
+<div id="legal" class="wrap" style="display: flex; flex-direction: column; gap: 14px; margin-top: 28px; padding-top: 24px; border-top: 1px solid #292929; font-size: 13px; line-height: 1.6; color: #BFC3C7">
+<div style="display: flex; flex-wrap: wrap; gap: 8px 24px; font-weight: 600; letter-spacing: .04em; text-transform: uppercase; font-size: 12px">
+<a href="https://aiinnovision.com/privacy" style="color: #F7F6F3; text-decoration: none">Privacy Policy</a>
+<a href="https://aiinnovision.com/terms" style="color: #F7F6F3; text-decoration: none">Terms &amp; Conditions</a>
+<a href="#legal" style="color: #F7F6F3; text-decoration: none">Earnings &amp; Results Disclaimer</a>
+<a href="https://aiinnovision.com/contact" style="color: #F7F6F3; text-decoration: none">Contact</a>
+</div>
+<p><strong style="color: #F7F6F3">Results vary.</strong> The programs and bonuses in this bundle are education and training. Nothing on this page is a promise of clients, income or any specific result. Your results depend on your own effort, your experience and your market.</p>
+<p><strong style="color: #F7F6F3">Not professional advice.</strong> Nothing in these programs is financial, legal, tax or business advice, and enrolling does not create a professional relationship. Check anything that matters with a qualified professional before you act on it.</p>
+<p><strong style="color: #F7F6F3">Values.</strong> Values shown are the prices each program and bonus is normally sold for, or its stated value when sold separately. Bonus details, dates and locations may change.</p>
+<p><strong style="color: #F7F6F3">Email and text consent.</strong> By joining the waitlist, you agree to receive emails from AI InnoVision about this offer. Texts are sent only if you tick the box. You can unsubscribe at any time.</p>
+<p>This site is not a part of the Facebook website or Meta Platforms, Inc., and is not endorsed by Facebook in any way. FACEBOOK is a trademark of Meta Platforms, Inc. This site is not part of, or endorsed by, Google LLC. TikTok, ChatGPT and other names are trademarks of their respective owners.</p>
+<p>© 2026 AI InnoVision. All rights reserved. · 1150 Malabar Rd SE Ste 111, #205, Palm Bay, Florida 32907 · hello@aiinnovision.com</p>
+</div>
+</div>
+
+</div>
+
+<script>
+/* ===== COUNTDOWN CONFIG ======================================================
+   OPENS_AT : when the Mega Bundle opens. ISO time WITH the UTC offset.
+              Wed Nov 18, 2026, 1:00 PM ET = 2026-11-18T13:00:00-05:00 (EST).
+   OPEN_TEXT: what the countdown line says once that time has passed.          */
+var COUNTDOWN_CONFIG = {
+  OPENS_AT: '2026-11-18T13:00:00-05:00',
+  OPEN_TEXT: 'The Mega Bundle is open. Check your email for your link.'
+};
+/* ========================================================================== */
+(function(){
+  var box = document.getElementById('countdown');
+  if (!box || box.getAttribute('data-done')) return;
+  box.setAttribute('data-done', '1');
+  var end = new Date(COUNTDOWN_CONFIG.OPENS_AT).getTime();
+  var el = {}; ['d','h','m','s'].forEach(function(k){ el[k] = box.querySelector('[data-cd="' + k + '"]'); });
+  var label = box.querySelector('.eyebrow');
+  function pad(n){ return (n < 10 ? '0' : '') + n; }
+  function tick(){
+    var left = Math.floor((end - Date.now()) / 1000);
+    if (isNaN(end)) return;
+    if (left <= 0) { box.classList.add('open'); if (label) label.textContent = COUNTDOWN_CONFIG.OPEN_TEXT; clearInterval(t); return; }
+    el.d.textContent = Math.floor(left / 86400);
+    el.h.textContent = pad(Math.floor(left % 86400 / 3600));
+    el.m.textContent = pad(Math.floor(left % 3600 / 60));
+    el.s.textContent = pad(left % 60);
+  }
+  var t = setInterval(tick, 1000); tick();
+})();
+</script>
+<script>
+/* ===== CONFIG: edit these two values in GHL ===================================
+   FORM_ID   : the ID of the GHL form "Mega Bundle Waitlist"
+               (Sites -> Forms -> your form -> Integrate -> Embed: copy the part after /widget/form/)
+   EMBED_JS  : the form_embed.js URL shown in that same embed code
+   Until FORM_ID is filled, a dashed placeholder shows where the form will sit.
+   Fields (name, email, optional phone, unchecked SMS checkbox), the pink button
+   "Yes! Put me on the waitlist" and the redirect to the confirmation page are set
+   in the GHL form builder, not here.                                            */
+var WAITLIST_CONFIG = {
+  FORM_ID: '',
+  EMBED_JS: 'https://link.msgsbuilder.com/js/form_embed.js'
+};
+/* ========================================================================== */
+(function(){
+  var slot = null;
+  if (!slot || slot.getAttribute('data-done')) return;
+  slot.setAttribute('data-done', '1');
+  var id = (WAITLIST_CONFIG.FORM_ID || '').trim();
+  if (!id) {
+    slot.innerHTML = '<div style="border:1px dashed #8A8F93;border-radius:6px;padding:28px 16px;text-align:center;font-size:14px;color:#5A5F63;font-style:italic">[GHL waitlist form goes here: set FORM_ID in the page code]</div>';
+    return;
+  }
+  var f = document.createElement('iframe');
+  f.src = 'https://api.leadconnectorhq.com/widget/form/' + id;
+  f.id = 'inline-' + id;
+  f.title = 'Mega Bundle Waitlist';
+  f.style.cssText = 'width:100%;min-height:460px;border:none;border-radius:6px;background:transparent';
+  f.setAttribute('data-layout', "{'id':'INLINE'}");
+  f.setAttribute('data-trigger-type', 'alwaysShow');
+  f.setAttribute('data-activation-type', 'alwaysActivated');
+  f.setAttribute('data-deactivation-type', 'neverDeactivate');
+  f.setAttribute('data-form-name', 'Mega Bundle Waitlist');
+  f.setAttribute('data-layout-iframe-id', 'inline-' + id);
+  f.setAttribute('data-form-id', id);
+  slot.appendChild(f);
+  var s = document.createElement('script'); s.src = WAITLIST_CONFIG.EMBED_JS; s.async = true;
+  document.body.appendChild(s);
+})();
+</script>
+
+<script>
+/* Smooth scroll for in-page buttons (e.g. "Save my free seat" -> #register, "Upgrade" -> #upgrade).
+   Also runs when the page opens with a #hash (e.g. /ailife#register from the testimonial wall),
+   because GHL builds the page after load and the browser's own jump misses it. */
+(function(){
+  if (window.__alSmoothScroll) return; window.__alSmoothScroll = true;
+  var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var FLASH = { register: 1, upgrade: 1 };
+  function go(id, smooth){
+    var t = document.getElementById(id); if (!t) return false;
+    var y = t.getBoundingClientRect().top + window.pageYOffset - 24;
+    window.scrollTo({ top: y, behavior: (smooth && !reduce) ? 'smooth' : 'auto' });
+    if (FLASH[id] && t.animate && !reduce) {
+      t.animate([
+        { boxShadow: '0 0 0 0 rgba(240,78,152,0)' },
+        { boxShadow: '0 0 0 6px rgba(240,78,152,.55)', offset: .35 },
+        { boxShadow: '0 0 0 0 rgba(240,78,152,0)' }
+      ], { duration: 1400, delay: 500, easing: 'ease-out' });
+    }
+    return true;
+  }
+  document.addEventListener('click', function(e){
+    var a = e.target.closest && e.target.closest('a[href^="#"]'); if (!a) return;
+    var id = a.getAttribute('href').slice(1); if (!id) return;
+    if (go(id, true)) { e.preventDefault(); if (history.replaceState) history.replaceState(null, '', '#' + id); }
+  });
+  if (location.hash.length > 1) {
+    var id = decodeURIComponent(location.hash.slice(1));
+    window.addEventListener('load', function(){ setTimeout(function(){ go(id, true); }, 400); });
+  }
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,442 @@
+<!-- ========================================================================
+     Welcome to the Black Friday Mega Bundle
+     Generated for GoHighLevel by html-to-ghl.
+
+     HOW TO INSTALL
+       1. GHL builder -> Add Element -> Custom JS/HTML
+       2. Paste this entire file in, save, preview.
+       3. Set the containing row/column padding to 0 for a clean edge.
+       4. Page Settings -> turn OFF 'Optimise JavaScript'. It can delay
+          the hydration event this page waits for before booting.
+       5. Page Settings -> SEO: paste the values below.
+
+     SEO title:       Welcome to the Black Friday Mega Bundle
+
+     Self contained: no external files. Edit the CONFIG block inside the
+     <script> at the bottom; nothing else should need touching.
+     ======================================================================== -->
+
+<!-- Fonts. Faster still: move these links to Page Settings -> Custom Code -> Head. -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Montserrat:wght@400;500;600;700&display=swap">
+
+<style>
+/* Reveal the page now that its styles exist (see the wrapper's inline style). */
+#ghl-mbwelcome { visibility: visible !important; }
+
+/* --- page level: the only rules allowed outside the scope --------------
+   overflow-x contains the full-bleed escape below; the background stops
+   GHL's default light chrome showing through at the edges.            --- */
+html { overflow-x: hidden; }
+body { background: #111111; }
+
+/* --- inheritance firewall ----------------------------------------------
+   Scoping stops our rules escaping, but not GHL's leaking in, and two
+   routes do real damage:
+     * inherited properties — a host `body { line-height: 1.5 }` flows
+       straight into this wrapper and silently retimes every block of text;
+     * direct element rules — a host `h1 { font-family: Georgia }` beats
+       inheritance outright, because any direct rule does.
+   So pin the inherited text properties on the wrapper, and re-point the
+   usual elements back at it. :where() contributes zero specificity, so
+   the page's own scoped rules below still win every tie.
+   This block sits BEFORE those rules for the same reason.          --- */
+#ghl-mbwelcome { line-height: normal; letter-spacing: normal; word-spacing: normal;
+            font-style: normal; font-variant: normal; text-transform: none;
+            text-align: start; text-indent: 0; }
+#ghl-mbwelcome :where(h1,h2,h3,h4,h5,h6,p,ul,ol,li,dl,dt,dd,a,span,div,section,article,
+        button,input,select,textarea,summary,details,label,fieldset,legend,
+        blockquote,figure,figcaption,table,thead,tbody,tr,th,td,strong,em,small) {
+  font-family: inherit; line-height: inherit; letter-spacing: inherit;
+}
+/* Media: a host `img { border / padding / box-shadow }` would frame every
+   picture. Pages rarely set these themselves, so nothing else stops them. */
+#ghl-mbwelcome :where(img,svg,video,picture) { border: 0; padding: 0; box-shadow: none; }
+
+/* --- scoped: GHL's stylesheet cannot reach in, ours cannot reach out --- */
+#ghl-mbwelcome {margin:0;background:#111111}
+#ghl-mbwelcome a {color:#F04E98}#ghl-mbwelcome a:hover {color:#FF7AB8}
+#ghl-mbwelcome .page {font-family:Montserrat,Arial,sans-serif;color:#F7F6F3;background:#111111;line-height:1.6;font-size:17px}
+#ghl-mbwelcome .page h1, #ghl-mbwelcome .page h2, #ghl-mbwelcome .page h3 {font-family:'Cormorant Garamond',Georgia,serif;font-weight:600;line-height:1.08;margin:0}
+#ghl-mbwelcome .page p {margin:0}
+#ghl-mbwelcome .wrap {max-width:1120px;margin:0 auto;padding:0 24px;box-sizing:border-box}
+#ghl-mbwelcome .btn {display:inline-block;background:#F04E98;color:#111111;font-family:Montserrat,Arial,sans-serif;font-weight:700;font-size:15px;letter-spacing:.06em;text-transform:uppercase;padding:18px 32px;border:0;border-radius:6px;text-decoration:none;min-height:44px;box-sizing:border-box;text-align:center;cursor:pointer}
+#ghl-mbwelcome .btn:hover {background:#FF6BAB;color:#111111}
+#ghl-mbwelcome .eyebrow {font-size:13px;letter-spacing:.2em;text-transform:uppercase;font-weight:600;color:#BFC3C7}
+#ghl-mbwelcome .light .eyebrow {color:#5A5F63}
+#ghl-mbwelcome .ph {border:1px dashed #BFC3C7;border-radius:8px;padding:20px;color:#BFC3C7;font-size:14px;font-style:italic;line-height:1.5}
+#ghl-mbwelcome .light .ph {border-color:#8A8F93;color:#5A5F63}
+#ghl-mbwelcome .light {background:#F7F6F3;color:#111111}
+#ghl-mbwelcome .light .body {color:#292929}
+#ghl-mbwelcome .dark .body {color:#E5E5E5}
+#ghl-mbwelcome .field {font-family:Montserrat,Arial,sans-serif;font-size:16px;padding:14px 16px;border:1px solid #BFC3C7;border-radius:6px;background:#FFFFFF;color:#111111;min-height:44px;box-sizing:border-box;width:100%}
+#ghl-mbwelcome .lbl {font-size:13px;font-weight:600;letter-spacing:.04em;color:#292929}
+#ghl-mbwelcome .tcard.hidden {display:none}
+#ghl-mbwelcome .chat {background:#FFFFFF;border:1px solid #E5E5E5;border-radius:10px;padding:12px 16px;display:inline-block;max-width:100%;box-sizing:border-box;box-shadow:0 14px 30px -20px rgba(0,0,0,.6)}
+
+#ghl-mbwelcome .wicon {width:48px;height:48px;border-radius:12px;background:rgba(240,78,152,.10);display:grid;place-items:center;margin-bottom:2px}
+#ghl-mbwelcome .gicon {width:56px;height:56px;border-radius:14px;background:#111111;border:1px solid rgba(240,78,152,.45);display:grid;place-items:center}
+
+#ghl-mbwelcome .graphite {background:#292929;color:#F7F6F3;border-top:1px solid rgba(191,195,199,.18);border-bottom:1px solid rgba(191,195,199,.18)}
+#ghl-mbwelcome .graphite .body {color:#E5E5E5}
+#ghl-mbwelcome .graphite .eyebrow {color:#BFC3C7}
+#ghl-mbwelcome .silver {background:#E5E5E5;color:#111111}
+#ghl-mbwelcome .silver .body {color:#292929}
+#ghl-mbwelcome .silver .eyebrow {color:#5A5F63}
+#ghl-mbwelcome .receipt {list-style:none;margin:0;padding:0;display:flex;flex-direction:column}
+#ghl-mbwelcome .receipt li {display:flex;gap:16px;align-items:flex-start;padding:16px 0;border-bottom:1px solid rgba(191,195,199,.22);font-size:18px;line-height:1.45;color:#F7F6F3}
+#ghl-mbwelcome .receipt li:last-child {border-bottom:0}
+#ghl-mbwelcome .receipt .tick {flex:0 0 28px;width:28px;height:28px;border-radius:50%;background:#F04E98;display:grid;place-items:center;margin-top:1px}
+#ghl-mbwelcome .receipt .tick svg {width:15px;height:15px}
+#ghl-mbwelcome .receipt li em {font-style:normal;color:#BFC3C7;font-size:15px;display:block;margin-top:2px}
+#ghl-mbwelcome .wins {display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:22px}
+#ghl-mbwelcome .win {background:#FFFFFF;border:1px solid #BFC3C7;border-left:6px solid #F04E98;border-radius:10px;padding:28px 28px 24px;display:flex;flex-direction:column;gap:12px;box-sizing:border-box}
+#ghl-mbwelcome .win .result {font-family:'Cormorant Garamond',Georgia,serif;font-size:30px;font-weight:700;line-height:1.1;color:#111111}
+#ghl-mbwelcome .win .who {font-size:12px;letter-spacing:.16em;text-transform:uppercase;font-weight:700;color:#F04E98}
+#ghl-mbwelcome .win .body {font-size:16.5px}
+#ghl-mbwelcome .win .tag {margin-top:auto;padding-top:12px;border-top:1px dashed #BFC3C7;font-size:13.5px;color:#5A5F63}
+#ghl-mbwelcome .win .tag b {color:#111111}
+@media (max-width:640px) {#ghl-mbwelcome .receipt li {font-size:16px}#ghl-mbwelcome .win .result {font-size:26px}}
+#ghl-mbwelcome details summary {cursor:pointer;list-style:none}
+#ghl-mbwelcome details summary::-webkit-details-marker {display:none}
+
+@media (max-width: 640px) {
+  #ghl-mbwelcome .page h1 {font-size:36px !important}
+  #ghl-mbwelcome .page h2 {font-size:32px !important}
+  #ghl-mbwelcome .page h3 {font-size:24px !important}
+  #ghl-mbwelcome .page {font-size:16px}
+}
+
+/* Mega Bundle waitlist additions (same palette and fonts as the AI Life Summit pages) */
+#ghl-mbwelcome .pill {display:inline-block;border:1px solid rgba(240,78,152,.6);color:#F7F6F3;border-radius:999px;padding:8px 14px;font-size:13px;font-weight:600;letter-spacing:.04em}
+#ghl-mbwelcome .items {display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:22px}
+#ghl-mbwelcome .item {background:#FFFFFF;border:1px solid #BFC3C7;border-left:6px solid #F04E98;border-radius:10px;padding:26px 26px 24px;display:flex;flex-direction:column;gap:12px;box-sizing:border-box}
+#ghl-mbwelcome .item.bonus {border-left-color:#111111}
+#ghl-mbwelcome .item h3 {font-size:28px;color:#111111}
+#ghl-mbwelcome .item .body {font-size:16px}
+#ghl-mbwelcome .item .ph {font-size:13px;padding:12px 14px}
+#ghl-mbwelcome .itop {display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}
+#ghl-mbwelcome .tag {font-size:12px;letter-spacing:.16em;text-transform:uppercase;font-weight:700;color:#F04E98}
+#ghl-mbwelcome .item.bonus .tag {color:#5A5F63}
+#ghl-mbwelcome .price {background:#111111;color:#F7F6F3;font-weight:700;font-size:14px;letter-spacing:.03em;padding:7px 12px;border-radius:6px}
+#ghl-mbwelcome .vid {aspect-ratio:16/9;background:#292929;border:1px dashed #8A8F93;border-radius:8px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;color:#BFC3C7;font-size:12px;font-style:italic;text-align:center;padding:12px}
+#ghl-mbwelcome .play {width:48px;height:48px;border-radius:50%;background:#F04E98;display:grid;place-items:center}
+#ghl-mbwelcome .receipt b {font-weight:700;color:#F7F6F3;white-space:nowrap}
+#ghl-mbwelcome .pricebox {border:1px solid #F04E98;border-radius:10px;padding:32px;text-align:center;display:flex;flex-direction:column;gap:10px;align-items:center;background:rgba(240,78,152,.06)}
+#ghl-mbwelcome .pricebox .big {font-family:'Cormorant Garamond',Georgia,serif;font-size:84px;font-weight:700;line-height:1;color:#F7F6F3}
+#ghl-mbwelcome .steps {display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+#ghl-mbwelcome .step {background:#111111;border:1px solid #3A3F43;border-radius:10px;padding:26px;display:flex;flex-direction:column;gap:10px}
+#ghl-mbwelcome .step .n {width:40px;height:40px;border-radius:50%;border:2px solid #F04E98;display:grid;place-items:center;font-family:'Cormorant Garamond',Georgia,serif;font-size:22px;font-weight:700;color:#F04E98}
+#ghl-mbwelcome .step .body {font-size:16px}
+#ghl-mbwelcome .fit {flex:1 1 420px;min-width:0;background:#FFFFFF;border:1px solid #E5E5E5;border-radius:10px;padding:32px;display:flex;flex-direction:column;gap:14px;box-sizing:border-box}
+#ghl-mbwelcome .fit.yes {border-top:5px solid #F04E98}
+#ghl-mbwelcome .fit.no {border-top:5px solid #111111}
+#ghl-mbwelcome .fit .body {font-size:17px;padding-left:28px;position:relative}
+#ghl-mbwelcome .fit.yes .body:before {content:"\2713";position:absolute;left:0;color:#F04E98;font-weight:700}
+#ghl-mbwelcome .fit.no .body:before {content:"\2715";position:absolute;left:0;color:#5A5F63;font-weight:700}
+/* logo slot (replaces the nav bar, like last year's waitlist) */
+#ghl-mbwelcome .logo {width:220px;max-width:60%;aspect-ratio:3/1;border:1px dashed #BFC3C7;border-radius:10px;display:flex;align-items:center;justify-content:center;text-align:center;padding:12px;box-sizing:border-box;color:#BFC3C7;font-size:13px;font-style:italic;letter-spacing:.04em}
+#ghl-mbwelcome .logo img {width:100%;height:100%;object-fit:contain;display:block}
+/* hero top: kept tight so the CTA sits above the fold */
+#ghl-mbwelcome .herotop {display:flex;flex-direction:column;gap:14px;align-items:center;text-align:center}
+#ghl-mbwelcome .herotop .hl {font-size:52px;color:#F7F6F3;max-width:1000px}
+#ghl-mbwelcome .herotop .sub {font-size:18px;max-width:1040px}
+#ghl-mbwelcome .herocta {margin-top:4px}
+@media (max-width:640px) {#ghl-mbwelcome .herotop {gap:14px}#ghl-mbwelcome .herotop .hl {font-size:34px !important}#ghl-mbwelcome .herotop .sub {font-size:16px}}
+/* right column: form card, countdown under it */
+#ghl-mbwelcome .formcol {flex:0 1 420px;min-width:300px;display:flex;flex-direction:column;gap:18px}
+/* phone-only CTA under the subheadline (the form can't fit above the fold on a phone) */
+#ghl-mbwelcome .mobcta {display:none}
+@media (max-width:640px) {#ghl-mbwelcome .mobcta {display:inline-block;width:100%;padding:16px 20px}}
+/* countdown (hero) */
+#ghl-mbwelcome .countdown {display:flex;flex-direction:column;align-items:flex-start;gap:8px}
+@media (max-width:1000px) {#ghl-mbwelcome .countdown {align-items:center}}
+#ghl-mbwelcome .cd-boxes {display:flex;gap:12px}
+#ghl-mbwelcome .cd {width:84px;box-sizing:border-box;background:#1B1B1B;border:1px solid rgba(240,78,152,.45);border-radius:10px;padding:8px 6px 6px;display:flex;flex-direction:column;align-items:center;gap:4px}
+#ghl-mbwelcome .cd b {font-family:'Cormorant Garamond',Georgia,serif;font-size:36px;font-weight:700;line-height:1;color:#F04E98;font-variant-numeric:tabular-nums}
+#ghl-mbwelcome .cd span {font-size:11px;letter-spacing:.16em;text-transform:uppercase;font-weight:600;color:#BFC3C7}
+#ghl-mbwelcome .cd-when {font-size:14px;color:#BFC3C7}
+#ghl-mbwelcome .countdown.open .cd-boxes {display:none}
+@media (max-width:640px) {#ghl-mbwelcome .cd-boxes {gap:8px}#ghl-mbwelcome .cd {width:68px;padding:6px 2px 6px}#ghl-mbwelcome .cd b {font-size:30px}#ghl-mbwelcome .cd span {font-size:12px;letter-spacing:.04em}}
+/* phones/tablets: when the hero stacks, show the form before the mockup */
+@media (max-width:1000px) {#ghl-mbwelcome .formcol {order:-1;flex:1 1 100%}}
+/* bundle mockup slot (hero) */
+#ghl-mbwelcome .mockup {width:100%;aspect-ratio:16/9;border:1px dashed #BFC3C7;border-radius:10px;background:#1B1B1B;display:flex;align-items:center;justify-content:center;text-align:center;padding:20px;box-sizing:border-box;color:#BFC3C7;font-size:14px;font-style:italic}
+#ghl-mbwelcome .mockup img {width:100%;height:100%;object-fit:contain;display:block}
+/* compact list (short version) */
+#ghl-mbwelcome .list {background:#FFFFFF;border:1px solid #E5E5E5;border-radius:10px;padding:8px 28px 14px;display:flex;flex-direction:column}
+#ghl-mbwelcome .list .grp {font-size:12px;letter-spacing:.16em;text-transform:uppercase;font-weight:700;color:#F04E98;padding:18px 0 6px}
+#ghl-mbwelcome .list .row {display:flex;justify-content:space-between;align-items:baseline;gap:16px;padding:12px 0;border-bottom:1px solid #E5E5E5;font-size:17px;color:#111111}
+#ghl-mbwelcome .list .row:last-child {border-bottom:0}
+#ghl-mbwelcome .list .row em {display:block;font-style:normal;font-size:13px;color:#5A5F63;margin-top:2px}
+#ghl-mbwelcome .list .row b {white-space:nowrap;font-weight:700}
+#ghl-mbwelcome .light .pricebox {background:#111111;border-color:#111111}
+#ghl-mbwelcome .light .pricebox .body {color:#E5E5E5}
+@media (max-width:640px) {
+  #ghl-mbwelcome .list {padding:4px 18px 10px}
+  #ghl-mbwelcome .list .row {font-size:15px}
+  #ghl-mbwelcome .pricebox {padding:24px 18px}
+  #ghl-mbwelcome .pricebox .big {font-size:64px}
+  #ghl-mbwelcome .receipt li {font-size:15px}
+  #ghl-mbwelcome #legal a {display:inline-flex;align-items:center;min-height:44px}
+  #ghl-mbwelcome p[style*="font-size: 11px"] {font-size:12px !important}
+}
+
+/* ===== Mega Bundle SALES page additions ===== */
+#ghl-mbwelcome .nw {white-space:nowrap}
+#ghl-mbwelcome .herorow {display:flex;flex-wrap:wrap;gap:36px;align-items:center}
+#ghl-mbwelcome .herorow .mockup {flex:1 1 560px;min-width:0;width:auto}
+#ghl-mbwelcome .buycard {flex:0 1 380px;min-width:290px;background:#1B1B1B;border:1px solid rgba(240,78,152,.45);border-radius:12px;padding:26px 26px 22px;display:flex;flex-direction:column;gap:16px;align-items:center;text-align:center;box-sizing:border-box}
+#ghl-mbwelcome .buycard .countdown {align-items:center}
+#ghl-mbwelcome .bc-price {display:flex;flex-direction:column;gap:2px;align-items:center}
+#ghl-mbwelcome .bc-was {font-size:14px;color:#BFC3C7}
+#ghl-mbwelcome .bc-was s {color:#F7F6F3}
+#ghl-mbwelcome .bc-big {font-family:'Cormorant Garamond',Georgia,serif;font-size:72px;font-weight:700;line-height:1;color:#F7F6F3}
+#ghl-mbwelcome .bc-or {font-size:15px;color:#E5E5E5}
+#ghl-mbwelcome .bc-note {font-size:13px;color:#BFC3C7;line-height:1.5}
+#ghl-mbwelcome .buycard .cd {width:70px}
+#ghl-mbwelcome .buycard .cd b {font-size:30px}
+#ghl-mbwelcome .shead {display:flex;flex-direction:column;gap:12px;align-items:center;text-align:center}
+#ghl-mbwelcome .shead h2 {font-size:48px;max-width:900px}
+#ghl-mbwelcome .shead .body {max-width:720px;font-size:18px}
+#ghl-mbwelcome .page h2 em {font-style:italic;color:#F04E98}
+#ghl-mbwelcome .light h2 {color:#111111}
+#ghl-mbwelcome .dark h2 {color:#F7F6F3}
+#ghl-mbwelcome .fit4 {display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+#ghl-mbwelcome .f4 {background:#FFFFFF;border:1px solid #E5E5E5;border-top:5px solid #F04E98;border-radius:10px;padding:24px;display:flex;flex-direction:column;gap:8px}
+#ghl-mbwelcome .f4 .n {width:38px;height:38px;border-radius:50%;background:#111111;color:#F04E98;display:grid;place-items:center;font-family:'Cormorant Garamond',Georgia,serif;font-size:22px;font-weight:700}
+#ghl-mbwelcome .f4k {font-family:'Cormorant Garamond',Georgia,serif;font-size:30px;font-weight:700;color:#111111;line-height:1.1}
+#ghl-mbwelcome .f4t {font-size:12px;letter-spacing:.12em;text-transform:uppercase;font-weight:700;color:#F04E98}
+#ghl-mbwelcome .f4 .body {font-size:15.5px}
+#ghl-mbwelcome .band {padding:56px 0 8px}
+#ghl-mbwelcome .band h2 {font-size:52px}
+#ghl-mbwelcome .iteml {padding:56px 0}
+#ghl-mbwelcome .irow {display:flex;gap:56px;align-items:center}
+#ghl-mbwelcome .irow.flip {flex-direction:row-reverse}
+#ghl-mbwelcome .imock {flex:0 0 46%;aspect-ratio:4/3;border:1px dashed #8A8F93;border-radius:12px;background:#1B1B1B;display:flex;align-items:center;justify-content:center;text-align:center;padding:20px;box-sizing:border-box;color:#BFC3C7;font-size:14px;font-style:italic}
+#ghl-mbwelcome .light .imock {background:#ECEAE5;color:#5A5F63}
+#ghl-mbwelcome .imock img {width:100%;height:100%;object-fit:contain;display:block}
+#ghl-mbwelcome .irow .vid {flex:0 0 46%;box-sizing:border-box}
+#ghl-mbwelcome .itext {flex:1 1 auto;min-width:0;display:flex;flex-direction:column;gap:14px}
+#ghl-mbwelcome .itext h3 {font-size:42px}
+#ghl-mbwelcome .light .itext h3 {color:#111111}
+#ghl-mbwelcome .dark .itext h3 {color:#F7F6F3}
+#ghl-mbwelcome .itext .body {font-size:17px}
+#ghl-mbwelcome .ilist {list-style:none;margin:4px 0 0;padding:0;display:flex;flex-direction:column;gap:10px}
+#ghl-mbwelcome .ilist li {position:relative;padding-left:32px;font-size:16.5px;line-height:1.45}
+#ghl-mbwelcome .ilist li:before {content:"";position:absolute;left:0;top:1px;width:22px;height:22px;border-radius:50%;background:#F04E98 url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23111111' stroke-width='3.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M20 6L9 17l-5-5'/%3E%3C/svg%3E") center/13px no-repeat}
+#ghl-mbwelcome .dark .ilist li {color:#F7F6F3}
+#ghl-mbwelcome .light .ilist li {color:#111111}
+#ghl-mbwelcome .ilist li.phl {font-style:italic;color:#8A8F93 !important}
+#ghl-mbwelcome .ilist li.phl:before {background:transparent;border:1px dashed #8A8F93}
+#ghl-mbwelcome .ival {display:inline-flex;align-self:flex-start;gap:8px;align-items:baseline;font-size:14px;letter-spacing:.08em;text-transform:uppercase;font-weight:600;padding:9px 14px;border-radius:6px}
+#ghl-mbwelcome .dark .ival {background:#F7F6F3;color:#111111}
+#ghl-mbwelcome .light .ival {background:#111111;color:#F7F6F3}
+#ghl-mbwelcome .ival b {font-size:17px;letter-spacing:.02em}
+#ghl-mbwelcome .stackrow {display:flex;flex-wrap:wrap;gap:32px;align-items:flex-start}
+#ghl-mbwelcome .stackrow .list {flex:1 1 520px;min-width:0}
+#ghl-mbwelcome .list .row.total {border-top:2px solid #111111;border-bottom:0;margin-top:6px;padding-top:16px;font-weight:700}
+#ghl-mbwelcome .list .row.total b {color:#F04E98;font-size:20px}
+#ghl-mbwelcome .paycard {flex:0 1 420px;min-width:290px;background:#F7F6F3;color:#111111;border-radius:12px;padding:28px 26px 22px;display:flex;flex-direction:column;gap:14px;align-items:stretch;box-sizing:border-box}
+#ghl-mbwelcome .pc-big {font-family:'Cormorant Garamond',Georgia,serif;font-size:80px;font-weight:700;line-height:1;color:#111111;text-align:center}
+#ghl-mbwelcome .pc-or {text-align:center;font-size:16px;color:#292929;margin-top:-6px !important}
+#ghl-mbwelcome .paycard .countdown {align-items:center}
+#ghl-mbwelcome .paycard .cd {background:#FFFFFF;width:70px}
+#ghl-mbwelcome .paycard .cd b {font-size:30px}
+#ghl-mbwelcome .paycard .cd span {color:#5A5F63}
+#ghl-mbwelcome .paytabs {display:grid;grid-template-columns:1fr 1fr;gap:10px}
+#ghl-mbwelcome .paytab {font-family:Montserrat,Arial,sans-serif;font-size:13px;letter-spacing:.06em;text-transform:uppercase;font-weight:600;color:#5A5F63;background:#FFFFFF;border:2px solid #E5E5E5;border-radius:8px;padding:12px 8px;cursor:pointer;line-height:1.35;min-height:44px}
+#ghl-mbwelcome .paytab b {font-size:20px;letter-spacing:0;color:#111111;text-transform:none}
+#ghl-mbwelcome .paytab.on {border-color:#F04E98;color:#111111;background:#FFF5F9}
+#ghl-mbwelcome .pc-note {font-size:12.5px;color:#5A5F63;text-align:center;line-height:1.5}
+#ghl-mbwelcome .alicia {display:flex;gap:48px;align-items:center;max-width:980px;margin:0 auto}
+#ghl-mbwelcome .ahead {flex:0 0 300px;width:300px;max-width:40%;aspect-ratio:1/1;object-fit:cover;border-radius:12px;display:block;border:4px solid #FFFFFF;box-shadow:0 10px 30px rgba(17,17,17,.12)}
+#ghl-mbwelcome .atext {display:flex;flex-direction:column;gap:14px}
+#ghl-mbwelcome .atext h2 {font-size:46px}
+#ghl-mbwelcome .aquote {font-family:'Cormorant Garamond',Georgia,serif;font-size:28px;font-style:italic;color:#F04E98}
+#ghl-mbwelcome .proof {display:grid;grid-template-columns:repeat(3,1fr);gap:20px;max-width:980px;margin:0 auto;width:100%}
+#ghl-mbwelcome .proof div {background:#111111;border-radius:10px;padding:22px;display:flex;flex-direction:column;gap:6px;text-align:center}
+#ghl-mbwelcome .proof b {font-family:'Cormorant Garamond',Georgia,serif;font-size:44px;font-weight:700;line-height:1;color:#F04E98}
+#ghl-mbwelcome .proof span {font-size:13.5px;color:#E5E5E5;line-height:1.45}
+#ghl-mbwelcome .tgrid {display:grid;grid-template-columns:repeat(3,1fr);gap:20px;align-items:start}
+#ghl-mbwelcome .tcard {margin:0;background:#FFFFFF;border:1px solid #E5E5E5;border-radius:10px;overflow:hidden}
+#ghl-mbwelcome .tcard img {display:block;width:100%;height:auto}
+#ghl-mbwelcome .tcard figcaption {font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:#5A5F63;padding:10px 14px}
+#ghl-mbwelcome .faq {display:flex;flex-direction:column;gap:12px}
+#ghl-mbwelcome .faq details {background:#1B1B1B;border:1px solid #3A3F43;border-radius:10px;padding:0 22px}
+#ghl-mbwelcome .faq summary {font-weight:600;font-size:17.5px;color:#F7F6F3;padding:20px 32px 20px 0;position:relative;min-height:44px;box-sizing:border-box}
+#ghl-mbwelcome .faq summary:after {content:"+";position:absolute;right:0;top:14px;font-size:26px;color:#F04E98;font-weight:400}
+#ghl-mbwelcome .faq details[open] summary:after {content:"\2212"}
+#ghl-mbwelcome .faq details .body {padding:0 0 20px;font-size:16.5px}
+#ghl-mbwelcome .stickybar {display:none}
+/* real images from the design team (2026-11-06) */
+#ghl-mbwelcome .logoimg {display:block;width:300px;max-width:80%;height:auto}
+#ghl-mbwelcome .heromock {flex:1 1 560px;min-width:0;display:flex;justify-content:center}
+#ghl-mbwelcome .heromock img {display:block;width:100%;max-width:560px;height:auto}
+#ghl-mbwelcome .imock.has {border:0;background:none !important;padding:0;aspect-ratio:auto}
+#ghl-mbwelcome .imock.has img {width:100%;height:auto;max-height:440px;object-fit:contain;filter:drop-shadow(0 18px 30px rgba(0,0,0,.35))}
+#ghl-mbwelcome .light .imock.has img {filter:drop-shadow(0 18px 30px rgba(17,17,17,.18))}
+#ghl-mbwelcome .itext .vid.vsm {flex:none !important;width:100%;max-width:400px;aspect-ratio:16/9;box-sizing:border-box}
+#ghl-mbwelcome .stackmock {display:flex;justify-content:center}
+#ghl-mbwelcome .stackmock img {display:block;width:100%;max-width:900px;height:auto}
+@media (max-width:1000px) {#ghl-mbwelcome .mobcta {display:inline-block;align-self:center;padding:16px 28px}#ghl-mbwelcome .heromock {flex-basis:100%}#ghl-mbwelcome .heromock img {max-width:440px}}
+@media (max-width:640px) {#ghl-mbwelcome .logoimg {width:240px}#ghl-mbwelcome .imock.has img {max-height:340px}}
+@media (max-width:1000px) {
+  #ghl-mbwelcome .fit4 {grid-template-columns:1fr 1fr}
+  #ghl-mbwelcome .irow, #ghl-mbwelcome .irow.flip {flex-direction:column;gap:28px;align-items:stretch}
+  #ghl-mbwelcome .imock, #ghl-mbwelcome .irow .vid {flex:none;width:100%}
+  #ghl-mbwelcome .buycard {flex:1 1 100%}
+  #ghl-mbwelcome .paycard {flex:1 1 100%;order:-1}
+  #ghl-mbwelcome .stackmock img {max-width:520px}
+}
+@media (max-width:640px) {
+  #ghl-mbwelcome .shead h2, #ghl-mbwelcome .band h2 {font-size:34px !important}
+  #ghl-mbwelcome .itext h3 {font-size:30px !important}
+  #ghl-mbwelcome .bc-big {font-size:60px}
+  #ghl-mbwelcome .pc-big {font-size:64px}
+  #ghl-mbwelcome .fit4 {grid-template-columns:1fr}
+  #ghl-mbwelcome .alicia {flex-direction:column;gap:24px;text-align:center}
+  #ghl-mbwelcome .ahead {flex:none;width:220px;max-width:70%}
+  #ghl-mbwelcome .atext h2 {font-size:34px !important}
+  #ghl-mbwelcome .proof, #ghl-mbwelcome .tgrid {grid-template-columns:1fr}
+  #ghl-mbwelcome .iteml {padding:44px 0}
+  #ghl-mbwelcome .herorow .mockup {flex-basis:100%}
+  #ghl-mbwelcome .buycard, #ghl-mbwelcome .paycard {min-width:0;padding:22px 16px 18px}
+  #ghl-mbwelcome .buycard .cd, #ghl-mbwelcome .paycard .cd {width:64px}
+  #ghl-mbwelcome .stickybar {display:flex;position:fixed;left:12px;right:12px;bottom:12px;z-index:50;justify-content:space-between;align-items:center;gap:12px;background:#F04E98;color:#111111;text-decoration:none;font-weight:700;font-size:15px;letter-spacing:.05em;text-transform:uppercase;padding:14px 20px;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,.35);min-height:52px;box-sizing:border-box;transform:translateY(140%);transition:transform .25s ease}
+  #ghl-mbwelcome .stickybar.show {transform:none}
+  #ghl-mbwelcome .stickybar b {font-size:18px;letter-spacing:0}
+}
+
+/* ===== Mega Bundle WELCOME (post-purchase) page ===== */
+#ghl-mbwelcome .wtick {flex:0 0 24px;width:24px;height:24px;border-radius:50%;background:#F04E98;display:grid;place-items:center}
+#ghl-mbwelcome .whero {display:flex;flex-direction:column;align-items:center;text-align:center;gap:20px;max-width:860px;margin:0 auto}
+#ghl-mbwelcome .whero h1 {font-size:56px;color:#F7F6F3}
+#ghl-mbwelcome .whero h1 em {font-style:italic;color:#F04E98}
+#ghl-mbwelcome .whero .body {font-size:19px;max-width:680px}
+#ghl-mbwelcome .wmock {display:block;width:100%;max-width:520px;height:auto;margin-top:4px}
+#ghl-mbwelcome .wsteps {width:100%;max-width:820px;margin:0 auto;display:flex;flex-direction:column;gap:16px}
+#ghl-mbwelcome .wstep {display:flex;gap:20px;align-items:flex-start;background:#FFFFFF;border:1px solid #E5E5E5;border-left:5px solid #F04E98;border-radius:10px;padding:24px 26px;text-align:left}
+#ghl-mbwelcome .wstep .n {flex:0 0 44px;width:44px;height:44px;border-radius:50%;background:#111111;color:#F04E98;display:grid;place-items:center;font-family:'Cormorant Garamond',Georgia,serif;font-size:24px;font-weight:700}
+#ghl-mbwelcome .wstep h3 {font-size:28px;color:#111111;margin-bottom:6px !important}
+#ghl-mbwelcome .wstep .body {font-size:16.5px}
+#ghl-mbwelcome .wstep .phs {display:block;margin-top:6px;font-size:14px;font-style:italic;color:#8A8F93}
+#ghl-mbwelcome .wown {width:100%;max-width:900px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:12px 28px}
+#ghl-mbwelcome .wown div {display:flex;gap:12px;align-items:center;padding:14px 0;border-bottom:1px solid #292929;font-size:16.5px;color:#F7F6F3}
+#ghl-mbwelcome .wown em {font-style:normal;color:#BFC3C7;font-size:13px;display:block}
+#ghl-mbwelcome .whelp {font-size:15px;color:#BFC3C7;text-align:center}
+#ghl-mbwelcome .whelp a {color:#F04E98;font-weight:600}
+@media (max-width:640px) {
+  #ghl-mbwelcome .whero h1 {font-size:36px !important}
+  #ghl-mbwelcome .whero .body {font-size:16.5px}
+  #ghl-mbwelcome .wstep {padding:20px 18px;gap:14px}
+  #ghl-mbwelcome .wstep .n {flex-basis:36px;width:36px;height:36px;font-size:20px}
+  #ghl-mbwelcome .wstep h3 {font-size:24px !important}
+  #ghl-mbwelcome .wown {grid-template-columns:1fr}
+  #ghl-mbwelcome .whelp a {display:inline-flex;align-items:center;min-height:44px}
+}
+
+/* --- structural overrides -----------------------------------------------
+   These come LAST on purpose. The original page styled `body`, which the
+   scoping above folds into the wrapper — so a source rule like
+   `body { margin: 0 }` would otherwise cancel the full-bleed margin here. */
+#ghl-mbwelcome { position: relative; }
+/* Break out of GHL's section/row/column padding to true edge-to-edge.
+   Geometric rather than class-name based, so it survives builder updates.
+   Delete these if your row is already full width. */
+/* 100vw includes a desktop scrollbar (~15px), which pushes the page off
+   centre and under the scrollbar. The script measures the real width into
+   --ghl-vw; 100vw is only the fallback before it runs. */
+#ghl-mbwelcome { width: var(--ghl-vw, 100vw); margin-left: calc(50% - var(--ghl-vw, 100vw) / 2); }
+/* Re-assert the box model the original was authored against, so a reset
+   from GHL cannot shift any geometry. Inline box-sizing still wins, and a
+   more specific source rule still wins over the universal selector. */
+#ghl-mbwelcome, #ghl-mbwelcome :where(*), #ghl-mbwelcome :where(*)::before, #ghl-mbwelcome :where(*)::after { box-sizing: content-box; }
+</style>
+
+<!-- Hidden until the stylesheet above has applied (it flips this to visible),
+     so no half-styled frame can ever be painted. -->
+<div id="ghl-mbwelcome" style="visibility:hidden">
+<div class="page" style="width: 100%; box-sizing: border-box; display: flex; flex-direction: column">
+
+<!-- 1. WELCOME -->
+<div class="dark" style="padding: 28px 0 72px 0; background: radial-gradient(ellipse at top, rgba(240,78,152,.16), transparent 60%), #111111">
+<div class="wrap whero">
+<img class="logoimg" src="../assets/mb-logo.webp" alt="Alicia Lyttle: Black Friday Mega Bundle" width="608" height="168">
+<div style="display: flex; align-items: center; gap: 10px"><span class="wtick"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#111111" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"></path></svg></span><span class="eyebrow" style="color: #F7F6F3">Payment confirmed</span></div>
+<h1>Welcome to the<br><em>Black Friday <span class="nw">Mega Bundle</span></em><span class="nw"> 🎉</span></h1>
+<p class="body">You're in. Thank you for joining, and welcome to Alicia's biggest bundle yet. Here's what happens next.</p>
+<img class="wmock" src="../assets/mb-group-alicia.webp" alt="Alicia Lyttle with everything in the Black Friday Mega Bundle" width="1012" height="826">
+</div>
+</div>
+
+<!-- 2. NEXT STEPS -->
+<div class="light" style="padding: 72px 0">
+<div class="wrap" style="display: flex; flex-direction: column; gap: 32px">
+<div class="shead">
+<p class="eyebrow">What happens next</p>
+<h2>Your Next <em>3 Steps</em></h2>
+</div>
+<div class="wsteps">
+<div class="wstep"><span class="n">1</span><div><h3>Check your email</h3><p class="body">Your receipt from Whop is on its way to the email you used at checkout. If you don't see it, check spam or promotions and move it to your main inbox.<span class="phs">[If you chose 2 payments: WHEN THE SECOND PAYMENT OF $2,600 IS CHARGED]</span></p></div></div>
+<div class="wstep"><span class="n">2</span><div><h3>Get into your 3 programs</h3><p class="body">Your logins for the AI Consultant Certification Program, the AI Agents Course and the AI Avatar Academy arrive by email.<span class="phs">[HOW SOON THE LOGINS ARRIVE, AND FROM WHICH EMAIL ADDRESS]</span></p></div></div>
+<div class="wstep"><span class="n">3</span><div><h3>Save the dates for your bonuses</h3><p class="body">We'll email you the details for your private one-day mastermind with Alicia and your two AI Agents Live tickets (in person, Atlanta, <span class="nw">January 25 or 26, 2027</span>).<span class="phs">[MASTERMIND DATE, PLACE AND FORMAT]</span></p></div></div>
+</div>
+</div>
+</div>
+
+<!-- 3. WHAT'S NOW YOURS -->
+<div class="dark" style="padding: 72px 0">
+<div class="wrap" style="display: flex; flex-direction: column; gap: 32px">
+<div class="shead">
+<p class="eyebrow" style="color: #F04E98">Everything that's now yours</p>
+<h2>3 Programs + <em>5 Bonuses</em></h2>
+</div>
+<div class="wown">
+<div><span class="wtick"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#111111" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"></path></svg></span><span>AI Consultant Certification Program</span></div>
+<div><span class="wtick"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#111111" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"></path></svg></span><span>Private One-Day Mastermind With Alicia</span></div>
+<div><span class="wtick"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#111111" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"></path></svg></span><span>AI Agents Course</span></div>
+<div><span class="wtick"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#111111" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"></path></svg></span><span>Two AI Agents Live Tickets <em>In person, Atlanta, Jan 25 or 26, 2027</em></span></div>
+<div><span class="wtick"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#111111" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"></path></svg></span><span>AI Avatar Academy</span></div>
+<div><span class="wtick"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#111111" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"></path></svg></span><span>TikTok Live Selling Training</span></div>
+<div><span class="wtick"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#111111" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"></path></svg></span><span>Private Micro Drama Workshop</span></div>
+<div><span class="wtick"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#111111" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"></path></svg></span><span>All AI Business Summit Replays</span></div>
+</div>
+<p style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: 34px; font-style: italic; color: #F04E98; text-align: center; margin-top: 16px">"AI should empower people."</p>
+<p class="eyebrow" style="text-align: center; margin-top: -18px">Alicia Lyttle</p>
+<p class="whelp">Questions about your order? Email <a href="mailto:support@aiinnovision.com">support@aiinnovision.com</a></p>
+</div>
+</div>
+
+<!-- FOOTER -->
+<div class="dark" style="padding: 40px 0; border-top: 1px solid #292929">
+<div class="wrap" style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 16px; font-size: 14px; color: #BFC3C7">
+<div style="display: flex; align-items: center; gap: 12px">
+<div style="width: 36px; height: 36px; border: 1.5px solid #BFC3C7; border-radius: 5px; display: flex; align-items: center; justify-content: center; font-family: 'Cormorant Garamond', Georgia, serif; font-size: 18px; font-weight: 700; color: #BFC3C7">AL</div>
+<span>© 2026 Alicia Lyttle · AI InnoVision</span>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center">
+<span style="color: #F04E98; font-weight: 600">@alicialyttle</span>
+<span style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: 18px; font-style: italic; color: #F7F6F3">Intelligence Creates Freedom</span>
+</div>
+</div>
+<div id="legal" class="wrap" style="display: flex; flex-direction: column; gap: 14px; margin-top: 28px; padding-top: 24px; border-top: 1px solid #292929; font-size: 13px; line-height: 1.6; color: #BFC3C7">
+<div style="display: flex; flex-wrap: wrap; gap: 8px 24px; font-weight: 600; letter-spacing: .04em; text-transform: uppercase; font-size: 12px">
+<a href="https://aiinnovision.com/privacy" style="color: #F7F6F3; text-decoration: none">Privacy Policy</a>
+<a href="https://aiinnovision.com/terms" style="color: #F7F6F3; text-decoration: none">Terms &amp; Conditions</a>
+<a href="#legal" style="color: #F7F6F3; text-decoration: none">Earnings &amp; Results Disclaimer</a>
+<a href="https://aiinnovision.com/contact" style="color: #F7F6F3; text-decoration: none">Contact</a>
+</div>
+<p><strong style="color: #F7F6F3">Results vary.</strong> The programs and bonuses in this bundle are education and training. Nothing on this page is a promise of clients, income or any specific result. Your results depend on your own effort, your experience and your market.</p>
+<p><strong style="color: #F7F6F3">Not professional advice.</strong> Nothing in these programs is financial, legal, tax or business advice, and enrolling does not create a professional relationship. Check anything that matters with a qualified professional before you act on it.</p>
+<p><strong style="color: #F7F6F3">Values.</strong> Values shown are the prices each program and bonus is normally sold for, or its stated value when sold separately. Bonus details, dates and locations may change.</p>
+<p><strong style="color: #F7F6F3">Purchases.</strong> Checkout is processed securely by Whop. [REFUND POLICY FOR THE BUNDLE: to be confirmed]</p>
+<p>This site is not a part of the Facebook website or Meta Platforms, Inc., and is not endorsed by Facebook in any way. FACEBOOK is a trademark of Meta Platforms, Inc. This site is not part of, or endorsed by, Google LLC. TikTok, ChatGPT and other names are trademarks of their respective owners.</p>
+<p>© 2026 AI InnoVision. All rights reserved. · 1150 Malabar Rd SE Ste 111, #205, Palm Bay, Florida 32907 · hello@aiinnovision.com</p>
+</div>
+</div>
+
+</div>
+</div>
+
