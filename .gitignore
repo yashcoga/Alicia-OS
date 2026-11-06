@@ -33,3 +33,6 @@ funnels/*/source/highlevel-kit/
 
 # John handoff one-pager (team doc, not a paid file)
 !funnels/*/HANDOFF-*.pdf
+
+# Design-team original PNGs (local only; the pages use the WebP copies in assets/)
+funnels/*/assets/from-design-team/
